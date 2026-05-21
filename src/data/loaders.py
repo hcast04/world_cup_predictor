@@ -138,3 +138,42 @@ def load_model_elo_ratings(path: Path | None = None) -> pd.DataFrame:
     df["elo_source"] = df["elo_source"].astype(str).str.strip()
 
     return df
+
+def load_team_strengths(path: Path | None = None) -> pd.DataFrame:
+    """
+    Load model-ready team goal strengths.
+
+    Expected columns:
+    - team
+    - matches
+    - goals_for
+    - goals_against
+    - goals_for_per_match
+    - goals_against_per_match
+    - attack_index
+    - defence_index
+    """
+    path = path or DATA_PROCESSED / "team_goal_strengths_model.csv"
+    df = pd.read_csv(path)
+
+    required_columns = {
+        "team",
+        "matches",
+        "goals_for",
+        "goals_against",
+        "goals_for_per_match",
+        "goals_against_per_match",
+        "attack_index",
+        "defence_index",
+    }
+
+    missing = required_columns - set(df.columns)
+    if missing:
+        raise ValueError(f"Missing columns in team strengths file: {missing}")
+
+    df["team"] = df["team"].astype(str).str.strip()
+    df["matches"] = pd.to_numeric(df["matches"], errors="raise").astype(int)
+    df["attack_index"] = pd.to_numeric(df["attack_index"], errors="raise")
+    df["defence_index"] = pd.to_numeric(df["defence_index"], errors="raise")
+
+    return df

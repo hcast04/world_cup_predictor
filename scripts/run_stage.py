@@ -3,7 +3,6 @@ import pandas as pd
 
 from src.data.load_knockout import load_manual_knockout_fixtures
 from src.data.load_players import load_players
-from src.data.loaders import PROJECT_ROOT, load_baseline_data, load_model_elo_ratings
 from src.models.golden_boot import simulate_golden_boot
 from src.simulation.knockout import predict_knockout_fixture_probabilities
 from src.simulation.winner import simulate_world_cup_winner_probabilities
@@ -12,9 +11,16 @@ from src.visualization.reports import (
     write_knockout_summary_report,
     write_stage1_summary_report,
 )
+from src.data.loaders import (
+    PROJECT_ROOT,
+    load_baseline_data,
+    load_model_elo_ratings,
+    load_team_strengths,
+)
+from src.models.match_engine import MatchEngine
 
 
-def run_stage_1(n_simulations: int, seed: int) -> None:
+def run_stage_1(n_simulations: int, seed: int, model_type: str) -> None:
     """
     Stage 1:
     - Predict World Cup winner
@@ -29,6 +35,23 @@ def run_stage_1(n_simulations: int, seed: int) -> None:
     elo_lookup = dict(zip(elo["team"], elo["elo"]))
     host_lookup = dict(zip(teams["team"], teams["is_host"]))
 
+    if model_type == "elo_poisson":
+        match_engine = MatchEngine(
+            model_type="elo_poisson",
+            elo_lookup=elo_lookup,
+            host_lookup=host_lookup,
+        )
+    elif model_type == "strength_baseline":
+        team_strengths = load_team_strengths()
+        match_engine = MatchEngine(
+            model_type="strength_baseline",
+            elo_lookup=elo_lookup,
+            host_lookup=host_lookup,
+            team_strengths=team_strengths,
+        )
+    else:
+        raise ValueError(f"Unsupported model_type: {model_type}")
+
     winner_results, team_matches_samples = simulate_world_cup_winner_probabilities(
         fixtures=fixtures,
         elo_lookup=elo_lookup,
@@ -36,7 +59,11 @@ def run_stage_1(n_simulations: int, seed: int) -> None:
         n_simulations=n_simulations,
         seed=seed,
         manual_results=manual_results,
+        match_engine=match_engine,
     )
+
+    current_teams = set(teams["team"])
+    winner_results = winner_results[winner_results["team"].isin(current_teams)].copy()
 
     golden_boot_results = simulate_golden_boot(
         players=players,
@@ -48,8 +75,8 @@ def run_stage_1(n_simulations: int, seed: int) -> None:
     output_dir = PROJECT_ROOT / "outputs" / "predictions"
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    winner_path = output_dir / "stage1_winner_predictions.csv"
-    golden_boot_path = output_dir / "stage1_golden_boot_predictions.csv"
+    winner_path = output_dir / f"stage1_winner_predictions_{model_type}.csv"
+    golden_boot_path = output_dir / f"stage1_golden_boot_predictions_{model_type}.csv"
 
     winner_results.to_csv(winner_path, index=False)
     golden_boot_results.to_csv(golden_boot_path, index=False)
@@ -60,7 +87,7 @@ def run_stage_1(n_simulations: int, seed: int) -> None:
     if group_predictions_path.exists():
         group_predictions = pd.read_csv(group_predictions_path)
 
-    report_path = output_dir / "stage1_summary.md"
+    report_path = output_dir / f"stage1_summary_{model_type}.md"
 
     write_stage1_summary_report(
         winner_predictions=winner_results,
@@ -70,6 +97,7 @@ def run_stage_1(n_simulations: int, seed: int) -> None:
     )
 
     print("\nStage 1 complete")
+    print(f"Model type: {model_type}")
     print("----------------")
     print("World Cup winner predictions:")
     print(winner_results.head(20).to_string(index=False, float_format=lambda x: f"{x:.3f}"))
@@ -179,11 +207,22 @@ def main() -> None:
         default=42,
         help="Random seed.",
     )
+    parser.add_argument(
+        "--model-type",
+        type=str,
+        default="elo_poisson",
+        choices=["elo_poisson", "strength_baseline"],
+        help="Match model to use.",
+    )
 
     args = parser.parse_args()
 
     if args.stage == 1:
-        run_stage_1(n_simulations=args.n_simulations, seed=args.seed)
+        run_stage_1(
+            n_simulations=args.n_simulations,
+            seed=args.seed,
+            model_type=args.model_type,
+        )
     elif args.stage in {2, 3}:
         run_stage_2_or_3(stage=args.stage)
     else:

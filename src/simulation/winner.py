@@ -4,6 +4,7 @@ import pandas as pd
 from src.models.elo_poisson import expected_goals_from_elo
 from src.simulation.match import simulate_knockout_winner
 from src.simulation.tournament import simulate_group_stage
+from src.models.match_engine import MatchEngine
 
 
 def _simulate_knockout_round(
@@ -11,6 +12,7 @@ def _simulate_knockout_round(
     elo_lookup: dict[str, float],
     host_lookup: dict[str, int],
     rng: np.random.Generator,
+    match_engine: MatchEngine | None = None,
 ) -> list[str]:
     """
     Simulate one generic knockout round.
@@ -27,20 +29,22 @@ def _simulate_knockout_round(
         team_a = teams[i]
         team_b = teams[i + 1]
 
-        lambda_a, lambda_b = expected_goals_from_elo(
-            elo_a=elo_lookup[team_a],
-            elo_b=elo_lookup[team_b],
-            team_a_is_host=bool(host_lookup.get(team_a, 0)),
-            team_b_is_host=bool(host_lookup.get(team_b, 0)),
-        )
+        if match_engine is None:
+            match_engine = MatchEngine(
+                model_type="elo_poisson",
+                elo_lookup=elo_lookup,
+                host_lookup=host_lookup,
+            )
+
+        lambda_a, lambda_b = match_engine.expected_goals(team_a, team_b)
 
         result = simulate_knockout_winner(
             team_a=team_a,
             team_b=team_b,
             lambda_a=lambda_a,
             lambda_b=lambda_b,
-            elo_a=elo_lookup[team_a],
-            elo_b=elo_lookup[team_b],
+            elo_a=match_engine.rating_for_tiebreak(team_a),
+            elo_b=match_engine.rating_for_tiebreak(team_b),
             rng=rng,
         )
 
@@ -54,6 +58,7 @@ def simulate_generic_knockout_winner(
     elo_lookup: dict[str, float],
     host_lookup: dict[str, int],
     rng: np.random.Generator,
+    match_engine: MatchEngine | None = None,
 ) -> tuple[str, dict[str, int]]:
     """
     Simulate a simplified 32-team knockout bracket.
@@ -66,12 +71,19 @@ def simulate_generic_knockout_winner(
     """
     if len(qualified_teams) != 32:
         raise ValueError(f"Expected 32 qualified teams, got {len(qualified_teams)}")
+    
+    if match_engine is None:
+        match_engine = MatchEngine(
+            model_type="elo_poisson",
+            elo_lookup=elo_lookup,
+            host_lookup=host_lookup,
+        )    
 
     # Seed stronger teams apart in a simple way:
     # sort by Elo, then pair high vs low.
     sorted_teams = sorted(
         qualified_teams,
-        key=lambda team: elo_lookup.get(team, 1500),
+        key=lambda team: match_engine.rating_for_tiebreak(team),
         reverse=True,
     )
 
@@ -93,6 +105,7 @@ def simulate_generic_knockout_winner(
             elo_lookup=elo_lookup,
             host_lookup=host_lookup,
             rng=rng,
+            match_engine=match_engine,
         )
 
         current_teams = winners
@@ -109,6 +122,7 @@ def simulate_world_cup_winner_probabilities(
     n_simulations: int = 10_000,
     seed: int = 42,
     manual_results: pd.DataFrame | None = None,
+    match_engine: MatchEngine | None = None,
 ) -> tuple[pd.DataFrame, list[dict[str, int]]]:
     """
     Simulate Stage 1 World Cup winner probabilities.
@@ -121,6 +135,13 @@ def simulate_world_cup_winner_probabilities(
     The generic knockout bracket is deliberately marked as approximate.
     """
     rng = np.random.default_rng(seed)
+
+    if match_engine is None:
+        match_engine = MatchEngine(
+            model_type="elo_poisson",
+            elo_lookup=elo_lookup,
+            host_lookup=host_lookup,
+        )
 
     winner_counts: dict[str, int] = {}
     final_match_counts: dict[str, int] = {}
@@ -139,8 +160,8 @@ def simulate_world_cup_winner_probabilities(
             rng=rng,
             skip_incomplete_groups=True,
             manual_results=manual_results,
+            match_engine=match_engine,
         )
-
         qualified = qualification_table.loc[qualification_table["qualifies"], "team"].tolist()
 
         if len(qualified) != 32:
@@ -152,6 +173,7 @@ def simulate_world_cup_winner_probabilities(
             elo_lookup=elo_lookup,
             host_lookup=host_lookup,
             rng=rng,
+            match_engine=match_engine,
         )
 
         team_matches_samples.append(team_matches)
@@ -178,7 +200,7 @@ def simulate_world_cup_winner_probabilities(
             "Check that 32 teams qualify from the simulated group stage."
         )
 
-    all_teams = sorted(set(elo_lookup.keys()))
+    all_teams = sorted(set(qualification_table["team"]) if "qualification_table" in locals() else set(elo_lookup.keys()))
 
     rows = []
     for team in all_teams:

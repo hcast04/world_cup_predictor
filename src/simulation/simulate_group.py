@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from src.models.elo_poisson import expected_goals_from_elo
+from src.models.match_engine import MatchEngine
 from src.simulation.group_stage import build_group_table
 from src.simulation.known_results import build_known_group_results
 from src.simulation.match import simulate_scoreline
@@ -14,16 +14,23 @@ def simulate_group_from_fixtures(
     host_lookup: dict[str, int],
     rng: np.random.Generator | None = None,
     manual_results: pd.DataFrame | None = None,
+    match_engine: MatchEngine | None = None,
 ) -> pd.DataFrame:
     """
     Simulate all unfinished matches for one group and return the ranked table.
 
-    If manual_results contains already-played matches for this group, those
-    results are used directly instead of being simulated.
-
-    Rows with TBD teams are skipped.
+    Backward compatible:
+    - If match_engine is provided, use it.
+    - Otherwise, use the Elo-Poisson model via elo_lookup/host_lookup.
     """
     rng = rng or np.random.default_rng()
+
+    if match_engine is None:
+        match_engine = MatchEngine(
+            model_type="elo_poisson",
+            elo_lookup=elo_lookup,
+            host_lookup=host_lookup,
+        )
 
     group_fixtures = fixtures[
         (fixtures["stage"] == "group") & (fixtures["group"] == group_name)
@@ -68,15 +75,10 @@ def simulate_group_from_fixtures(
         if team_a == "TBD" or team_b == "TBD":
             continue
 
-        if team_a not in elo_lookup or team_b not in elo_lookup:
+        if not match_engine.has_team(team_a) or not match_engine.has_team(team_b):
             continue
 
-        lambda_a, lambda_b = expected_goals_from_elo(
-            elo_a=elo_lookup[team_a],
-            elo_b=elo_lookup[team_b],
-            team_a_is_host=bool(host_lookup.get(team_a, 0)),
-            team_b_is_host=bool(host_lookup.get(team_b, 0)),
-        )
+        lambda_a, lambda_b = match_engine.expected_goals(team_a, team_b)
 
         result = simulate_scoreline(
             team_a=team_a,

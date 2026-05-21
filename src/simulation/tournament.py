@@ -3,6 +3,7 @@ import pandas as pd
 
 from src.simulation.simulate_group import simulate_group_from_fixtures
 from src.simulation.third_place import rank_third_placed_teams
+from src.models.match_engine import MatchEngine
 
 
 def get_group_names(fixtures: pd.DataFrame) -> list[str]:
@@ -24,6 +25,7 @@ def group_has_simulatable_match(
     group_name: str,
     fixtures: pd.DataFrame,
     elo_lookup: dict[str, float],
+    match_engine: MatchEngine | None = None,
 ) -> bool:
     """
     Check whether a group has at least one match where both teams are known
@@ -40,8 +42,12 @@ def group_has_simulatable_match(
         if team_a == "TBD" or team_b == "TBD":
             continue
 
-        if team_a not in elo_lookup or team_b not in elo_lookup:
-            continue
+        if match_engine is not None:
+            if not match_engine.has_team(team_a) or not match_engine.has_team(team_b):
+                continue
+        else:
+            if team_a not in elo_lookup or team_b not in elo_lookup:
+                continue
 
         return True
 
@@ -55,6 +61,7 @@ def simulate_group_stage(
     rng: np.random.Generator | None = None,
     skip_incomplete_groups: bool = True,
     manual_results: pd.DataFrame | None = None,
+    match_engine: MatchEngine | None = None,
 ) -> tuple[dict[str, pd.DataFrame], pd.DataFrame]:
     """
     Simulate every available group and return:
@@ -78,6 +85,7 @@ def simulate_group_stage(
             group_name=group_name,
             fixtures=fixtures,
             elo_lookup=elo_lookup,
+            match_engine=match_engine,
         ):
             continue
 
@@ -88,6 +96,7 @@ def simulate_group_stage(
             host_lookup=host_lookup,
             rng=rng,
             manual_results=manual_results,
+            match_engine=match_engine,
         )
 
     if not group_tables:

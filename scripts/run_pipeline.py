@@ -38,13 +38,20 @@ def main() -> None:
     parser.add_argument(
         "--seed",
         type=int,
-        default=42,
+        default=21,
         help="Random seed.",
     )
     parser.add_argument(
         "--skip-build",
         action="store_true",
         help="Skip derived data generation and validation.",
+    )
+    parser.add_argument(
+        "--model-type",
+        type=str,
+        default="elo_poisson",
+        choices=["elo_poisson", "strength_baseline"],
+        help="Match model to use.",
     )
 
     args = parser.parse_args()
@@ -66,7 +73,14 @@ def main() -> None:
             [python, "-m", "src.data.fill_missing_elo"],
             "Creating model-ready Elo ratings",
         )
-
+        run_command(
+            [python, "-m", "src.data.build_historical_matches"],
+            "Building model-ready historical matches",
+        )
+        run_command(
+            [python, "-m", "src.data.build_team_strengths"],
+            "Building team goal strengths",
+        )
         run_command(
             [python, "scripts/validate_raw_data.py"],
             "Validating raw/model data",
@@ -84,6 +98,8 @@ def main() -> None:
         str(args.stage),
         "--seed",
         str(args.seed),
+        "--model-type",
+        args.model_type,
     ]
 
     if args.stage == 1:
@@ -93,6 +109,12 @@ def main() -> None:
         stage_command,
         f"Running Stage {args.stage} predictions",
     )
+
+    if args.stage == 1:
+        run_command(
+            [python, "scripts/make_stage1_plots.py"],
+            "Creating Stage 1 plots",
+        )
 
     print("\nPipeline complete.")
 
