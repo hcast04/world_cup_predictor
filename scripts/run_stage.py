@@ -1,4 +1,5 @@
 import argparse
+import pandas as pd
 
 from src.data.load_knockout import load_manual_knockout_fixtures
 from src.data.load_players import load_players
@@ -7,6 +8,10 @@ from src.models.golden_boot import simulate_golden_boot
 from src.simulation.knockout import predict_knockout_fixture_probabilities
 from src.simulation.winner import simulate_world_cup_winner_probabilities
 from src.data.load_results import load_manual_match_results
+from src.visualization.reports import (
+    write_knockout_summary_report,
+    write_stage1_summary_report,
+)
 
 
 def run_stage_1(n_simulations: int, seed: int) -> None:
@@ -49,6 +54,21 @@ def run_stage_1(n_simulations: int, seed: int) -> None:
     winner_results.to_csv(winner_path, index=False)
     golden_boot_results.to_csv(golden_boot_path, index=False)
 
+    group_predictions_path = output_dir / "group_stage_qualification_probabilities.csv"
+
+    group_predictions = None
+    if group_predictions_path.exists():
+        group_predictions = pd.read_csv(group_predictions_path)
+
+    report_path = output_dir / "stage1_summary.md"
+
+    write_stage1_summary_report(
+        winner_predictions=winner_results,
+        golden_boot_predictions=golden_boot_results,
+        group_predictions=group_predictions,
+        output_path=report_path,
+    )
+
     print("\nStage 1 complete")
     print("----------------")
     print("World Cup winner predictions:")
@@ -60,6 +80,7 @@ def run_stage_1(n_simulations: int, seed: int) -> None:
     print("\nSaved:")
     print(winner_path)
     print(golden_boot_path)
+    print(report_path)
 
     print("\nNotes:")
     print("- Winner prediction currently uses an approximate generic knockout bracket.")
@@ -115,6 +136,14 @@ def run_stage_2_or_3(stage: int) -> None:
     output_path = output_dir / f"stage{stage}_knockout_predictions.csv"
     predictions.to_csv(output_path, index=False)
 
+    report_path = output_dir / f"stage{stage}_knockout_summary.md"
+
+    write_knockout_summary_report(
+        predictions=predictions,
+        output_path=report_path,
+        title=f"Stage {stage} Knockout Prediction Summary",
+    )
+
     print(f"\nStage {stage} knockout predictions")
     print("----------------------------------")
 
@@ -126,6 +155,7 @@ def run_stage_2_or_3(stage: int) -> None:
 
     print(f"\nSaved:")
     print(output_path)
+    print(report_path)
 
 
 def main() -> None:
