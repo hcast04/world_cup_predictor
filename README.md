@@ -1,46 +1,16 @@
 # World Cup 2026 Predictor
 
-A data-driven project to predict the 2026 FIFA World Cup results and top scorer probabilities.
+A data-driven project to predict the 2026 FIFA World Cup results, World Cup winner probabilities, and Golden Boot probabilities.
 
-The project uses free data sources, team-strength modeling, Monte Carlo tournament simulation, and later player-level scoring models once final squads are available.
+The project is designed as a stage-based forecasting engine. Before the tournament, it simulates the group stage and an approximate knockout path. During the tournament, actual results and knockout fixtures can be entered manually so predictions can be updated round by round.
 
 ## Goals
 
-- Predict group-stage outcomes.
-- Estimate qualification probabilities for each round.
-- Simulate the full World Cup bracket.
-- Estimate winner probabilities.
+- Predict group-stage results and qualification probabilities.
+- Estimate World Cup winner probabilities.
 - Estimate Golden Boot and top scorer probabilities.
-
-## Planned methodology
-
-1. Collect free international football data.
-2. Build a baseline Elo-based match model.
-3. Simulate the tournament using Monte Carlo methods.
-4. Backtest the model on previous tournaments.
-5. Add squad-level features once final squads are released.
-6. Add player-level top scorer predictions.
-
-## Project structure
-
-```text
-data/
-    raw/          Original downloaded data
-    interim/      Intermediate cleaned files
-    processed/    Final modeling datasets
-    external/     Manually added external reference files
-
-src/
-    data/         Data collection and cleaning
-    models/       Match and player models
-    simulation/   Tournament simulation
-    evaluation/   Backtesting and metrics
-    visualization/ Plotting utilities
-
-notebooks/        Exploratory notebooks
-outputs/          Predictions, figures, and tables
-app/              Optional Streamlit dashboard
-tests/            Unit tests
+- Support manual updates once real match results and knockout fixtures are known.
+- Use free and reproducible data sources where possible.
 
 ## Prediction stages
 

@@ -54,6 +54,7 @@ def simulate_group_stage(
     host_lookup: dict[str, int],
     rng: np.random.Generator | None = None,
     skip_incomplete_groups: bool = True,
+    manual_results: pd.DataFrame | None = None,
 ) -> tuple[dict[str, pd.DataFrame], pd.DataFrame]:
     """
     Simulate every available group and return:
@@ -86,6 +87,7 @@ def simulate_group_stage(
             elo_lookup=elo_lookup,
             host_lookup=host_lookup,
             rng=rng,
+            manual_results=manual_results,
         )
 
     if not group_tables:

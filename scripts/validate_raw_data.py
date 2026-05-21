@@ -12,12 +12,31 @@ def main() -> None:
     fixtures = normalize_team_column(fixtures, "team_a", name_map)
     fixtures = normalize_team_column(fixtures, "team_b", name_map)
 
-    print("\nRaw data validation")
-    print("-------------------")
+    print("\nRaw/model data validation")
+    print("-------------------------")
 
     print(f"Teams: {len(teams)}")
     print(f"Elo ratings: {len(elo)}")
     print(f"Fixtures: {len(fixtures)}")
+
+    print("\nBasic structure checks")
+
+    duplicated_teams = teams[teams.duplicated(subset=["team"], keep=False)]
+    duplicated_elo = elo[elo.duplicated(subset=["team"], keep=False)]
+    duplicated_fixtures = fixtures[fixtures.duplicated(subset=["match_id"], keep=False)]
+
+    print(
+        "Duplicate teams:",
+        "none" if duplicated_teams.empty else duplicated_teams["team"].tolist(),
+    )
+    print(
+        "Duplicate Elo teams:",
+        "none" if duplicated_elo.empty else duplicated_elo["team"].tolist(),
+    )
+    print(
+        "Duplicate fixture IDs:",
+        "none" if duplicated_fixtures.empty else duplicated_fixtures["match_id"].tolist(),
+    )
 
     team_names = set(teams["team"])
     elo_names = set(elo["team"])
@@ -44,6 +63,43 @@ def main() -> None:
         "Fixture teams missing Elo:",
         fixture_teams_missing_elo if fixture_teams_missing_elo else "none",
     )
+
+    print("\nGroup checks")
+    group_counts = teams.groupby("group")["team"].count().sort_index()
+    print(group_counts.to_string())
+
+    invalid_group_sizes = group_counts[group_counts != 4]
+    print(
+        "Groups not containing exactly 4 teams:",
+        "none" if invalid_group_sizes.empty else invalid_group_sizes.to_dict(),
+    )
+
+    fixture_counts = fixtures[fixtures["stage"] == "group"].groupby("group")["match_id"].count()
+    invalid_fixture_counts = fixture_counts[fixture_counts != 6]
+
+    print("\nGroup fixture counts")
+    print(fixture_counts.sort_index().to_string())
+
+    print(
+        "Groups not containing exactly 6 group fixtures:",
+        "none" if invalid_fixture_counts.empty else invalid_fixture_counts.to_dict(),
+    )
+
+    has_error = (
+        not duplicated_teams.empty
+        or not duplicated_elo.empty
+        or not duplicated_fixtures.empty
+        or bool(missing_elo)
+        or bool(fixture_teams_missing_metadata)
+        or bool(fixture_teams_missing_elo)
+        or not invalid_group_sizes.empty
+        or not invalid_fixture_counts.empty
+    )
+
+    if has_error:
+        raise SystemExit("\nValidation failed. Fix the issues above before running predictions.")
+
+    print("\nValidation passed.")
 
 
 if __name__ == "__main__":

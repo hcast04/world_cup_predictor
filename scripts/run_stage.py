@@ -6,6 +6,7 @@ from src.data.loaders import PROJECT_ROOT, load_baseline_data, load_model_elo_ra
 from src.models.golden_boot import simulate_golden_boot
 from src.simulation.knockout import predict_knockout_fixture_probabilities
 from src.simulation.winner import simulate_world_cup_winner_probabilities
+from src.data.load_results import load_manual_match_results
 
 
 def run_stage_1(n_simulations: int, seed: int) -> None:
@@ -18,6 +19,7 @@ def run_stage_1(n_simulations: int, seed: int) -> None:
     teams, _, fixtures = load_baseline_data()
     elo = load_model_elo_ratings()
     players = load_players()
+    manual_results = load_manual_match_results()
 
     elo_lookup = dict(zip(elo["team"], elo["elo"]))
     host_lookup = dict(zip(teams["team"], teams["is_host"]))
@@ -28,6 +30,7 @@ def run_stage_1(n_simulations: int, seed: int) -> None:
         host_lookup=host_lookup,
         n_simulations=n_simulations,
         seed=seed,
+        manual_results=manual_results,
     )
 
     golden_boot_results = simulate_golden_boot(

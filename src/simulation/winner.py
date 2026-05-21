@@ -108,6 +108,7 @@ def simulate_world_cup_winner_probabilities(
     host_lookup: dict[str, int],
     n_simulations: int = 10_000,
     seed: int = 42,
+    manual_results: pd.DataFrame | None = None,
 ) -> tuple[pd.DataFrame, list[dict[str, int]]]:
     """
     Simulate Stage 1 World Cup winner probabilities.
@@ -137,6 +138,7 @@ def simulate_world_cup_winner_probabilities(
             host_lookup=host_lookup,
             rng=rng,
             skip_incomplete_groups=True,
+            manual_results=manual_results,
         )
 
         qualified = qualification_table.loc[qualification_table["qualifies"], "team"].tolist()
