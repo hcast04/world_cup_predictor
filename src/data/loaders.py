@@ -5,6 +5,7 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DATA_RAW = PROJECT_ROOT / "data" / "raw"
+DATA_PROCESSED = PROJECT_ROOT / "data" / "processed"
 
 
 def load_teams(path: Path | None = None) -> pd.DataFrame:
@@ -110,3 +111,30 @@ def load_baseline_data() -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     fixtures = load_fixtures()
 
     return teams, elo, fixtures
+
+def load_model_elo_ratings(path: Path | None = None) -> pd.DataFrame:
+    """
+    Load complete model-ready Elo ratings.
+
+    Expected columns:
+    - rank
+    - team
+    - elo
+    - date
+    - elo_source
+    """
+    path = path or DATA_PROCESSED / "elo_ratings_model.csv"
+    df = pd.read_csv(path)
+
+    required_columns = {"rank", "team", "elo", "date", "elo_source"}
+    missing = required_columns - set(df.columns)
+
+    if missing:
+        raise ValueError(f"Missing columns in model Elo ratings file: {missing}")
+
+    df["team"] = df["team"].astype(str).str.strip()
+    df["elo"] = pd.to_numeric(df["elo"], errors="raise")
+    df["date"] = pd.to_datetime(df["date"], errors="raise")
+    df["elo_source"] = df["elo_source"].astype(str).str.strip()
+
+    return df

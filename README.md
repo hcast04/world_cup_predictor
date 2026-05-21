@@ -41,3 +41,20 @@ notebooks/        Exploratory notebooks
 outputs/          Predictions, figures, and tables
 app/              Optional Streamlit dashboard
 tests/            Unit tests
+
+## Prediction stages
+
+The project is designed around three prediction stages.
+
+### Stage 1: Before or during the group stage
+
+Predict:
+
+- group-stage qualification probabilities
+- World Cup winner probabilities
+- Golden Boot probabilities
+
+Run:
+
+```bash
+python scripts/run_stage.py --stage 1

@@ -3,14 +3,15 @@ from collections import defaultdict
 import numpy as np
 import pandas as pd
 
-from src.data.loaders import PROJECT_ROOT, load_baseline_data
+from src.data.loaders import PROJECT_ROOT, load_baseline_data, load_model_elo_ratings
 from src.simulation.tournament import get_group_names, simulate_group_stage
 
 
 def main(n_simulations: int = 10_000, seed: int = 42) -> None:
     rng = np.random.default_rng(seed)
 
-    teams, elo, fixtures = load_baseline_data()
+    teams, _, fixtures = load_baseline_data()
+    elo = load_model_elo_ratings()
 
     elo_lookup = dict(zip(elo["team"], elo["elo"]))
     host_lookup = dict(zip(teams["team"], teams["is_host"]))

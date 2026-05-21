@@ -1,9 +1,10 @@
-from src.data.loaders import load_baseline_data
+from src.data.loaders import load_baseline_data, load_model_elo_ratings
 from src.utils.names import load_team_name_map, normalize_team_column
 
 
 def main() -> None:
-    teams, elo, fixtures = load_baseline_data()
+    teams, _, fixtures = load_baseline_data()
+    elo = load_model_elo_ratings()
     name_map = load_team_name_map()
 
     teams = normalize_team_column(teams, "team", name_map)

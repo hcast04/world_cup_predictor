@@ -1,14 +1,9 @@
-import pandas as pd
-
-from src.data.loaders import DATA_RAW, load_teams, load_elo_ratings
+from src.data.loaders import load_teams, load_model_elo_ratings
 
 
 def main() -> None:
     teams = load_teams()
-    elo = pd.read_csv(DATA_RAW / "elo_ratings_current.csv")
-
-    if "elo_source" not in elo.columns:
-        elo["elo_source"] = "unknown"
+    elo = load_model_elo_ratings()
 
     merged = teams.merge(
         elo[["team", "elo", "date", "elo_source"]],
