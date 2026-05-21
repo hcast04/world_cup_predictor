@@ -22,6 +22,7 @@ data/processed/*
 outputs/predictions/*
 outputs/figures/*
 outputs/tables/*
+data/raw/eloratings_debug_text.txt
 
 # Keep folder structure
 !data/raw/.gitkeep

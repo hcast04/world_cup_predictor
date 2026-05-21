@@ -15,11 +15,12 @@ def load_teams(path: Path | None = None) -> pd.DataFrame:
     - team
     - confederation
     - is_host
+    - group
     """
     path = path or DATA_RAW / "teams_2026.csv"
     df = pd.read_csv(path)
 
-    required_columns = {"team", "confederation", "is_host"}
+    required_columns = {"team", "confederation", "is_host", "group"}
     missing = required_columns - set(df.columns)
 
     if missing:
@@ -28,9 +29,9 @@ def load_teams(path: Path | None = None) -> pd.DataFrame:
     df["team"] = df["team"].astype(str).str.strip()
     df["confederation"] = df["confederation"].astype(str).str.strip()
     df["is_host"] = df["is_host"].astype(int)
+    df["group"] = df["group"].astype(str).str.strip()
 
     return df
-
 
 def load_elo_ratings(path: Path | None = None) -> pd.DataFrame:
     """
