@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: world-cup-predictor
+Version: 0.1.0
+Summary: A data-driven World Cup 2026 prediction engine using match models, tournament simulation, and player-level top scorer probabilities.
+Author: Héctor Castaños
+Requires-Python: >=3.10

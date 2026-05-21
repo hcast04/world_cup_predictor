@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/data/__init__.py
+src/data/loaders.py
+src/evaluation/__init__.py
+src/models/__init__.py
+src/models/elo_poisson.py
+src/simulation/__init__.py
+src/simulation/match.py
+src/utils/__init__.py
+src/visualization/__init__.py
+world_cup_predictor.egg-info/PKG-INFO
+world_cup_predictor.egg-info/SOURCES.txt
+world_cup_predictor.egg-info/dependency_links.txt
+world_cup_predictor.egg-info/top_level.txt

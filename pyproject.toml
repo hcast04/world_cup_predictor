@@ -1,0 +1,22 @@
+[project]
+name = "world-cup-predictor"
+version = "0.1.0"
+description = "A data-driven World Cup 2026 prediction engine using match models, tournament simulation, and player-level top scorer probabilities."
+authors = [
+    { name = "Héctor Castaños" }
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
