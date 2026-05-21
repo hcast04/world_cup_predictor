@@ -1,0 +1,24 @@
+{
+  "numeric_features": [
+    "points_diff_last_5",
+    "goal_diff_diff_last_5",
+    "goals_for_diff_last_5",
+    "goals_against_diff_last_5",
+    "win_rate_diff_last_5",
+    "points_diff_last_10",
+    "goal_diff_diff_last_10",
+    "goals_for_diff_last_10",
+    "goals_against_diff_last_10",
+    "win_rate_diff_last_10",
+    "neutral"
+  ],
+  "categorical_features": [
+    "tournament"
+  ],
+  "target": "result",
+  "classes": [
+    "draw",
+    "team_a_win",
+    "team_b_win"
+  ]
+}

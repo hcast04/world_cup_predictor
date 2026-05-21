@@ -2,16 +2,17 @@
 
 A data-driven project to predict the 2026 FIFA World Cup group stage, World Cup winner probabilities, and Golden Boot probabilities.
 
-The project is designed as a stage-based forecasting engine. Before the tournament, it simulates the group stage and an approximate knockout path. During the tournament, actual match results and knockout fixtures can be entered manually so predictions can be updated round by round.
+The project is designed as a **stage-based forecasting engine**. Before the tournament, it simulates the group stage and an approximate knockout path. During the tournament, actual results and manually entered knockout fixtures can be added so predictions can be updated round by round.
 
 ## Goals
 
-- Predict group-stage outcomes and qualification probabilities.
+- Predict group-stage results and qualification probabilities.
 - Estimate World Cup winner probabilities.
 - Estimate Golden Boot and top scorer probabilities.
 - Support manual updates once real match results and knockout fixtures are known.
-- Use free and reproducible data sources where possible.
-- Build a project that can later be improved with real squads, player data, and backtesting.
+- Build a reproducible data pipeline using free data sources where possible.
+- Backtest baseline models on historical international matches.
+- Train reusable models from processed historical match features.
 
 ## Prediction stages
 
@@ -37,7 +38,7 @@ For a faster test:
 python scripts/run_stage.py --stage 1 --n-simulations 1000
 ```
 
-You can also run the full pipeline, including data generation and validation:
+You can also run Stage 1 through the full pipeline:
 
 ```bash
 python scripts/run_pipeline.py --stage 1 --n-simulations 1000
@@ -59,7 +60,7 @@ Then run:
 python scripts/run_stage.py --stage 2
 ```
 
-Or run the pipeline:
+or:
 
 ```bash
 python scripts/run_pipeline.py --stage 2
@@ -81,11 +82,64 @@ Then run:
 python scripts/run_stage.py --stage 3
 ```
 
-Or run the pipeline:
+or:
 
 ```bash
 python scripts/run_pipeline.py --stage 3
 ```
+
+## Full pipeline
+
+The full pipeline regenerates derived data, validates inputs, and runs the selected prediction stage.
+
+Run full Stage 1 pipeline:
+
+```bash
+python scripts/run_pipeline.py --stage 1
+```
+
+Run faster Stage 1 test:
+
+```bash
+python scripts/run_pipeline.py --stage 1 --n-simulations 1000
+```
+
+Run Stage 1 with a specific model:
+
+```bash
+python scripts/run_pipeline.py --stage 1 --model-type elo_poisson
+python scripts/run_pipeline.py --stage 1 --model-type strength_baseline
+```
+
+Skip data regeneration and only rerun predictions:
+
+```bash
+python scripts/run_pipeline.py --stage 1 --skip-build
+```
+
+## Match models
+
+The simulator currently supports multiple match-model variants.
+
+### `elo_poisson`
+
+Uses model-ready Elo ratings to convert team-strength differences into expected goals.
+
+```bash
+python scripts/run_pipeline.py --stage 1 --model-type elo_poisson
+```
+
+### `strength_baseline`
+
+Uses historical attack and defence strengths estimated from international results.
+
+```bash
+python scripts/run_pipeline.py --stage 1 --model-type strength_baseline
+```
+
+### Recent-form model
+
+The project also includes a reusable recent-form logistic-regression model trained on historical match features. It is currently used for backtesting and model development, and can later be wired into the simulator as another model option.
 
 ## Entering known match results
 
@@ -140,7 +194,7 @@ third_place
 final
 ```
 
-Then run:
+and run:
 
 ```bash
 python scripts/run_stage.py --stage 3
@@ -162,6 +216,173 @@ During knockouts:
 manually update fixtures and rerun Stage 3 predictions
 ```
 
+## Data acquisition
+
+The project supports free historical international football data from the `martj42/international_results` repository.
+
+Download historical match results, goal scorers, and shootouts:
+
+```bash
+python -m src.data.collect_historical_results
+```
+
+Validate downloaded historical data:
+
+```bash
+python scripts/validate_historical_data.py
+```
+
+Build model-ready historical matches:
+
+```bash
+python -m src.data.build_historical_matches
+```
+
+Summarize historical matches:
+
+```bash
+python scripts/summarize_historical_data.py
+```
+
+The historical data is used for future model training, calibration, recent-form features, and backtesting.
+
+## Recent-form features
+
+Historical results can be transformed into model-ready recent-form features:
+
+```bash
+python -m src.data.build_match_features
+```
+
+Summarize the resulting feature table:
+
+```bash
+python scripts/summarize_match_features.py
+```
+
+Output:
+
+```text
+data/processed/match_features.csv
+```
+
+The feature table includes recent-form variables such as:
+
+```text
+team_a_goals_for_last_5
+team_a_goals_against_last_5
+team_a_points_last_10
+team_b_goals_for_last_10
+team_b_goal_diff_last_10
+points_diff_last_10
+goal_diff_diff_last_10
+win_rate_diff_last_10
+```
+
+## Backtesting
+
+The project includes a first historical baseline model trained on international matches since 2010.
+
+Build historical matches first:
+
+```bash
+python -m src.data.build_historical_matches
+```
+
+Run the strength baseline backtest:
+
+```bash
+python scripts/backtest_strength_baseline.py
+```
+
+Outputs:
+
+```text
+outputs/tables/strength_baseline_backtest_predictions.csv
+outputs/tables/strength_baseline_backtest_metrics.csv
+outputs/tables/team_goal_strengths.csv
+```
+
+Current strength baseline:
+
+- fits simple team attack and defence indices from historical goals
+- trains on matches before 2022
+- tests on matches from 2022 onward
+- evaluates with Brier score, log loss, accuracy, and Poisson score log loss
+
+## Recent-form model backtest
+
+Run a recent-form logistic-regression backtest:
+
+```bash
+python scripts/backtest_recent_form_model.py
+```
+
+Compare it against naive baselines:
+
+```bash
+python scripts/compare_backtest_baselines.py
+```
+
+Outputs:
+
+```text
+outputs/tables/recent_form_model_backtest_predictions.csv
+outputs/tables/recent_form_model_backtest_metrics.csv
+outputs/tables/backtest_model_comparison.csv
+```
+
+The recent-form model currently uses features such as recent points, recent goal difference, recent goals for/against, win-rate differences, neutral venue status, and tournament type.
+
+## Training the recent-form model
+
+The project includes a reusable multinomial logistic-regression model trained on recent-form features from historical international matches.
+
+Build features:
+
+```bash
+python -m src.data.build_match_features
+```
+
+Train the reusable model artifact:
+
+```bash
+python scripts/train_recent_form_model.py
+```
+
+Outputs:
+
+```text
+models/recent_form_model.joblib
+models/recent_form_model_features.json
+outputs/tables/recent_form_model_training_metrics.csv
+```
+
+The trained artifact is not required to be committed because it can be regenerated from the raw and processed data.
+
+## Comparing model variants
+
+Stage 1 can currently be run with two match models:
+
+```bash
+python scripts/run_pipeline.py --stage 1 --model-type elo_poisson
+python scripts/run_pipeline.py --stage 1 --model-type strength_baseline
+```
+
+Compare winner probabilities between both models:
+
+```bash
+python scripts/compare_stage1_models.py
+python scripts/make_model_comparison_report.py
+```
+
+Outputs:
+
+```text
+outputs/tables/stage1_model_comparison_winner_probs.csv
+outputs/tables/stage1_model_comparison_report.md
+```
+
 ## Planned methodology
 
 1. Collect free international football data.
@@ -169,32 +390,35 @@ manually update fixtures and rerun Stage 3 predictions
 3. Simulate group-stage outcomes using Monte Carlo simulation.
 4. Estimate winner probabilities using an approximate knockout simulation.
 5. Add player-level Golden Boot prediction.
-6. Replace placeholder ratings and player inputs with real data.
-7. Backtest the model on previous international tournaments.
-8. Add squad-level and player-level features once final squads are released.
+6. Build recent-form features from historical international results.
+7. Backtest baseline and recent-form models.
+8. Train reusable recent-form models.
+9. Replace placeholder ratings and player inputs with real data.
+10. Add squad-level and player-level features once final squads are released.
 
 ## Project structure
 
 ```text
 data/
-    raw/            Original downloaded or manually entered data
-    interim/        Intermediate cleaned files
-    processed/      Final modeling datasets
-    external/       External reference files
+    raw/           Original downloaded or manually entered data
+    interim/       Intermediate cleaned files
+    processed/     Final modeling datasets
+    external/      External reference files
 
 src/
-    data/           Data collection and loading
-    models/         Match and player models
-    simulation/     Group, knockout, and tournament simulation
-    evaluation/     Backtesting and metrics
-    visualization/  Reports and plotting utilities
-    utils/          Shared helper functions
+    data/          Data collection, loading, and feature building
+    models/        Match, player, and recent-form models
+    simulation/    Group, knockout, and tournament simulation
+    evaluation/    Backtesting and metrics
+    visualization/ Reports and plots
+    utils/         Shared helper functions
 
-scripts/            Command-line scripts
-notebooks/          Exploratory notebooks
-outputs/            Predictions, figures, and tables
-app/                Optional Streamlit dashboard
-tests/              Unit tests
+scripts/           Command-line scripts
+notebooks/         Exploratory notebooks
+outputs/           Predictions, figures, and tables
+models/            Regenerable trained model artifacts
+app/               Optional Streamlit dashboard
+tests/             Unit tests
 ```
 
 ## Main input files
@@ -212,6 +436,15 @@ data/raw/historical_goalscorers.csv
 data/raw/historical_shootouts.csv
 ```
 
+## Main processed files
+
+```text
+data/processed/historical_matches.csv
+data/processed/match_features.csv
+data/processed/team_goal_strengths_model.csv
+data/processed/elo_ratings_model.csv
+```
+
 ## Main output files
 
 ```text
@@ -220,9 +453,9 @@ outputs/predictions/stage1_winner_predictions.csv
 outputs/predictions/stage1_golden_boot_predictions.csv
 outputs/predictions/stage1_summary.md
 outputs/predictions/stage2_knockout_predictions.csv
-outputs/predictions/stage2_knockout_summary.md
 outputs/predictions/stage3_knockout_predictions.csv
-outputs/predictions/stage3_knockout_summary.md
+outputs/tables/recent_form_model_backtest_metrics.csv
+outputs/tables/backtest_model_comparison.csv
 outputs/figures/stage1_winner_probabilities.png
 outputs/figures/stage1_golden_boot_probabilities.png
 outputs/figures/group_stage_qualification_probabilities.png
@@ -254,36 +487,6 @@ Install the local package in editable mode:
 pip install -e .
 ```
 
-## Data acquisition
-
-The project currently supports free historical international football data from the `martj42/international_results` repository.
-
-Download historical match results, goal scorers, and shootouts:
-
-```bash
-python -m src.data.collect_historical_results
-```
-
-Validate downloaded historical data:
-
-```bash
-python scripts/validate_historical_data.py
-```
-
-Build model-ready historical matches:
-
-```bash
-python -m src.data.build_historical_matches
-```
-
-Summarize historical matches:
-
-```bash
-python scripts/summarize_historical_data.py
-```
-
-The historical data is used for future model training, calibration, and backtesting. Current Stage 1 predictions still use the baseline Elo-Poisson model until training code is added.
-
 ## Useful commands
 
 Generate teams from groups:
@@ -304,6 +507,30 @@ Create model-ready Elo ratings:
 python -m src.data.fill_missing_elo
 ```
 
+Build historical matches:
+
+```bash
+python -m src.data.build_historical_matches
+```
+
+Build recent-form match features:
+
+```bash
+python -m src.data.build_match_features
+```
+
+Build team goal strengths:
+
+```bash
+python -m src.data.build_team_strengths
+```
+
+Train recent-form model:
+
+```bash
+python scripts/train_recent_form_model.py
+```
+
 Validate data:
 
 ```bash
@@ -316,55 +543,41 @@ Audit rating sources:
 python scripts/audit_elo_sources.py
 ```
 
-Run full Stage 1 pipeline:
+Run Stage 1:
 
 ```bash
-python scripts/run_pipeline.py --stage 1
+python scripts/run_stage.py --stage 1
 ```
 
-Run faster Stage 1 test:
+Run Stage 2:
+
+```bash
+python scripts/run_stage.py --stage 2
+```
+
+Run Stage 3:
+
+```bash
+python scripts/run_stage.py --stage 3
+```
+
+Run full Stage 1 pipeline:
 
 ```bash
 python scripts/run_pipeline.py --stage 1 --n-simulations 1000
 ```
 
-Run Stage 2 pipeline:
-
-```bash
-python scripts/run_pipeline.py --stage 2
-```
-
-Run Stage 3 pipeline:
-
-```bash
-python scripts/run_pipeline.py --stage 3
-```
-
-Skip data regeneration and only rerun predictions:
-
-```bash
-python scripts/run_pipeline.py --stage 1 --skip-build
-```
-
-Create Stage 1 plots from existing predictions:
-
-```bash
-python scripts/make_stage1_plots.py
-```
-
-## Modeling caveats
+## Important data caveat
 
 At the current development stage, many team ratings and player inputs may be temporary placeholders. The pipeline is structurally complete, but predictions should only be interpreted once real ratings, squad information, and player data have been added.
 
-The current Stage 1 winner prediction uses an approximate generic knockout bracket. Once real knockout fixtures are known, manually enter them in `data/raw/manual_knockout_fixtures.csv` and use Stage 2 or Stage 3.
+Historical data is useful for backtesting, calibration, and recent-form features, but final 2026 predictions should combine:
 
-## Roadmap
-
-Short-term next steps:
-
-1. Replace temporary Elo defaults with real team ratings.
-2. Add FIFA ranking points as an alternative team-strength input.
-3. Use historical results for model calibration and backtesting.
-4. Add real player inputs for Golden Boot candidates.
-5. Improve the winner model with a more accurate bracket structure.
-6. Add a Streamlit dashboard for interactive exploration.
+```text
+current team ratings
+recent international form
+current squads
+player-level scoring data
+tournament simulation
+manual updates during the tournament
+```

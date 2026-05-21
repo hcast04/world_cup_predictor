@@ -3,7 +3,7 @@ import math
 import pandas as pd
 
 from src.models.elo_poisson import win_draw_loss_probabilities
-
+from sklearn.metrics import brier_score_loss
 
 def brier_score_three_way(
     actual_result: str,
@@ -121,3 +121,24 @@ def result_probabilities_from_lambdas(lambda_a: float, lambda_b: float) -> dict[
         "draw_prob": probs["draw"],
         "team_b_win_prob": probs["team_b_win"],
     }
+
+def multiclass_brier_score(y_true, proba, classes) -> float:
+    """
+    Multiclass Brier score.
+
+    y_true:
+        True class labels.
+
+    proba:
+        Predicted class probabilities with shape (n_samples, n_classes).
+
+    classes:
+        Class labels in the same order as the probability columns.
+    """
+    total = 0.0
+
+    for i, cls in enumerate(classes):
+        y_binary = (y_true == cls).astype(int)
+        total += brier_score_loss(y_binary, proba[:, i])
+
+    return total

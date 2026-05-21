@@ -78,6 +78,14 @@ def main() -> None:
             "Building model-ready historical matches",
         )
         run_command(
+            [python, "-m", "src.data.build_match_features"],
+            "Building recent-form match features",
+        )
+        run_command(
+            [python, "scripts/train_recent_form_model.py"],
+            "Training recent-form model",
+        )
+        run_command(
             [python, "-m", "src.data.build_team_strengths"],
             "Building team goal strengths",
         )
