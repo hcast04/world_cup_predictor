@@ -13,6 +13,7 @@ The project is designed as a **stage-based forecasting engine**. Before the tour
 - Build a reproducible data pipeline using free data sources where possible.
 - Backtest baseline models on historical international matches.
 - Train reusable models from processed historical match features.
+- Use club-level player data to improve Golden Boot forecasts.
 
 ## Prediction stages
 
@@ -90,7 +91,7 @@ python scripts/run_pipeline.py --stage 3
 
 ## Full pipeline
 
-The full pipeline regenerates derived data, validates inputs, and runs the selected prediction stage.
+The full pipeline regenerates derived data, validates inputs, audits coverage, and runs the selected prediction stage.
 
 Run full Stage 1 pipeline:
 
@@ -139,7 +140,7 @@ python scripts/run_pipeline.py --stage 1 --model-type strength_baseline
 
 ### Recent-form model
 
-The project also includes a reusable recent-form logistic-regression model trained on historical match features. It is currently used for backtesting and model development, and can later be wired into the simulator as another model option.
+The project also includes a reusable recent-form logistic-regression model trained on historical match features. It is currently used for backtesting and fixture-level W/D/L prediction, and can later be wired more directly into the main tournament simulator.
 
 ## Entering known match results
 
@@ -244,7 +245,7 @@ Summarize historical matches:
 python scripts/summarize_historical_data.py
 ```
 
-The historical data is used for future model training, calibration, recent-form features, and backtesting.
+The historical data is used for model training, calibration, recent-form features, and backtesting.
 
 ## Recent-form features
 
@@ -266,51 +267,7 @@ Output:
 data/processed/match_features.csv
 ```
 
-The feature table includes recent-form variables such as:
-
-```text
-team_a_goals_for_last_5
-team_a_goals_against_last_5
-team_a_points_last_10
-team_b_goals_for_last_10
-team_b_goal_diff_last_10
-points_diff_last_10
-goal_diff_diff_last_10
-win_rate_diff_last_10
-```
-
-## Backtesting
-
-The project includes a first historical baseline model trained on international matches since 2010.
-
-Build historical matches first:
-
-```bash
-python -m src.data.build_historical_matches
-```
-
-Run the strength baseline backtest:
-
-```bash
-python scripts/backtest_strength_baseline.py
-```
-
-Outputs:
-
-```text
-outputs/tables/strength_baseline_backtest_predictions.csv
-outputs/tables/strength_baseline_backtest_metrics.csv
-outputs/tables/team_goal_strengths.csv
-```
-
-Current strength baseline:
-
-- fits simple team attack and defence indices from historical goals
-- trains on matches before 2022
-- tests on matches from 2022 onward
-- evaluates with Brier score, log loss, accuracy, and Poisson score log loss
-
-## Recent-form model backtest
+## Backtesting and recent-form model
 
 Run a recent-form logistic-regression backtest:
 
@@ -322,26 +279,6 @@ Compare it against naive baselines:
 
 ```bash
 python scripts/compare_backtest_baselines.py
-```
-
-Outputs:
-
-```text
-outputs/tables/recent_form_model_backtest_predictions.csv
-outputs/tables/recent_form_model_backtest_metrics.csv
-outputs/tables/backtest_model_comparison.csv
-```
-
-The recent-form model currently uses features such as recent points, recent goal difference, recent goals for/against, win-rate differences, neutral venue status, and tournament type.
-
-## Training the recent-form model
-
-The project includes a reusable multinomial logistic-regression model trained on recent-form features from historical international matches.
-
-Build features:
-
-```bash
-python -m src.data.build_match_features
 ```
 
 Train the reusable model artifact:
@@ -358,7 +295,162 @@ models/recent_form_model_features.json
 outputs/tables/recent_form_model_training_metrics.csv
 ```
 
-The trained artifact is not required to be committed because it can be regenerated from the raw and processed data.
+## Club-level player data
+
+Club-level player data is used to improve Golden Boot predictions. The expected raw file is:
+
+```text
+data/raw/club_player_stats_2025_2026.csv
+```
+
+This file should contain FBref-style columns such as:
+
+```text
+Player
+Nation
+Pos
+Squad
+Comp
+Age
+MP
+Starts
+Min
+90s
+Gls
+Ast
+G-PK
+PK
+PKatt
+xG
+npxG
+xAG
+Sh
+```
+
+Inspect the raw club player file:
+
+```bash
+python scripts/inspect_club_player_data.py
+```
+
+Build player scoring features:
+
+```bash
+python -m src.data.build_player_scoring_features
+```
+
+Output:
+
+```text
+data/processed/player_scoring_features.csv
+```
+
+Summarize player scoring features:
+
+```bash
+python scripts/summarize_player_scoring_features.py
+```
+
+## Golden Boot player pool
+
+The Golden Boot candidate pool is built from club-level player scoring features.
+
+Build the pool:
+
+```bash
+python -m src.data.build_golden_boot_pool
+```
+
+Output:
+
+```text
+data/processed/golden_boot_player_pool.csv
+```
+
+Summarize the pool:
+
+```bash
+python scripts/summarize_golden_boot_pool.py
+```
+
+Until official squads are released, this is a candidate pool rather than a final World Cup squad list.
+
+## Golden Boot data coverage
+
+Club-level player data may not cover every World Cup team equally. The project includes a coverage audit:
+
+```bash
+python scripts/audit_golden_boot_coverage.py
+```
+
+Output:
+
+```text
+outputs/tables/golden_boot_coverage_audit.csv
+```
+
+Manual Golden Boot candidates can be added in:
+
+```text
+data/raw/golden_boot_manual_overrides.csv
+```
+
+Expected columns:
+
+```csv
+player,team,position,expected_minutes_per_match,starter_probability,goals_per90,xg_per90,is_penalty_taker,scoring_weight_source,notes
+```
+
+After editing manual overrides, rebuild the Golden Boot pool:
+
+```bash
+python -m src.data.build_golden_boot_pool
+python scripts/audit_golden_boot_coverage.py
+```
+
+## Predicting 2026 fixtures with the recent-form model
+
+After training the recent-form model, build feature rows for the 2026 group fixtures:
+
+```bash
+python -m src.data.build_fixture_features
+```
+
+Predict group fixtures:
+
+```bash
+python scripts/predict_2026_fixtures_recent_form.py
+```
+
+Output:
+
+```text
+outputs/predictions/recent_form_fixture_predictions_2026.csv
+```
+
+The fixture-level probabilities can also be simulated into group tables:
+
+```bash
+python scripts/run_recent_form_group_stage_probabilities.py
+```
+
+Output:
+
+```text
+outputs/predictions/recent_form_group_stage_probabilities.csv
+```
+
+Compare the baseline group-stage simulation with the recent-form group-stage simulation:
+
+```bash
+python scripts/compare_group_stage_models.py
+```
+
+Output:
+
+```text
+outputs/tables/group_stage_model_comparison.csv
+```
 
 ## Comparing model variants
 
@@ -382,19 +474,6 @@ Outputs:
 outputs/tables/stage1_model_comparison_winner_probs.csv
 outputs/tables/stage1_model_comparison_report.md
 ```
-
-## Planned methodology
-
-1. Collect free international football data.
-2. Build a baseline Elo-based match model.
-3. Simulate group-stage outcomes using Monte Carlo simulation.
-4. Estimate winner probabilities using an approximate knockout simulation.
-5. Add player-level Golden Boot prediction.
-6. Build recent-form features from historical international results.
-7. Backtest baseline and recent-form models.
-8. Train reusable recent-form models.
-9. Replace placeholder ratings and player inputs with real data.
-10. Add squad-level and player-level features once final squads are released.
 
 ## Project structure
 
@@ -427,13 +506,14 @@ tests/             Unit tests
 data/raw/groups_2026.csv
 data/raw/teams_2026.csv
 data/raw/elo_ratings_seed.csv
-data/processed/elo_ratings_model.csv
 data/raw/players_2026_seed.csv
 data/raw/manual_match_results.csv
 data/raw/manual_knockout_fixtures.csv
 data/raw/historical_results.csv
 data/raw/historical_goalscorers.csv
 data/raw/historical_shootouts.csv
+data/raw/club_player_stats_2025_2026.csv
+data/raw/golden_boot_manual_overrides.csv
 ```
 
 ## Main processed files
@@ -441,14 +521,19 @@ data/raw/historical_shootouts.csv
 ```text
 data/processed/historical_matches.csv
 data/processed/match_features.csv
+data/processed/fixture_features_2026.csv
 data/processed/team_goal_strengths_model.csv
 data/processed/elo_ratings_model.csv
+data/processed/player_scoring_features.csv
+data/processed/golden_boot_player_pool.csv
 ```
 
 ## Main output files
 
 ```text
 outputs/predictions/group_stage_qualification_probabilities.csv
+outputs/predictions/recent_form_fixture_predictions_2026.csv
+outputs/predictions/recent_form_group_stage_probabilities.csv
 outputs/predictions/stage1_winner_predictions.csv
 outputs/predictions/stage1_golden_boot_predictions.csv
 outputs/predictions/stage1_summary.md
@@ -456,6 +541,7 @@ outputs/predictions/stage2_knockout_predictions.csv
 outputs/predictions/stage3_knockout_predictions.csv
 outputs/tables/recent_form_model_backtest_metrics.csv
 outputs/tables/backtest_model_comparison.csv
+outputs/tables/golden_boot_coverage_audit.csv
 outputs/figures/stage1_winner_probabilities.png
 outputs/figures/stage1_golden_boot_probabilities.png
 outputs/figures/group_stage_qualification_probabilities.png
@@ -531,6 +617,36 @@ Train recent-form model:
 python scripts/train_recent_form_model.py
 ```
 
+Build 2026 fixture features:
+
+```bash
+python -m src.data.build_fixture_features
+```
+
+Predict 2026 fixtures with recent form:
+
+```bash
+python scripts/predict_2026_fixtures_recent_form.py
+```
+
+Build player scoring features:
+
+```bash
+python -m src.data.build_player_scoring_features
+```
+
+Build Golden Boot pool:
+
+```bash
+python -m src.data.build_golden_boot_pool
+```
+
+Audit Golden Boot coverage:
+
+```bash
+python scripts/audit_golden_boot_coverage.py
+```
+
 Validate data:
 
 ```bash
@@ -577,7 +693,8 @@ Historical data is useful for backtesting, calibration, and recent-form features
 current team ratings
 recent international form
 current squads
-player-level scoring data
+club-level player scoring data
+player availability and expected minutes
 tournament simulation
 manual updates during the tournament
 ```

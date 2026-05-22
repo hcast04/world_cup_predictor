@@ -16,6 +16,7 @@ from src.data.loaders import (
     load_baseline_data,
     load_model_elo_ratings,
     load_team_strengths,
+    DATA_PROCESSED,
 )
 from src.models.match_engine import MatchEngine
 
@@ -29,7 +30,12 @@ def run_stage_1(n_simulations: int, seed: int, model_type: str) -> None:
     """
     teams, _, fixtures = load_baseline_data()
     elo = load_model_elo_ratings()
-    players = load_players()
+    golden_boot_pool_path = DATA_PROCESSED / "golden_boot_player_pool.csv"
+
+    if golden_boot_pool_path.exists():
+        players = pd.read_csv(golden_boot_pool_path)
+    else:
+        players = load_players()
     manual_results = load_manual_match_results()
 
     elo_lookup = dict(zip(elo["team"], elo["elo"]))

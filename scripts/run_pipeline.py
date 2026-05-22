@@ -86,6 +86,30 @@ def main() -> None:
             "Training recent-form model",
         )
         run_command(
+            [python, "-m", "src.data.build_fixture_features"],
+            "Building 2026 fixture features",
+        )
+        run_command(
+            [python, "scripts/predict_2026_fixtures_recent_form.py"],
+            "Predicting 2026 fixtures with recent-form model",
+        )
+        run_command(
+            [python, "-m", "src.data.build_player_scoring_features"],
+            "Building player scoring features",
+        )
+        run_command(
+            [python, "-m", "src.data.build_golden_boot_pool"],
+            "Building Golden Boot player pool",
+        )
+        run_command(
+            [python, "scripts/audit_golden_boot_coverage.py"],
+            "Auditing Golden Boot data coverage",
+        )
+        run_command(
+            [python, "scripts/run_recent_form_group_stage_probabilities.py"],
+            "Simulating group stage from recent-form fixture probabilities",
+        )
+        run_command(
             [python, "-m", "src.data.build_team_strengths"],
             "Building team goal strengths",
         )
