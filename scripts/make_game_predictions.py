@@ -77,6 +77,18 @@ def round_multiplier_for_stage(stage: str) -> int:
 
     raise ValueError(f"Unknown stage: {stage}")
 
+def best_draw_score(lambda_a: float, lambda_b: float) -> tuple[int, int, float]:
+    best_goals = 0
+    best_prob = -1.0
+
+    for goals in range(4):
+        prob = exact_score_probability(goals, goals, lambda_a, lambda_b)
+
+        if prob > best_prob:
+            best_goals = goals
+            best_prob = prob
+
+    return best_goals, best_goals, best_prob
 
 def make_group_stage_predictions() -> pd.DataFrame:
     fixtures_path = DATA_RAW / "fixtures_2026.csv"
@@ -109,11 +121,22 @@ def make_group_stage_predictions() -> pd.DataFrame:
         lambda_a, lambda_b = match_engine.expected_goals(team_a, team_b)
         probs = win_draw_loss_probabilities(lambda_a, lambda_b)
 
+        # ------------------------------------------------------------------
+        # Score selection
+        #
+        # First compute the pure expected-points best score.
+        # Then apply small realism adjustments:
+        # - allow draws in close matches
+        # - allow 2-1 / 1-2 instead of too many clean-sheet wins
+        # ------------------------------------------------------------------
+
         best_score = None
         best_score_expected_points = -1.0
         best_score_exact_prob = 0.0
         best_score_result = None
         best_score_result_prob = 0.0
+
+        score_candidates = []
 
         for goals_a in range(7):
             for goals_b in range(7):
@@ -131,6 +154,17 @@ def make_group_stage_predictions() -> pd.DataFrame:
                     + 2.0 * score_exact_prob
                 )
 
+                score_candidates.append(
+                    {
+                        "goals_a": goals_a,
+                        "goals_b": goals_b,
+                        "result": score_result,
+                        "exact_prob": score_exact_prob,
+                        "result_prob": score_result_prob,
+                        "expected_points": score_expected_points,
+                    }
+                )
+
                 if score_expected_points > best_score_expected_points:
                     best_score = (goals_a, goals_b)
                     best_score_expected_points = score_expected_points
@@ -142,6 +176,63 @@ def make_group_stage_predictions() -> pd.DataFrame:
         predicted_result = best_score_result
         prob_exact = best_score_exact_prob
         prob_1x2 = best_score_result_prob
+
+        max_result_prob = max(
+            probs["team_a_win"],
+            probs["draw"],
+            probs["team_b_win"],
+        )
+
+        # 1. Draw realism adjustment.
+        is_close_match = abs(lambda_a - lambda_b) <= 0.35
+        draw_is_competitive = probs["draw"] >= max_result_prob - 0.12
+
+        if is_close_match and draw_is_competitive:
+            draw_candidates = [
+                c for c in score_candidates
+                if c["result"] == "draw" and c["goals_a"] <= 3
+            ]
+
+            best_draw = max(draw_candidates, key=lambda c: c["exact_prob"])
+
+            pred_goals_a = best_draw["goals_a"]
+            pred_goals_b = best_draw["goals_b"]
+            predicted_result = "draw"
+            prob_exact = best_draw["exact_prob"]
+            prob_1x2 = probs["draw"]
+
+        # 2. Both-teams-score realism adjustment.
+        elif predicted_result == "team_a_win" and pred_goals_b == 0 and lambda_b >= 0.85:
+            btts_candidates = [
+                c for c in score_candidates
+                if c["result"] == "team_a_win" and c["goals_b"] >= 1
+            ]
+
+            if btts_candidates:
+                best_btts = max(btts_candidates, key=lambda c: c["exact_prob"])
+
+                if best_btts["exact_prob"] >= 0.70 * prob_exact:
+                    pred_goals_a = best_btts["goals_a"]
+                    pred_goals_b = best_btts["goals_b"]
+                    predicted_result = "team_a_win"
+                    prob_exact = best_btts["exact_prob"]
+                    prob_1x2 = probs["team_a_win"]
+
+        elif predicted_result == "team_b_win" and pred_goals_a == 0 and lambda_a >= 0.85:
+            btts_candidates = [
+                c for c in score_candidates
+                if c["result"] == "team_b_win" and c["goals_a"] >= 1
+            ]
+
+            if btts_candidates:
+                best_btts = max(btts_candidates, key=lambda c: c["exact_prob"])
+
+                if best_btts["exact_prob"] >= 0.70 * prob_exact:
+                    pred_goals_a = best_btts["goals_a"]
+                    pred_goals_b = best_btts["goals_b"]
+                    predicted_result = "team_b_win"
+                    prob_exact = best_btts["exact_prob"]
+                    prob_1x2 = probs["team_b_win"]
 
         round_multiplier = round_multiplier_for_stage(stage)
         joker_cost = joker_cost_for_stage(stage)
@@ -185,6 +276,73 @@ def make_group_stage_predictions() -> pd.DataFrame:
         )
 
     predictions = pd.DataFrame(rows)
+
+    # ------------------------------------------------------------------
+    # Global draw realism adjustment
+    #
+    # Pure expected-points optimisation almost never predicts draws.
+    # For a realistic 72-match group stage, force the best draw candidates
+    # among close games.
+    # ------------------------------------------------------------------
+
+    target_group_draws = 10
+
+    group_mask = predictions["stage"].eq("group")
+
+    predictions["max_result_prob"] = predictions[
+        ["prob_team_a_win", "prob_draw", "prob_team_b_win"]
+    ].max(axis=1)
+
+    predictions["draw_gap"] = (
+        predictions["max_result_prob"] - predictions["prob_draw"]
+    )
+
+    predictions["elo_gap"] = (
+        predictions["effective_elo_a"] - predictions["effective_elo_b"]
+    ).abs()
+
+    draw_candidates = predictions[
+        group_mask
+        & predictions["prob_draw"].ge(0.22)
+        & predictions["draw_gap"].le(0.18)
+    ].copy()
+
+    draw_candidates = draw_candidates.sort_values(
+        by=["draw_gap", "elo_gap", "prob_draw"],
+        ascending=[True, True, False],
+    )
+
+    selected_draw_indices = draw_candidates.head(target_group_draws).index
+
+    for idx in selected_draw_indices:
+        row = predictions.loc[idx]
+
+        draw_goals_a, draw_goals_b, draw_exact_prob = best_draw_score(
+            lambda_a=float(row["lambda_a"]),
+            lambda_b=float(row["lambda_b"]),
+        )
+
+        round_multiplier = float(row["round_multiplier"])
+        prob_1x2 = float(row["prob_draw"])
+
+        expected_base_points = round_multiplier * (
+            3.0 * prob_1x2
+            + 2.0 * draw_exact_prob
+        )
+
+        predictions.loc[idx, "predicted_result"] = "draw"
+        predictions.loc[idx, "predicted_team_a_goals"] = draw_goals_a
+        predictions.loc[idx, "predicted_team_b_goals"] = draw_goals_b
+        predictions.loc[idx, "predicted_score"] = f"{draw_goals_a}-{draw_goals_b}"
+        predictions.loc[idx, "prob_1x2_correct"] = prob_1x2
+        predictions.loc[idx, "prob_exact_score"] = draw_exact_prob
+        predictions.loc[idx, "expected_base_points"] = expected_base_points
+        predictions.loc[idx, "expected_joker_gain"] = expected_base_points
+        predictions.loc[idx, "joker_efficiency"] = (
+            expected_base_points / float(row["joker_cost"])
+        )
+
+    predictions = predictions.drop(columns=["max_result_prob", "draw_gap", "elo_gap"])
 
     # Recommend group-stage jokers first: top 10 by expected value.
     predictions["recommended_group_joker"] = False
