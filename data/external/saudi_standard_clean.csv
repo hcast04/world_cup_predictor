@@ -1,0 +1,556 @@
+Rk,Player,Nation,Pos,Squad,Age,Born,MP,Starts,Min,90s,Gls,Ast,G+A,G-PK,PK,PKatt,CrdY,CrdR,Gls_1,Ast_1,G+A_1,G-PK_1,G+A-PK,Matches,xG,npxG,xAG,Sh,source_file
+1,Malek Al Abadalmanam,sa KSA,MF,Al-Fayha,27.0,1998.0,7,0,37,0.4,0,1,1,0,0,0,0,0,0.0,2.43,2.43,0.0,2.43,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+2,Saleh Al Abbas,sa KSA,FW,Al Okhdood SC,31.0,1993.0,20,6,691,7.7,1,1,2,1,0,0,2,1,0.13,0.13,0.26,0.13,0.26,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+3,Faris Abdi,sa KSA,DF,Neom,26.0,1999.0,33,27,2473,27.5,0,2,2,0,0,0,7,0,0.0,0.07,0.07,0.0,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+4,Ali Abdoulraouf,,MF,Al-Khaleej,,,5,1,124,1.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+5,Ahmed Abdu,sa KSA,FW,Neom,28.0,1996.0,19,2,423,4.7,1,0,1,1,0,0,1,0,0.21,0.0,0.21,0.21,0.21,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+6,Hayder Abdulkareem,iq IRQ,MF,Al-Nassr,20.0,2004.0,1,0,8,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+7,Majed Abdullah,sa KSA,FW,Al-Shabab,19.0,2006.0,9,0,115,1.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+8,Salem Abdullah,sa KSA,FW,Al-Ahli,17.0,2008.0,3,0,23,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+9,Mohamed Abdulrahman,sa KSA,"DF,MF",Al-Ahli,22.0,2003.0,24,7,843,9.4,0,1,1,0,0,0,3,0,0.0,0.11,0.11,0.0,0.11,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+10,Fahad Al Abdulraziq,sa KSA,"DF,MF",Al-Najma,25.0,2000.0,13,9,757,8.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+11,Faisal Al Abdulwahed,sa KSA,FW,Al-Fateh,20.0,2004.0,4,0,47,0.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+12,Abdulrahman Al-Aboud,sa KSA,MF,Al-Ittihad,30.0,1995.0,15,2,536,6.0,1,1,2,1,0,0,2,0,0.17,0.17,0.34,0.17,0.34,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+13,Khalil Al Absi,sa KSA,MF,Al-Riyadh SC,24.0,2001.0,23,5,665,7.4,1,0,1,1,0,0,1,0,0.14,0.0,0.14,0.14,0.14,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+14,Mohammed Al Absi,sa KSA,GK,Al-Ittihad,22.0,2002.0,5,3,302,3.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+15,Mohammed Abu Abd,sa KSA,"DF,MF",Al Okhdood SC,23.0,2002.0,25,20,1820,20.2,0,0,0,0,0,0,3,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+16,Abdulfattah Adam,sa KSA,FW,Al-Taawoun,30.0,1995.0,13,0,199,2.2,0,1,1,0,0,0,0,0,0.0,0.45,0.45,0.0,0.45,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+17,Yacine Adli,fr FRA,MF,Al-Shabab,25.0,2000.0,26,24,2116,23.5,1,3,4,1,0,0,3,0,0.04,0.13,0.17,0.04,0.17,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+18,Waleed Al Ahmad,sa KSA,DF,Al-Qadsiah,26.0,1999.0,6,4,352,3.9,1,1,2,1,0,0,4,0,0.26,0.26,0.51,0.26,0.51,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+19,Waleed Al Ahmad,sa KSA,DF,Al-Taawoun,26.0,1999.0,15,15,1326,14.7,4,0,4,4,0,0,5,0,0.27,0.0,0.27,0.27,0.27,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+20,Abdullah Al Ajian,sa KSA,FW,Al Kholood Saudi Club,20.0,2004.0,1,0,8,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+21,Yusuf Akçiçek,tr TUR,DF,Al-Hilal,19.0,2006.0,12,7,617,6.9,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+22,Mishal Al Alaeli,sa KSA,"DF,MF",Al-Taawoun,21.0,2004.0,12,5,493,5.5,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+23,Hassan Al Ali,sa KSA,MF,Neom,23.0,2002.0,15,5,465,5.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+24,Mukhtar Ali,sa KSA,MF,Al-Ettifaq,27.0,1997.0,32,21,1930,21.4,1,0,1,1,0,0,4,0,0.05,0.0,0.05,0.05,0.05,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+25,Nabil Alioui,fr FRA,"MF,FW",Damac,26.0,1999.0,6,3,305,3.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+26,Mohammed Alkhaibari,sa KSA,DF,Al-Riyadh SC,23.0,2002.0,27,25,2103,23.4,0,0,0,0,0,0,7,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+27,Gastón Álvarez,uy URU,DF,Al-Qadsiah,25.0,2000.0,28,28,2490,27.7,0,0,0,0,0,0,6,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+28,Turki Al Ammar,sa KSA,MF,Al-Qadsiah,25.0,1999.0,21,4,601,6.7,2,2,4,2,0,0,5,0,0.3,0.3,0.6,0.3,0.60,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+29,Abdulelah Al-Amri,sa KSA,DF,Al-Nassr,28.0,1997.0,25,20,1791,19.9,2,2,4,2,0,0,3,0,0.1,0.1,0.2,0.1,0.20,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+30,Saleh Al-Amri,sa KSA,MF,Al-Khaleej,31.0,1993.0,24,10,1060,11.8,3,1,4,3,0,0,1,0,0.25,0.08,0.34,0.25,0.34,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+31,Abdullah Al Anazi,sa KSA,"MF,FW",Al-Fateh,22.0,2003.0,18,13,892,9.9,1,2,3,1,0,0,2,0,0.1,0.2,0.3,0.1,0.30,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+32,Ahmed Al Anazi,,FW,Neom,,,2,0,38,0.4,0,1,1,0,0,0,0,0,0.0,2.37,2.37,0.0,2.37,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+33,Dhari Al Anazi,sa KSA,"DF,MF",Damac,25.0,2000.0,31,26,2334,25.9,0,3,3,0,0,0,7,1,0.0,0.12,0.12,0.0,0.12,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+34,Ângelo,br BRA,MF,Al-Nassr,20.0,2004.0,25,24,1993,22.1,4,6,10,4,0,0,4,0,0.18,0.27,0.45,0.18,0.45,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+35,Leandro Antunes,pt POR,"FW,MF",Al-Riyadh SC,28.0,1997.0,15,15,1246,13.8,7,0,7,7,0,0,2,0,0.51,0.0,0.51,0.51,0.51,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+36,Sultan Al Anze,,DF,Al-Shabab,,,3,1,134,1.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+37,Abdulrahman Al Anzi,sa KSA,DF,Al-Fayha,27.0,1998.0,7,1,97,1.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+38,Houssem Aouar,dz ALG,"MF,FW",Al-Ittihad,27.0,1998.0,23,22,1892,21.0,8,3,11,8,0,0,3,0,0.38,0.14,0.52,0.38,0.52,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+39,Nawaf Al Aqidi,sa KSA,GK,Al-Nassr,25.0,2000.0,11,11,959,10.7,0,1,1,0,0,0,0,1,0.0,0.09,0.09,0.0,0.09,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+40,Arielson,br BRA,FW,Damac,20.0,2004.0,10,7,628,7.0,1,1,2,1,0,0,1,0,0.14,0.14,0.29,0.14,0.29,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+41,Khaled Al Asbahi,ye YEM,MF,Al-Riyadh SC,22.0,2003.0,6,0,64,0.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+42,Ibrahim Ashi,,"DF,MF",Al Okhdood SC,,,9,4,468,5.2,0,0,0,0,0,0,2,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+43,Naif Asiri,sa KSA,DF,Al Okhdood SC,24.0,2001.0,18,14,1249,13.9,1,0,1,1,0,0,9,2,0.07,0.0,0.07,0.07,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+44,Ali Al Asmari,sa KSA,MF,Neom,28.0,1997.0,14,6,628,7.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+45,Ali Al Asmari,sa KSA,MF,Al-Shabab,28.0,1997.0,13,8,745,8.3,0,1,1,0,0,0,3,0,0.0,0.12,0.12,0.0,0.12,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+46,Hassan Al Asmari,sa KSA,DF,Al Kholood Saudi Club,22.0,2002.0,10,3,403,4.5,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+47,Ahmed Assiri,sa KSA,DF,Al-Khaleej,33.0,1991.0,20,12,1088,12.1,0,0,0,0,0,0,7,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+48,Valentin Atangana Edoa,fr FRA,MF,Al-Ahli,19.0,2005.0,23,23,1885,20.9,5,0,5,5,0,0,7,0,0.24,0.0,0.24,0.24,0.24,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+49,Abdulquddus Atiah,sa KSA,GK,Al-Taawoun,28.0,1997.0,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+50,Abdulrazaq Awaji,sa KSA,FW,Al-Hazem,17.0,2007.0,2,0,9,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+51,Abdulmalek Al Ayiri,sa KSA,"DF,MF",Neom,21.0,2003.0,16,12,986,11.0,1,0,1,1,0,0,6,0,0.09,0.0,0.09,0.09,0.09,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+52,Ali Azaizeh,jo JOR,"MF,FW",Al-Shabab,21.0,2004.0,15,8,628,7.0,2,1,3,2,0,0,0,0,0.29,0.14,0.43,0.29,0.43,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+53,Saeed Ba Atiyah,,"MF,DF",Al-Fateh,,,31,29,2508,27.9,1,0,1,1,0,0,9,0,0.04,0.0,0.04,0.04,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+54,Aboubacar Bah,gn GUI,MF,Al-Hazem,19.0,2005.0,27,24,2068,23.0,3,2,5,3,0,0,3,0,0.13,0.09,0.22,0.13,0.22,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+55,Hattan Bahebri,sa KSA,"MF,FW",Al Kholood Saudi Club,33.0,1992.0,31,29,2224,24.7,5,5,10,5,0,0,7,1,0.2,0.2,0.4,0.2,0.40,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+56,Essam Bahri,sa KSA,DF,Al-Riyadh SC,20.0,2005.0,7,0,52,0.6,0,1,1,0,0,0,0,0,0.0,1.73,1.73,0.0,1.73,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+57,Ahmed Bahusayn,sa KSA,MF,Al-Taawoun,24.0,2001.0,13,1,304,3.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+58,Ahmed Bamasud,sa KSA,DF,Al-Fayha,29.0,1995.0,33,33,2782,30.9,0,1,1,0,0,0,4,0,0.0,0.03,0.03,0.0,0.03,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+59,Amadou Bamba,,MF,Al-Hazem,,,5,0,42,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+60,Mohammed Al Baqawi,sa KSA,DF,Al-Fayha,30.0,1995.0,31,31,2690,29.9,0,2,2,0,0,0,4,0,0.0,0.07,0.07,0.0,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+61,Ibrahim Barabaa,,MF,Al Kholood Saudi Club,,,1,0,6,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+62,Yoann Barbet,fr FRA,DF,Al-Riyadh SC,32.0,1993.0,32,32,2804,31.2,2,1,3,2,0,0,3,0,0.06,0.03,0.1,0.06,0.10,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+63,Mohammed Barnawi,sa KSA,DF,Al-Ittihad,19.0,2005.0,2,0,23,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+64,Musa Barrow,gm GAM,FW,Al-Taawoun,26.0,1998.0,5,5,394,4.4,3,3,6,3,0,0,0,0,0.69,0.69,1.37,0.69,1.37,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+65,Christian Bassogog,cm CMR,"MF,FW",Al Okhdood SC,29.0,1995.0,29,27,2229,24.8,4,6,10,2,2,2,1,0,0.16,0.24,0.4,0.08,0.32,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+66,Mourad Batna,ma MAR,"FW,MF",Al-Fateh,35.0,1990.0,29,25,2381,26.5,9,8,17,4,5,7,5,1,0.34,0.3,0.64,0.15,0.45,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+67,Osama Al Bawardi,,"DF,MF",Al-Riyadh SC,,,28,21,1838,20.4,0,1,1,0,0,0,2,0,0.0,0.05,0.05,0.0,0.05,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+68,Ibrahim Bayesh,iq IRQ,MF,Al-Riyadh SC,25.0,2000.0,12,11,1021,11.3,1,0,1,1,0,0,5,1,0.09,0.0,0.09,0.09,0.09,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+69,Abdelkader Bedrane,dz ALG,DF,Damac,33.0,1992.0,28,27,2357,26.2,3,1,4,3,0,0,3,2,0.11,0.04,0.15,0.11,0.15,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+70,Sofiane Bendebka,dz ALG,"MF,FW",Al-Fateh,32.0,1992.0,28,25,2228,24.8,9,1,10,7,2,2,0,0,0.36,0.04,0.4,0.28,0.32,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+71,Saïd Benrahma,dz ALG,MF,Neom,29.0,1995.0,27,23,2032,22.6,10,7,17,7,3,3,1,0,0.44,0.31,0.75,0.31,0.62,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+72,Bento,br BRA,GK,Al-Nassr,26.0,1999.0,21,21,1890,21.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+73,Karim Benzema,fr FRA,FW,Al-Ittihad,37.0,1987.0,14,14,1188,13.2,8,0,8,6,2,3,1,0,0.61,0.0,0.61,0.45,0.45,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+74,Karim Benzema,fr FRA,FW,Al-Hilal,37.0,1987.0,10,9,711,7.9,9,2,11,9,0,1,0,0,1.14,0.25,1.39,1.14,1.39,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+75,Yassine Benzia,dz ALG,MF,Al-Fayha,30.0,1994.0,32,32,2724,30.3,4,5,9,4,0,0,2,0,0.13,0.17,0.3,0.13,0.30,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+76,Steven Bergwijn,nl NED,MF,Al-Ittihad,27.0,1997.0,21,21,1778,19.8,5,2,7,5,0,0,5,0,0.25,0.1,0.35,0.25,0.35,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+77,Adam Berry,eng ENG,MF,Al Kholood Saudi Club,19.0,2006.0,5,0,69,0.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+78,Mansor Al Beshe,sa KSA,"MF,FW",Al-Fayha,25.0,2000.0,21,8,703,7.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+79,Biel,br BRA,"FW,MF",Al-Taawoun,24.0,2001.0,15,11,912,10.1,1,0,1,1,0,0,0,0,0.1,0.0,0.1,0.1,0.10,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+80,Fahad bin Jumayah,sa KSA,"DF,MF",Al-Taawoun,30.0,1995.0,1,0,28,0.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+81,Saud bin Zaydan,sa KSA,MF,Al-Riyadh SC,25.0,1999.0,3,0,56,0.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+82,Abdulaziz Al-Bishi,sa KSA,MF,Al-Ittihad,31.0,1994.0,22,1,315,3.5,1,0,1,1,0,0,1,0,0.29,0.0,0.29,0.29,0.29,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+83,Nasser Al Bishi,sa KSA,MF,Al-Riyadh SC,23.0,2002.0,6,2,196,2.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+84,Nasser Al Bishi,,DF,Al-Shabab,,,1,0,7,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+85,Ameen Bokhari,sa KSA,GK,Al-Fateh,28.0,1997.0,5,3,346,3.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+86,Christopher Bonsu-Baah,gh GHA,MF,Al-Qadsiah,20.0,2004.0,32,32,2666,29.6,3,12,15,3,0,0,5,0,0.1,0.41,0.51,0.1,0.51,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+87,Milan Borjan,ca CAN,GK,Al-Riyadh SC,37.0,1987.0,34,34,3060,34.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+88,Mateo Borrell,,MF,Al Okhdood SC,,,17,12,1091,12.1,0,1,1,0,0,0,4,0,0.0,0.08,0.08,0.0,0.08,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+89,Saïmon Bouabré,fr FRA,"MF,FW",Neom,19.0,2006.0,15,13,1155,12.8,1,2,3,1,0,0,1,0,0.08,0.16,0.23,0.08,0.23,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+90,Saïmon Bouabré,fr FRA,FW,Al-Hilal,19.0,2006.0,7,1,149,1.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+91,Yassine Bounou,ma MAR,GK,Al-Hilal,34.0,1991.0,26,26,2340,26.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+92,Nawaf Boushal,sa KSA,DF,Al-Nassr,25.0,1999.0,32,20,1871,20.8,0,6,6,0,0,0,3,1,0.0,0.29,0.29,0.0,0.29,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+93,Bilal Boutobba,fr FRA,"MF,FW",Al-Najma,26.0,1998.0,28,25,2055,22.8,3,1,4,2,1,1,3,0,0.13,0.04,0.18,0.09,0.13,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+94,Abdelmounaim Boutouil,ma MAR,DF,Al-Hazem,27.0,1998.0,13,10,866,9.6,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+95,Victor Braga,br BRA,GK,Al-Najma,33.0,1992.0,31,31,2737,30.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+96,Mohammed Al-Breik,sa KSA,DF,Neom,32.0,1992.0,21,11,1031,11.5,1,1,2,1,0,0,0,0,0.09,0.09,0.17,0.09,0.17,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+97,Josh Brownhill,eng ENG,"MF,FW",Al-Shabab,29.0,1995.0,30,29,2444,27.2,4,2,6,3,1,1,4,0,0.15,0.07,0.22,0.11,0.18,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+98,Marcelo Brozović,hr CRO,MF,Al-Nassr,32.0,1992.0,29,29,2425,26.9,0,4,4,0,0,0,7,0,0.0,0.15,0.15,0.0,0.15,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+99,Mohammed Bu Muaykil,,FW,Al-Fateh,,,1,0,4,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+100,Mubarak Al Buainain,sa KSA,GK,Al-Nassr,19.0,2006.0,1,0,28,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+101,John Buckley,eng ENG,MF,Al Kholood Saudi Club,25.0,1999.0,31,31,2695,29.9,2,4,6,2,0,0,6,0,0.07,0.13,0.2,0.07,0.20,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+102,Ali Al-Bulaihi,sa KSA,DF,Al-Shabab,35.0,1989.0,14,14,1252,13.9,2,0,2,2,0,0,1,0,0.14,0.0,0.14,0.14,0.14,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+103,Ali Al-Bulaihi,sa KSA,DF,Al-Hilal,35.0,1989.0,3,1,89,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+104,Firas Al-Buraikan,sa KSA,"FW,MF",Al-Ahli,25.0,2000.0,34,16,1744,19.4,5,1,6,5,0,0,1,0,0.26,0.05,0.31,0.26,0.31,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+105,Heorhiy Bushchan,ua UKR,GK,Al-Shabab,31.0,1994.0,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+106,Marcin Bułka,pl POL,GK,Neom,25.0,1999.0,6,6,540,6.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+107,Francisco Calvo,cr CRC,"DF,MF",Al-Ettifaq,33.0,1992.0,30,30,2668,29.6,4,1,5,4,0,0,8,0,0.13,0.03,0.17,0.13,0.17,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+108,Haroune Camara,sa KSA,FW,Al-Nassr,27.0,1998.0,2,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+109,Haroune Camara,sa KSA,FW,Al-Shabab,27.0,1998.0,7,4,315,3.5,1,0,1,1,0,0,3,0,0.29,0.0,0.29,0.29,0.29,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+110,Mansour Camara,gn GUI,DF,Al Kholood Saudi Club,17.0,2007.0,10,5,571,6.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+111,João Cancelo,pt POR,DF,Al-Hilal,31.0,1994.0,2,2,173,1.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+112,Felippe Cardoso,br BRA,FW,Al-Najma,26.0,1998.0,14,14,1227,13.6,4,4,8,4,0,0,4,1,0.29,0.29,0.59,0.29,0.59,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+113,Carlos,br BRA,"FW,MF",Al-Shabab,29.0,1995.0,16,12,1090,12.1,4,0,4,4,0,0,2,0,0.33,0.0,0.33,0.33,0.33,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+114,Yannick Carrasco,be BEL,"MF,FW",Al-Shabab,31.0,1993.0,29,28,2506,27.8,18,7,25,10,8,9,4,0,0.65,0.25,0.9,0.36,0.61,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+115,Gabriel Carvalho,br BRA,FW,Al-Qadsiah,17.0,2007.0,10,1,271,3.0,1,1,2,1,0,0,1,0,0.33,0.33,0.66,0.33,0.66,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+116,Koen Casteels,be BEL,GK,Al-Qadsiah,33.0,1992.0,32,32,2854,31.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+117,Kaio César,br BRA,FW,Al-Hilal,21.0,2004.0,10,1,230,2.6,0,2,2,0,0,0,2,0,0.0,0.78,0.78,0.0,0.78,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+118,Kingsley Coman,fr FRA,MF,Al-Nassr,29.0,1996.0,30,30,2549,28.3,10,11,21,9,1,1,3,0,0.35,0.39,0.74,0.32,0.71,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+119,João Costa,br BRA,"MF,DF",Al-Ettifaq,20.0,2005.0,18,15,1261,14.0,0,3,3,0,0,0,4,0,0.0,0.21,0.21,0.0,0.21,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+120,Juan Cozzani,ar ARG,GK,Al Kholood Saudi Club,26.0,1998.0,32,32,2880,32.0,0,1,1,0,0,0,3,0,0.0,0.03,0.03,0.0,0.03,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+121,Awad Dahal,sa KSA,DF,Al-Ettifaq,20.0,2005.0,8,1,154,1.7,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+122,Sabri Dahal,sa KSA,"MF,FW",Al-Fayha,17.0,2008.0,24,18,1519,16.9,3,4,7,3,0,0,5,0,0.18,0.24,0.41,0.18,0.41,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+123,Abdurahman Al Dakheel,sa KSA,DF,Al-Hazem,,,23,22,1857,20.6,1,0,1,1,0,0,12,0,0.05,0.0,0.05,0.05,0.05,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+124,Matteo Dams,be BEL,DF,Al-Ahli,21.0,2004.0,9,8,738,8.2,0,1,1,0,0,0,0,0,0.0,0.12,0.12,0.0,0.12,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+125,Abdulkarim Darisi,sa KSA,FW,Al-Hilal,22.0,2003.0,17,0,249,2.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+126,Faisal Darisi,sa KSA,DF,Al-Fateh,28.0,1997.0,4,4,229,2.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+127,David,br BRA,"MF,FW",Damac,21.0,2004.0,13,7,674,7.5,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+128,Meshal Al Dawood,sa KSA,DF,Al-Hilal,17.0,2008.0,2,0,13,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+129,Khalifah Al Dawsari,sa KSA,DF,Neom,26.0,1999.0,26,24,2153,23.9,1,0,1,1,0,0,9,2,0.04,0.0,0.04,0.04,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+130,Nasser Al-Dawsari,sa KSA,"MF,DF",Al-Hilal,26.0,1998.0,27,17,1622,18.0,0,1,1,0,0,0,2,1,0.0,0.06,0.06,0.0,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+131,Salem Al-Dawsari,sa KSA,"FW,MF",Al-Hilal,33.0,1991.0,26,22,1881,20.9,8,8,16,7,1,2,0,0,0.38,0.38,0.77,0.33,0.72,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+132,Wesley Delgado,,"MF,DF",Al-Fateh,21.0,2004.0,24,19,1526,17.0,2,3,5,2,0,0,8,0,0.12,0.18,0.29,0.12,0.29,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+133,Moussa Dembélé,fr FRA,FW,Al-Ettifaq,29.0,1996.0,22,20,1731,19.2,9,2,11,7,2,2,2,1,0.47,0.1,0.57,0.36,0.47,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+134,Merih Demiral,tr TUR,DF,Al-Ahli,27.0,1998.0,20,20,1643,18.3,2,0,2,2,0,0,5,0,0.11,0.0,0.11,0.11,0.11,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+135,Abdulaziz Al Dhuwayhi,sa KSA,"MF,FW",Al-Hazem,25.0,2000.0,20,9,785,8.7,4,1,5,4,0,0,3,0,0.46,0.11,0.57,0.46,0.57,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+136,Moussa Diaby,fr FRA,"MF,FW",Al-Ittihad,26.0,1999.0,31,28,2424,26.9,4,9,13,4,0,0,2,2,0.15,0.33,0.48,0.15,0.48,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+137,Abdurahman Al-Dossari,sa KSA,MF,Al Kholood Saudi Club,27.0,1997.0,33,16,1755,19.5,1,0,1,1,0,0,0,1,0.05,0.0,0.05,0.05,0.05,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+138,Jamaan Al-Dossari,sa KSA,DF,Al Kholood Saudi Club,31.0,1993.0,3,0,73,0.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+139,Abdoulaye Doucouré,ml MLI,MF,Neom,32.0,1993.0,13,12,1033,11.5,0,4,4,0,0,0,5,0,0.0,0.35,0.35,0.0,0.35,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+140,Mahamadou Doumbia,ml MLI,MF,Al-Ittihad,21.0,2004.0,14,12,1114,12.4,1,2,3,1,0,0,4,0,0.08,0.16,0.24,0.08,0.24,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+141,Hisham Al Dubais,sa KSA,FW,Al-Najma,23.0,2001.0,18,2,411,4.6,0,1,1,0,0,0,0,0,0.0,0.22,0.22,0.0,0.22,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+142,Ondrej Duda,sk SVK,MF,Al-Ettifaq,30.0,1994.0,27,26,2120,23.6,0,0,0,0,0,0,8,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+143,Nabil Dunga,eg EGY,MF,Al-Najma,29.0,1996.0,12,12,910,10.1,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+144,Abdulraouf Al Duqayl,sa KSA,GK,Al-Fayha,29.0,1995.0,2,2,180,2.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+145,Majid Duran,,DF,Al-Najma,,,8,4,346,3.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+146,Majid Duran,,"MF,FW",Al-Ettifaq,,,13,3,315,3.5,0,1,1,0,0,0,0,0,0.0,0.29,0.29,0.0,0.29,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+147,Khaled Eid,sa KSA,DF,Al-Najma,25.0,2000.0,16,11,1102,12.2,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+148,Abdulaziz Al Elewai,sa KSA,"MF,FW",Al Kholood Saudi Club,21.0,2004.0,33,27,2385,26.5,4,2,6,4,0,0,3,0,0.15,0.08,0.23,0.15,0.23,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+149,Youssef En-Nesyri,ma MAR,FW,Al-Ittihad,28.0,1997.0,13,12,1037,11.5,6,0,6,5,1,1,0,0,0.52,0.0,0.52,0.43,0.43,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+150,Rayan Enad,sa KSA,"MF,DF",Al-Fayha,24.0,2000.0,23,9,820,9.1,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+151,Waleed Al-Enezi,sa KSA,GK,Al-Najma,29.0,1996.0,4,3,323,3.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+152,Ramiro Enrique,ar ARG,FW,Al Kholood Saudi Club,24.0,2001.0,27,27,2201,24.5,15,0,15,12,3,3,4,0,0.61,0.0,0.61,0.49,0.49,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+153,Hussain Al Essa,sa KSA,MF,Al-Khaleej,24.0,2000.0,11,2,327,3.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+154,Mohammed Essa,sa KSA,"MF,DF",Al-Hazem,23.0,2002.0,16,8,619,6.9,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+155,Sultan Al Essa,sa KSA,"MF,DF",Al-Najma,20.0,2005.0,9,4,416,4.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+156,Sultan Al Essa,sa KSA,DF,Al-Hazem,20.0,2005.0,3,0,22,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+157,Fabinho,br BRA,"MF,DF",Al-Ittihad,31.0,1993.0,30,30,2640,29.3,1,3,4,0,1,1,7,2,0.03,0.1,0.14,0.0,0.10,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+158,Muath Fagihy,sa KSA,DF,Al-Ittihad,23.0,2002.0,4,2,131,1.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+159,Muath Fagihy,sa KSA,DF,Al Okhdood SC,23.0,2002.0,13,12,988,11.0,0,1,1,0,0,0,5,0,0.0,0.09,0.09,0.0,0.09,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+160,Romain Faivre,fr FRA,MF,Al-Taawoun,27.0,1998.0,5,1,119,1.3,1,1,2,1,0,0,0,0,0.76,0.76,1.51,0.76,1.51,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+161,Ayman Fallatah,sa KSA,MF,Neom,21.0,2003.0,5,0,101,1.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+162,Mohammed Fallatah,sa KSA,MF,Al-Ittihad,18.0,2007.0,3,0,32,0.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+163,Salman Al-Faraj,sa KSA,MF,Neom,35.0,1989.0,15,6,589,6.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+164,Mohammed Al Fatil,sa KSA,DF,Al-Najma,33.0,1992.0,11,8,772,8.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+165,Abdulaziz Al Fawaz,sa KSA,MF,Al-Fateh,17.0,2008.0,15,6,596,6.6,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+166,João Félix,pt POR,"FW,MF",Al-Nassr,25.0,1999.0,33,33,2904,32.3,20,13,33,19,1,1,7,0,0.62,0.4,1.02,0.59,0.99,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+167,Jorge Filipe Oliveira Fernandes,pt POR,DF,Al-Fateh,28.0,1997.0,29,28,2490,27.7,2,0,2,2,0,0,5,0,0.07,0.0,0.07,0.07,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+168,Paolo Fernandes,es ESP,MF,Al-Khaleej,26.0,1998.0,28,22,1762,19.6,4,3,7,3,1,1,2,1,0.2,0.15,0.36,0.15,0.31,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+169,Roger Fernandes,pt POR,"MF,FW",Al-Ittihad,19.0,2005.0,15,15,1154,12.8,2,2,4,2,0,0,2,0,0.16,0.16,0.31,0.16,0.31,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+170,Flávio,br BRA,MF,Al-Taawoun,29.0,1996.0,26,26,2220,24.7,0,2,2,0,0,0,8,0,0.0,0.08,0.08,0.0,0.08,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+171,Deybi Flores,hn HON,MF,Al-Najma,29.0,1996.0,17,17,1526,17.0,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+172,Kostas Fortounis,gr GRE,"FW,MF",Al-Khaleej,32.0,1992.0,29,29,2540,28.2,10,12,22,5,5,5,2,0,0.35,0.43,0.78,0.18,0.60,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+173,Angelo Fulgini,nc NCL,MF,Al-Taawoun,28.0,1996.0,30,30,2413,26.8,5,9,14,5,0,1,2,0,0.19,0.34,0.52,0.19,0.52,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+174,Ahmed Gabal,,FW,Al-Fateh,,,1,0,27,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+175,Galeno,br BRA,"MF,FW",Al-Ahli,27.0,1997.0,23,22,1811,20.1,1,7,8,1,0,0,1,0,0.05,0.35,0.4,0.05,0.40,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+176,Silvère Ganvoula M'Boussy,cg CGO,FW,Al-Fayha,29.0,1996.0,29,9,1206,13.4,4,0,4,4,0,0,2,0,0.3,0.0,0.3,0.3,0.30,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+177,Ahmed Al Ghamdi,sa KSA,MF,Al-Ittihad,23.0,2001.0,25,5,667,7.4,3,1,4,3,0,0,2,0,0.4,0.13,0.54,0.4,0.54,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+178,Faisal Al Ghamdi,sa KSA,MF,Al-Ittihad,23.0,2001.0,14,5,362,4.0,1,2,3,1,0,0,1,0,0.25,0.5,0.75,0.25,0.75,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+179,Faris Al Ghamdi,sa KSA,MF,Al-Ettifaq,22.0,2003.0,19,7,649,7.2,0,2,2,0,0,0,9,0,0.0,0.28,0.28,0.0,0.28,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+180,Hamed Al-Ghamdi,sa KSA,MF,Al-Ittihad,26.0,1999.0,8,1,140,1.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+181,Hazzaa Al Ghamdi,sa KSA,"FW,MF",Damac,24.0,2001.0,17,10,849,9.4,0,0,0,0,0,0,1,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+182,Majed Al Ghamdi,sa KSA,GK,Al-Hazem,27.0,1998.0,4,3,315,3.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+183,Ziyad Al Ghamdi,sa KSA,FW,Al-Ettifaq,20.0,2005.0,10,0,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+184,Sultan Al-Ghanam,sa KSA,DF,Al-Nassr,31.0,1994.0,32,19,1783,19.8,0,1,1,0,0,0,3,0,0.0,0.05,0.05,0.0,0.05,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+185,Khalid Al Ghannam,sa KSA,"MF,FW",Al-Ettifaq,24.0,2000.0,32,25,2163,24.0,13,6,19,13,0,0,4,0,0.54,0.25,0.79,0.54,0.79,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+186,Yahya Gharawi,,MF,Neom,,,2,0,24,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+187,Abdulrahman Ghareeb,sa KSA,MF,Al-Nassr,28.0,1997.0,23,4,512,5.7,2,2,4,2,0,0,3,0,0.35,0.35,0.7,0.35,0.70,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+188,Nawaf Al Ghulaimish,sa KSA,DF,Al-Shabab,20.0,2005.0,6,4,372,4.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+189,Andrei Girotto,br BRA,DF,Al-Taawoun,33.0,1992.0,22,22,1910,21.2,2,0,2,2,0,0,7,0,0.09,0.0,0.09,0.09,0.09,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+190,Matija Gluščević,rs SRB,"FW,DF",Al-Ettifaq,21.0,2004.0,7,2,226,2.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+191,Matheus Gonçalves,br BRA,"MF,FW",Al-Ahli,19.0,2005.0,21,15,1421,15.8,2,2,4,2,0,0,3,0,0.13,0.13,0.25,0.13,0.25,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+192,Gustavo Gouveia,br BRA,FW,Al Kholood Saudi Club,18.0,2006.0,22,6,753,8.4,2,2,4,2,0,0,1,0,0.24,0.24,0.48,0.24,0.48,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+193,Marcelo Grohe,br BRA,GK,Al-Shabab,38.0,1987.0,33,33,2970,33.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+194,Gökhan Gül,de GER,"DF,MF",Al Okhdood SC,27.0,1998.0,33,32,2573,28.6,1,3,4,1,0,0,4,0,0.03,0.1,0.14,0.03,0.14,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+195,Koray Günter,de GER,DF,Al Okhdood SC,30.0,1994.0,27,26,2346,26.1,1,1,2,1,0,0,2,0,0.04,0.04,0.08,0.04,0.08,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+196,Norbert Gyömbér,sk SVK,DF,Al Kholood Saudi Club,33.0,1992.0,28,28,2455,27.3,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+197,Nawaf Al Habashi,sa KSA,"MF,FW",Al-Hazem,27.0,1998.0,29,20,1812,20.1,4,2,6,4,0,0,2,0,0.2,0.1,0.3,0.2,0.30,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+198,Danyal Al Habib,,MF,Al-Fayha,,,1,0,45,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+199,Abdullah Al-Hafith,sa KSA,DF,Al-Khaleej,32.0,1992.0,23,12,1220,13.6,0,1,1,0,0,0,1,0,0.0,0.07,0.07,0.0,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+200,Marwan Al Haidari,sa KSA,GK,Al-Khaleej,29.0,1996.0,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+201,Asiri Haitham,sa KSA,FW,Al-Qadsiah,24.0,2001.0,6,0,85,0.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+202,Talal Haji,sa KSA,FW,Al-Riyadh SC,17.0,2007.0,4,2,185,2.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+203,Talal Haji,sa KSA,FW,Al-Ittihad,17.0,2007.0,2,0,47,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+204,Nasser Al Haleel,sa KSA,DF,Al-Najma,25.0,2000.0,25,22,1822,20.2,1,0,1,1,0,0,6,1,0.05,0.0,0.05,0.05,0.05,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+205,Fawaz Al Hamad,sa KSA,DF,Al-Fateh,21.0,2004.0,6,4,354,3.9,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+206,Abderrazak Hamdallah,ma MAR,FW,Al-Shabab,34.0,1990.0,14,13,1210,13.4,6,2,8,5,1,1,2,0,0.45,0.15,0.6,0.37,0.52,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+207,Abdullah Al Hamdan,sa KSA,FW,Al-Hilal,25.0,1999.0,10,0,43,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+208,Abdullah Al Hamdan,sa KSA,FW,Al-Nassr,25.0,1999.0,15,3,284,3.2,3,1,4,3,0,0,0,0,0.95,0.32,1.27,0.95,1.27,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+209,Rayan Hamidou,sa KSA,DF,Al-Ahli,23.0,2002.0,23,16,1543,17.1,3,0,3,3,0,0,1,0,0.17,0.0,0.17,0.17,0.17,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+210,Hammam Al Hammami,sa KSA,"MF,FW",Al-Shabab,21.0,2004.0,30,16,1518,16.9,1,1,2,1,0,0,2,0,0.06,0.06,0.12,0.06,0.12,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+211,Saeed Al Hamsal,sa KSA,DF,Al-Khaleej,29.0,1996.0,28,28,2256,25.1,0,1,1,0,0,0,7,0,0.0,0.04,0.04,0.0,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+212,Mansor Hamzi,sa KSA,MF,Al-Khaleej,33.0,1992.0,30,13,1415,15.7,0,1,1,0,0,0,6,0,0.0,0.06,0.06,0.0,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+213,Abdulaziz Al Harabi,sa KSA,"MF,DF",Al-Najma,28.0,1997.0,20,10,1013,11.3,0,1,1,0,0,0,5,0,0.0,0.09,0.09,0.0,0.09,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+214,Abdulhadi Al-Harajin,sa KSA,MF,Al-Hazem,30.0,1994.0,6,1,114,1.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+215,Abdulaziz Al Harbi,sa KSA,"DF,MF",Al-Hazem,21.0,2003.0,21,12,1176,13.1,0,1,1,0,0,0,5,0,0.0,0.08,0.08,0.0,0.08,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+216,Abdulmalik Al Harbi,sa KSA,MF,Al-Taawoun,20.0,2005.0,2,0,18,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+217,Moteb Al-Harbi,sa KSA,DF,Al-Hilal,25.0,2000.0,30,20,1825,20.3,2,2,4,2,0,0,0,0,0.1,0.1,0.2,0.1,0.20,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+218,Ammar Al Harfi,,DF,Al-Riyadh SC,,,23,8,817,9.1,0,1,1,0,0,0,4,0,0.0,0.11,0.11,0.0,0.11,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+219,Jamal Harkass,ma MAR,DF,Damac,29.0,1995.0,31,30,2674,29.7,2,1,3,2,0,0,9,0,0.07,0.03,0.1,0.07,0.10,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+220,Nawaf Al Harthi,sa KSA,"MF,FW",Al-Fayha,26.0,1998.0,16,4,386,4.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+221,Saleh Al Harthi,sa KSA,MF,Al Okhdood SC,29.0,1995.0,16,1,241,2.7,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+222,Sultan Harun,,FW,Al-Riyadh SC,,,18,3,461,5.1,2,0,2,2,0,0,4,0,0.39,0.0,0.39,0.39,0.39,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+223,Abbas Al Hassan,sa KSA,MF,Neom,21.0,2004.0,8,4,314,3.5,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+224,Ali Al Hassan,sa KSA,MF,Al-Nassr,28.0,1997.0,23,3,373,4.1,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+225,Jawad Al Hassan,,FW,Damac,,,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+226,Abdullah Hassun,sa KSA,"DF,MF",Al-Riyadh SC,28.0,1997.0,9,6,491,5.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+227,Abduleallah Hawsawi,sa KSA,MF,Al-Taawoun,24.0,2001.0,12,1,239,2.7,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+228,Abdullah Hawsawi,sa KSA,"DF,MF",Al-Najma,29.0,1996.0,25,22,1933,21.5,0,0,0,0,0,0,7,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+229,Ghassan Hawsawi,sa KSA,"DF,MF",Al Okhdood SC,22.0,2003.0,15,8,818,9.1,1,0,1,1,0,0,3,0,0.11,0.0,0.11,0.11,0.11,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+230,Islam Hawsawi,sa KSA,DF,Neom,23.0,2001.0,20,7,612,6.8,0,1,1,0,0,0,1,0,0.0,0.15,0.15,0.0,0.15,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+231,Murad Al Hawsawi,sa KSA,MF,Al-Khaleej,24.0,2001.0,8,8,637,7.1,1,1,2,1,0,0,5,0,0.14,0.14,0.28,0.14,0.28,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+232,Murad Al Hawsawi,sa KSA,MF,Al-Hilal,24.0,2001.0,8,2,256,2.8,0,1,1,0,0,0,1,0,0.0,0.35,0.35,0.0,0.35,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+233,Nawaf Al-Hawsawi,,"DF,FW",Al-Najma,,,10,4,346,3.8,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+234,Sanousi Al Hawsawi,sa KSA,DF,Damac,26.0,1998.0,29,24,2173,24.1,1,1,2,1,0,0,4,0,0.04,0.04,0.08,0.04,0.08,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+235,Arif Al Haydar,sa KSA,MF,Al-Khaleej,28.0,1997.0,8,1,117,1.3,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+236,Ali Hazazi,sa KSA,MF,Al-Qadsiah,31.0,1994.0,26,6,703,7.8,1,0,1,1,0,0,2,0,0.13,0.0,0.13,0.13,0.13,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+237,Sulaiman Hazazi,sa KSA,"DF,MF",Al-Riyadh SC,22.0,2003.0,24,15,1384,15.4,0,1,1,0,0,0,0,0,0.0,0.07,0.07,0.0,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+238,Ahmed Hegazi,eg EGY,DF,Neom,34.0,1991.0,28,28,2411,26.8,1,0,1,1,0,0,5,0,0.04,0.0,0.04,0.04,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+239,Alaa Al Hejji,sa KSA,MF,Neom,29.0,1995.0,24,16,1346,15.0,3,1,4,3,0,0,1,0,0.2,0.07,0.27,0.2,0.27,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+240,Jack Hendry,sct SCO,DF,Al-Ettifaq,30.0,1995.0,30,29,2556,28.4,1,0,1,1,0,0,7,1,0.04,0.0,0.04,0.04,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+241,Theo Hernández,fr FRA,"DF,MF",Al-Hilal,27.0,1997.0,31,31,2740,30.4,5,1,6,5,0,0,7,0,0.16,0.03,0.2,0.16,0.20,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+242,Unai Hernandez,es ESP,"MF,FW",Al-Shabab,20.0,2004.0,19,14,1260,14.0,0,1,1,0,0,0,6,0,0.0,0.07,0.07,0.0,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+243,Abdulaziz Hetalh,sa KSA,"MF,FW",Al Okhdood SC,26.0,1999.0,31,11,1270,14.1,4,1,5,4,0,0,1,0,0.28,0.07,0.35,0.28,0.35,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+244,Abdulbasit Hindi,sa KSA,DF,Al-Ettifaq,28.0,1997.0,16,14,1144,12.7,0,0,0,0,0,0,3,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+245,Wesley Hoedt,nl NED,DF,Al-Shabab,31.0,1994.0,32,32,2865,31.8,0,0,0,0,0,0,4,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+246,Zakaria Al Hosawi,sa KSA,DF,Al-Ahli,24.0,2001.0,22,18,1600,17.8,1,1,2,1,0,0,5,0,0.06,0.06,0.11,0.06,0.11,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+247,Victor Hugo,br BRA,MF,Al-Taawoun,21.0,2004.0,16,10,856,9.5,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+248,Bassam Al Hurayji,sa KSA,DF,Al-Taawoun,25.0,2000.0,12,4,506,5.6,1,0,1,1,0,0,1,0,0.18,0.0,0.18,0.18,0.18,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+249,Mohammed Hurbush,sa KSA,DF,Al-Shabab,22.0,2003.0,2,2,166,1.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+250,Odai Hussein Abdulghani,,DF,Al Kholood Saudi Club,,,5,0,38,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+251,Ali Al Hussien,,MF,Al-Fayha,,,4,2,132,1.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+252,Roger Ibanez,br BRA,DF,Al-Ahli,26.0,1998.0,28,28,2423,26.9,2,2,4,2,0,0,5,2,0.07,0.07,0.15,0.07,0.15,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+253,Hassan Idris,,MF,Al-Hazem,,,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+254,George Ilenikhena,ng NGA,FW,Al-Ittihad,18.0,2006.0,2,1,88,1.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+255,Burak İnce,tr TUR,"MF,FW",Al Okhdood SC,21.0,2004.0,25,15,1400,15.6,1,0,1,1,0,0,0,0,0.06,0.0,0.06,0.06,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+256,Yaseen Al Jaber,sa KSA,DF,Al-Ittihad,19.0,2006.0,1,0,10,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+257,Rakan Jamaan,,MF,Al Kholood Saudi Club,,,1,0,3,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+258,Ziyad Al Jari,sa KSA,DF,Al-Fateh,23.0,2001.0,23,21,1713,19.0,0,0,0,0,0,0,6,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+259,Ali Jasim,iq IRQ,"MF,FW",Al-Najma,21.0,2004.0,24,19,1612,17.9,4,1,5,4,0,0,1,0,0.22,0.06,0.28,0.22,0.28,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+260,Jason,es ESP,"FW,MF",Al-Fayha,31.0,1994.0,34,33,2724,30.3,5,8,13,5,0,0,4,0,0.17,0.26,0.43,0.17,0.43,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+261,Hamad Al-Jizani,sa KSA,"MF,DF",Al-Khaleej,32.0,1993.0,12,2,274,3.0,0,1,1,0,0,0,1,0,0.0,0.33,0.33,0.0,0.33,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+262,Ziyad Al Johani,sa KSA,MF,Al-Ahli,23.0,2001.0,26,17,1499,16.7,0,1,1,0,0,0,6,2,0.0,0.06,0.06,0.0,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+263,Abdullah Al-Jouei,sa KSA,MF,Al-Fayha,30.0,1995.0,5,0,45,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+264,Ahmed Al Julaydan,sa KSA,"DF,MF",Al-Ittihad,21.0,2004.0,22,6,657,7.3,0,1,1,0,0,0,2,0,0.0,0.14,0.14,0.0,0.14,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+265,Musab Al Juwayr,sa KSA,MF,Al-Qadsiah,22.0,2003.0,31,31,2520,28.0,6,11,17,6,0,0,0,0,0.21,0.39,0.61,0.21,0.61,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+266,Rakan Al Kaabi,sa KSA,MF,Al-Khaleej,20.0,2004.0,1,0,4,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+267,Hassan Kadesh,sa KSA,DF,Al-Ittihad,32.0,1992.0,27,27,2269,25.2,1,0,1,1,0,0,0,1,0.04,0.0,0.04,0.04,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+268,Majed Kanabah,sa KSA,MF,Al-Khaleej,32.0,1993.0,32,25,2075,23.1,0,1,1,0,0,0,7,1,0.0,0.04,0.04,0.0,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+269,Mohamed Kanno,sa KSA,MF,Al-Hilal,30.0,1994.0,32,25,2082,23.1,5,4,9,5,0,0,2,0,0.22,0.17,0.39,0.22,0.39,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+270,Jérémie Kanon,fr FRA,DF,Al-Fayha,21.0,2004.0,1,0,16,0.2,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+271,N'Golo Kanté,fr FRA,MF,Al-Ittihad,34.0,1991.0,18,18,1562,17.4,2,1,3,2,0,0,0,0,0.12,0.06,0.17,0.12,0.17,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+272,Ahmed Al-Kassar,sa KSA,GK,Al-Qadsiah,34.0,1991.0,3,2,206,2.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+273,Franck Kessié,ci CIV,"MF,DF",Al-Ahli,28.0,1996.0,26,26,2165,24.1,5,3,8,5,0,0,5,0,0.21,0.12,0.33,0.21,0.33,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+274,Kewin,br BRA,GK,Damac,29.0,1995.0,34,34,3060,34.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+275,Mohammed Al-Khabrani,sa KSA,DF,Al-Khaleej,31.0,1993.0,32,32,2798,31.1,0,0,0,0,0,0,8,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+276,Abdulelah Al Khaibari,sa KSA,"DF,MF",Al-Riyadh SC,29.0,1996.0,13,12,1056,11.7,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+277,Abdulelah Al Khaibari,sa KSA,DF,Al-Ahli,29.0,1996.0,4,1,94,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+278,Abdullah Al-Khaibari,sa KSA,MF,Al-Nassr,28.0,1996.0,32,15,1685,18.7,0,1,1,0,0,0,5,0,0.0,0.05,0.05,0.0,0.05,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+279,Abdulrahman Al Khaibari,sa KSA,DF,Damac,25.0,2000.0,22,12,1108,12.3,0,0,0,0,0,0,1,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+280,Abdurahman Al-Khaibari,sa KSA,MF,Al-Hazem,37.0,1988.0,4,2,108,1.2,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+281,Ammar Al Khaibari,sa KSA,FW,Al-Fayha,20.0,2004.0,11,0,254,2.8,1,0,1,1,0,0,1,0,0.35,0.0,0.35,0.35,0.35,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+282,Thamer Al Khaibari,sa KSA,FW,Al-Khaleej,19.0,2005.0,12,2,253,2.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+283,Thamer Al Khaibari,sa KSA,FW,Neom,19.0,2005.0,3,0,27,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+284,Majed Khalifa,sa KSA,FW,Al Kholood Saudi Club,21.0,2004.0,20,1,273,3.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+285,Abdullah Khateeb,sa KSA,DF,Al-Ettifaq,30.0,1995.0,29,27,2359,26.2,0,1,1,0,0,0,6,1,0.0,0.04,0.04,0.0,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+286,Joshua King,no NOR,FW,Al-Khaleej,33.0,1992.0,29,26,2302,25.6,20,2,22,20,0,0,3,0,0.78,0.08,0.86,0.78,0.86,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+287,Koka,eg EGY,FW,Al-Ettifaq,32.0,1993.0,14,7,634,7.0,1,0,1,1,0,0,1,0,0.14,0.0,0.14,0.14,0.14,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+288,Amadou Koné,ml MLI,MF,Neom,20.0,2005.0,32,32,2800,31.1,2,1,3,2,0,0,7,0,0.06,0.03,0.1,0.06,0.10,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+289,Iker Kortajarena,es ESP,MF,Al Kholood Saudi Club,25.0,2000.0,16,15,1342,14.9,1,0,1,1,0,0,2,0,0.07,0.0,0.07,0.07,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+290,Kalidou Koulibaly,sn SEN,DF,Al-Hilal,34.0,1991.0,18,18,1593,17.7,1,2,3,1,0,0,6,1,0.06,0.11,0.17,0.06,0.17,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+291,Dimitrios Kourbelis,gr GRE,MF,Al-Khaleej,31.0,1993.0,29,28,2311,25.7,1,1,2,1,0,0,2,2,0.04,0.04,0.08,0.04,0.08,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+292,Blaž Kramer,si SVN,FW,Al Okhdood SC,29.0,1996.0,13,11,990,11.0,1,0,1,1,0,0,4,0,0.09,0.0,0.09,0.09,0.09,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+293,Mohammed Al Kunaydiri,sa KSA,DF,Al-Najma,24.0,2000.0,4,3,266,3.0,0,1,1,0,0,0,1,0,0.0,0.34,0.34,0.0,0.34,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+294,Mohammed Al-Kwikbi,sa KSA,"FW,MF",Al-Taawoun,30.0,1994.0,23,18,1486,16.5,4,7,11,4,0,0,1,0,0.24,0.42,0.67,0.24,0.67,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+295,Alexandre Lacazette,fr FRA,FW,Neom,34.0,1991.0,32,31,2673,29.7,11,4,15,7,4,5,3,0,0.37,0.13,0.51,0.24,0.37,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+296,Ali Lajami,sa KSA,DF,Al-Hilal,29.0,1996.0,25,5,642,7.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+297,Qassem Lajami,sa KSA,DF,Al-Qadsiah,29.0,1996.0,4,2,158,1.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+298,Qassem Lajami,sa KSA,DF,Al-Taawoun,29.0,1996.0,14,14,1256,14.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+299,Lázaro,br BRA,"FW,MF",Al-Najma,23.0,2002.0,25,23,2015,22.4,7,1,8,5,2,3,5,1,0.31,0.04,0.36,0.22,0.27,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+300,Khaled Al Lazem,,FW,Al Okhdood SC,,,15,8,671,7.5,0,1,1,0,0,0,3,0,0.0,0.13,0.13,0.0,0.13,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+301,Victor Lekhal,dz ALG,MF,Al-Riyadh SC,31.0,1994.0,15,15,1350,15.0,0,1,1,0,0,0,2,0,0.0,0.07,0.07,0.0,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+302,Marcos Leonardo,br BRA,FW,Al-Hilal,22.0,2003.0,27,18,1573,17.5,13,1,14,13,0,0,2,0,0.74,0.06,0.8,0.74,0.80,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+303,Yazan Madani,sa KSA,DF,Al-Ahli,20.0,2005.0,3,0,10,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+304,Abdullah Madu,sa KSA,DF,Al-Ettifaq,32.0,1993.0,13,9,802,8.9,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+305,Abdulhakim Maghfori,,MF,Al-Ettifaq,,,3,0,14,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+306,Aschraf El Mahdioui,ma MAR,MF,Al-Taawoun,29.0,1996.0,33,33,2970,33.0,0,2,2,0,0,0,7,0,0.0,0.06,0.06,0.0,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+307,Ibrahim Mahnashi,sa KSA,DF,Al-Qadsiah,25.0,1999.0,12,3,292,3.2,1,0,1,1,0,0,1,0,0.31,0.0,0.31,0.31,0.31,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+308,Riyad Mahrez,dz ALG,"MF,FW",Al-Ahli,34.0,1991.0,27,27,2298,25.5,4,8,12,4,0,0,2,0,0.16,0.31,0.47,0.16,0.47,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+309,Mohammed Mahzari,sa KSA,DF,Al-Taawoun,23.0,2002.0,33,33,2941,32.7,1,2,3,1,0,0,3,0,0.03,0.06,0.09,0.03,0.09,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+310,Mailson,br BRA,GK,Al-Taawoun,28.0,1996.0,33,33,2970,33.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+311,Ahmed Majrashi,,MF,Al Okhdood SC,,,1,0,7,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+312,Ali Majrashi,sa KSA,DF,Al-Ahli,25.0,1999.0,27,26,2156,24.0,1,3,4,1,0,0,7,2,0.04,0.13,0.17,0.04,0.17,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+313,Ali Makki,sa KSA,"DF,MF",Al-Shabab,26.0,1999.0,13,6,501,5.6,0,0,0,0,0,0,1,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+314,Malcom,br BRA,"FW,MF",Al-Hilal,28.0,1997.0,33,32,2772,30.8,7,10,17,7,0,0,1,0,0.23,0.32,0.55,0.23,0.55,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+315,Mohammed Mali,sa KSA,FW,Al-Najma,25.0,2000.0,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+316,Abdulellah Al-Malki,sa KSA,MF,Al-Hilal,30.0,1994.0,1,0,9,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+317,Sadio Mané,sn SEN,MF,Al-Nassr,33.0,1992.0,25,25,2124,23.6,10,6,16,9,1,1,6,0,0.42,0.25,0.68,0.38,0.64,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+318,Myziane Maolida,km COM,"MF,FW",Al Kholood Saudi Club,26.0,1999.0,11,11,891,9.9,3,3,6,3,0,2,1,0,0.3,0.3,0.61,0.3,0.61,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+319,Pablo Marí,es ESP,DF,Al-Hilal,31.0,1993.0,5,4,360,4.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+320,Mohammed Marran,sa KSA,FW,Al-Nassr,24.0,2001.0,3,0,33,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+321,Iñigo Martínez,es ESP,DF,Al-Nassr,34.0,1991.0,31,31,2755,30.6,3,0,3,3,0,0,6,0,0.1,0.0,0.1,0.1,0.10,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+322,Roger Martínez,co COL,FW,Al-Taawoun,31.0,1994.0,32,32,2710,30.1,23,2,25,16,7,7,9,0,0.76,0.07,0.83,0.53,0.60,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+323,Fábio Martins,pt POR,"MF,FW",Al-Hazem,32.0,1993.0,33,28,2334,25.9,5,4,9,4,1,3,5,0,0.19,0.15,0.35,0.15,0.31,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+324,Ali Al Masoud,sa KSA,MF,Al-Fateh,21.0,2004.0,11,2,340,3.8,1,0,1,1,0,0,0,0,0.26,0.0,0.26,0.26,0.26,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+325,Naif Masoud,sa KSA,"MF,DF",Al-Fateh,24.0,2001.0,25,18,1505,16.7,1,0,1,1,0,0,3,0,0.06,0.0,0.06,0.06,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+326,Giorgos Masouras,gr GRE,"MF,FW",Al-Khaleej,31.0,1994.0,32,32,2787,31.0,13,3,16,13,0,0,3,0,0.42,0.1,0.52,0.42,0.52,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+327,Ricardo Mathias,br BRA,FW,Al-Ahli,19.0,2006.0,3,0,51,0.6,0,1,1,0,0,0,0,0,0.0,1.76,1.76,0.0,1.76,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+328,Abdullah Matuq,sa KSA,"MF,FW",Al-Shabab,22.0,2003.0,11,5,456,5.1,0,0,0,0,0,0,2,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+329,Luís Maximiano,pt POR,GK,Neom,26.0,1999.0,28,28,2520,28.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+330,Abdoulie Mboge,,MF,Al-Khaleej,,,3,0,27,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+331,Jesús Medina,py PAR,"MF,FW",Damac,28.0,1997.0,12,9,799,8.9,1,0,1,1,0,0,3,0,0.11,0.0,0.11,0.11,0.11,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+332,Álvaro Medrán,es ESP,MF,Al-Ettifaq,31.0,1994.0,29,28,2517,28.0,1,8,9,1,0,0,7,0,0.04,0.29,0.32,0.04,0.32,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+333,Kader Meïté,fr FRA,FW,Al-Hilal,17.0,2007.0,5,1,154,1.7,1,0,1,1,0,0,0,0,0.58,0.0,0.58,0.58,0.58,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+334,Yakou Méïte,ci CIV,"FW,MF",Damac,29.0,1996.0,22,15,1413,15.7,5,0,5,5,0,0,7,0,0.32,0.0,0.32,0.32,0.32,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+335,Sultan Mendash,sa KSA,MF,Al-Hilal,30.0,1994.0,15,4,452,5.0,4,2,6,4,0,0,3,0,0.8,0.4,1.19,0.8,1.19,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+336,Sultan Mendash,sa KSA,"FW,MF",Al-Taawoun,30.0,1994.0,13,10,877,9.7,2,3,5,2,0,0,0,0,0.21,0.31,0.51,0.21,0.51,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+337,Edouard Mendy,sn SEN,GK,Al-Ahli,33.0,1992.0,26,26,2340,26.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+338,Jacob Mendy,sa KSA,MF,Al-Fayha,28.0,1996.0,25,20,1707,19.0,0,1,1,0,0,0,3,0,0.0,0.05,0.05,0.0,0.05,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+339,Rayane Messi Tanfouri,fr FRA,MF,Neom,18.0,2007.0,13,12,1052,11.7,1,1,2,1,0,0,0,0,0.09,0.09,0.17,0.09,0.17,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+340,Sergej Milinković-Savić,rs SRB,MF,Al-Hilal,30.0,1995.0,32,32,2855,31.7,8,7,15,8,0,0,6,0,0.25,0.22,0.47,0.25,0.47,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+341,Enzo Millot,fr FRA,MF,Al-Ahli,23.0,2002.0,24,23,1937,21.5,3,3,6,3,0,0,9,0,0.14,0.14,0.28,0.14,0.28,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+342,Mario Mitaj,al ALB,"DF,MF",Al-Ittihad,21.0,2003.0,21,21,1874,20.8,1,2,3,1,0,0,7,0,0.05,0.1,0.14,0.05,0.14,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+343,Majed Mohammed,sa KSA,"DF,MF",Al-Fateh,23.0,2001.0,10,10,848,9.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+344,Tariq Mohammed,sa KSA,MF,Damac,29.0,1995.0,17,13,1173,13.0,0,0,0,0,0,0,8,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+345,Elias Mokwana,za RSA,"MF,FW",Al-Hazem,25.0,1999.0,24,16,1372,15.2,1,2,3,1,0,0,6,0,0.07,0.13,0.2,0.07,0.20,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+346,Bader Monshi,sa KSA,MF,Al-Khaleej,26.0,1999.0,8,1,230,2.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+347,Anthony Moris,lu LUX,GK,Al-Khaleej,35.0,1990.0,33,33,2970,33.0,0,2,2,0,0,0,4,0,0.0,0.06,0.06,0.0,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+348,Saad Al Mosa,sa KSA,DF,Al-Ittihad,22.0,2002.0,7,7,564,6.3,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+349,Orlando Mosquera,pa PAN,GK,Al-Fayha,30.0,1994.0,32,32,2880,32.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+350,Muteb Al Mufarrij,sa KSA,DF,Al-Taawoun,28.0,1996.0,26,24,1965,21.8,0,1,1,0,0,0,10,2,0.0,0.05,0.05,0.0,0.05,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+351,Faisal Al Mutairi,sa KSA,MF,Al-Najma,29.0,1996.0,9,0,69,0.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+352,Saad Al Muthary,sa KSA,MF,Al-Hilal,18.0,2006.0,2,0,10,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+353,Eid Al Muwallad,sa KSA,MF,Al-Ahli,23.0,2001.0,17,0,178,2.0,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+354,Kévin N'Doram,fr FRA,MF,Al Kholood Saudi Club,29.0,1996.0,22,18,1444,16.0,1,1,2,1,0,0,6,0,0.06,0.06,0.12,0.06,0.12,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+355,Abdulrahman Nabza,,MF,Al-Ettifaq,,,2,0,24,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+356,Nacho,es ESP,DF,Al-Qadsiah,35.0,1990.0,34,34,3047,33.9,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+357,Ammar Al-Najar,sa KSA,MF,Al-Najma,28.0,1997.0,3,0,41,0.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+358,Salem Al Najdi,sa KSA,DF,Al-Nassr,22.0,2003.0,12,0,72,0.8,0,1,1,0,0,0,1,0,0.0,1.25,1.25,0.0,1.25,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+359,Yahya Naji,sa KSA,"FW,MF",Damac,26.0,1999.0,21,7,652,7.2,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+360,Raghid Najjar,sa KSA,GK,Al-Nassr,28.0,1996.0,2,2,180,2.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+361,Rakan Najjar,sa KSA,GK,Al Okhdood SC,30.0,1995.0,7,7,630,7.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+362,Abdulwahid Al Nakhli,,MF,Al-Najma,,,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+363,Ahmed Al Nakhli,sa KSA,DF,Al-Hazem,23.0,2002.0,27,26,2180,24.2,1,1,2,1,0,0,6,1,0.04,0.04,0.08,0.04,0.08,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+364,Nahitan Nández,uy URU,MF,Al-Qadsiah,29.0,1995.0,33,33,2905,32.3,8,10,18,8,0,0,7,0,0.25,0.31,0.56,0.25,0.56,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+365,Khaled Narey,tg TOG,"MF,FW",Al Okhdood SC,31.0,1994.0,22,20,1723,19.1,4,3,7,4,0,1,1,0,0.21,0.16,0.37,0.21,0.37,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+366,Awad Al Nashri,sa KSA,MF,Al-Ittihad,23.0,2002.0,16,8,691,7.7,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+367,Bander Nasser,sa KSA,MF,Al-Khaleej,35.0,1990.0,9,1,223,2.5,0,1,1,0,0,0,0,0,0.0,0.4,0.4,0.0,0.40,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+368,Saad Al Nasser,sa KSA,DF,Al-Nassr,24.0,2001.0,17,7,639,7.1,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+369,Mohamed Nayef,sa KSA,MF,Al Okhdood SC,26.0,1998.0,14,1,236,2.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+370,Rúben Neves,pt POR,"MF,DF",Al-Hilal,28.0,1997.0,31,31,2748,30.5,12,6,18,4,8,9,4,0,0.39,0.2,0.59,0.13,0.33,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+371,Yvan Neyou,cm CMR,MF,Al Okhdood SC,28.0,1997.0,7,6,480,5.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+372,Tokmac Nguen,no NOR,MF,Al Okhdood SC,31.0,1993.0,13,9,693,7.7,1,0,1,1,0,0,3,1,0.13,0.0,0.13,0.13,0.13,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+373,Mohau Nkota,za RSA,"MF,FW",Al-Ettifaq,20.0,2004.0,21,16,1437,16.0,2,2,4,2,0,0,1,0,0.13,0.13,0.25,0.13,0.25,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+374,Abdulaziz Noor,sa KSA,MF,Neom,26.0,1999.0,11,5,428,4.8,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+375,Darwin Núñez,uy URU,"FW,MF",Al-Hilal,26.0,1999.0,16,14,1247,13.9,6,4,10,6,0,0,0,0,0.43,0.29,0.72,0.43,0.72,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+376,Abdurahman Al-Obaid,sa KSA,DF,Damac,32.0,1993.0,26,23,2018,22.4,0,5,5,0,0,0,2,0,0.0,0.22,0.22,0.0,0.22,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+377,Mahdi Al Obud,sa KSA,MF,Al-Fateh,19.0,2005.0,11,3,325,3.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+378,Jonathan Okita,cd COD,"MF,FW",Damac,29.0,1995.0,13,9,783,8.7,2,1,3,2,0,0,0,0,0.23,0.11,0.34,0.23,0.34,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+379,Teddy Okou,fr FRA,"MF,FW",Al-Riyadh SC,27.0,1998.0,32,29,2427,27.0,1,8,9,1,0,0,7,0,0.04,0.3,0.33,0.04,0.33,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+380,Madallah Al-Olayan,sa KSA,"DF,MF",Al-Ettifaq,30.0,1994.0,20,11,933,10.4,1,1,2,1,0,0,1,0,0.1,0.1,0.19,0.1,0.19,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+381,Radi Al Otaibi,sa KSA,"DF,MF",Al-Ettifaq,25.0,2000.0,24,17,1594,17.7,0,2,2,0,0,0,2,0,0.0,0.11,0.11,0.0,0.11,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+382,Otávio,pt POR,MF,Al-Qadsiah,30.0,1995.0,15,14,1180,13.1,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+383,Abdulaziz Al Othman,sa KSA,FW,Al-Shabab,21.0,2004.0,10,2,321,3.6,1,0,1,1,0,0,3,1,0.28,0.0,0.28,0.28,0.28,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+384,Othman Al Othman,sa KSA,MF,Al-Fateh,22.0,2003.0,13,4,320,3.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+385,Youssouf Oumarou,ne NIG,MF,Al-Hazem,32.0,1993.0,10,6,599,6.7,1,0,1,1,0,0,1,0,0.15,0.0,0.15,0.15,0.15,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+386,Fernando Pacheco,es ESP,GK,Al-Fateh,33.0,1992.0,31,31,2710,30.1,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+387,Juan Pedroza,co COL,MF,Al Okhdood SC,26.0,1999.0,30,29,2445,27.2,3,2,5,3,0,0,10,1,0.11,0.07,0.18,0.11,0.18,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+388,Danilo Pereira,pt POR,DF,Al-Ittihad,33.0,1991.0,31,31,2790,31.0,2,1,3,2,0,0,5,0,0.06,0.03,0.1,0.06,0.10,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+389,Marin Petkov,bg BUL,"FW,MF",Al-Taawoun,21.0,2003.0,15,14,1149,12.8,2,2,4,2,0,0,2,0,0.16,0.16,0.31,0.16,0.31,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+390,Petros,br BRA,MF,Al Okhdood SC,36.0,1989.0,16,16,1392,15.5,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+391,Shaquille Pinas,sr SUR,DF,Al Kholood Saudi Club,27.0,1998.0,30,29,2591,28.8,1,2,3,0,1,1,2,0,0.03,0.07,0.1,0.0,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+392,Samuel Portugal,br BRA,GK,Al Okhdood SC,31.0,1994.0,27,27,2430,27.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+393,Marin Prekodravac,hr CRO,DF,Al-Najma,20.0,2005.0,1,0,35,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+394,Abdullah Al Qahtani,sa KSA,"MF,FW",Damac,26.0,1999.0,26,17,1484,16.5,2,1,3,2,0,0,1,0,0.12,0.06,0.18,0.12,0.18,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+395,Husain Al Qahtani,sa KSA,MF,Al-Qadsiah,30.0,1994.0,4,0,60,0.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+396,Kheshim Al Qahtani,sa KSA,FW,Al-Taawoun,25.0,2000.0,3,0,27,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+397,Mohammed Al Qahtani,sa KSA,"MF,FW",Al-Taawoun,23.0,2002.0,13,2,365,4.1,1,0,1,1,0,0,1,0,0.25,0.0,0.25,0.25,0.25,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+398,Mohammed Al Qahtani,sa KSA,FW,Al-Hilal,23.0,2002.0,3,0,25,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+399,Mohammed Al Qahtani,,DF,Al Okhdood SC,,,1,0,45,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+400,Muhannad Al Qaidhi,sa KSA,DF,Al Okhdood SC,27.0,1998.0,18,7,802,8.9,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+401,Hussain Qassem,sa KSA,MF,Al-Fateh,27.0,1997.0,7,4,285,3.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+402,Julián Quiñones,mx MEX,FW,Al-Qadsiah,28.0,1997.0,31,31,2717,30.2,33,4,37,31,2,2,4,0,1.09,0.13,1.23,1.03,1.16,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+403,Romell Quioto,hn HON,FW,Al-Najma,33.0,1991.0,9,7,565,6.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+404,Hassan Rabea,sa KSA,DF,Damac,22.0,2003.0,17,11,880,9.8,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+405,Abdullah Radif,sa KSA,FW,Al-Hilal,22.0,2003.0,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+406,Abdullah Radif,sa KSA,FW,Al-Fayha,22.0,2003.0,8,5,430,4.8,0,2,2,0,0,0,0,0,0.0,0.42,0.42,0.0,0.42,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+407,Saif Rajab,sa KSA,FW,Al-Taawoun,20.0,2004.0,7,0,55,0.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+408,Saif Rajab,sa KSA,FW,Al-Qadsiah,20.0,2004.0,3,0,49,0.5,0,1,1,0,0,0,0,0,0.0,1.84,1.84,0.0,1.84,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+409,Mobarak Al Rajeh,sa KSA,DF,Al-Shabab,21.0,2003.0,9,8,724,8.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+410,Predrag Rajković,rs SRB,GK,Al-Ittihad,29.0,1995.0,30,30,2661,29.6,0,0,0,0,0,0,0,2,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+411,Luca Ramirez,,FW,Al-Riyadh SC,,,4,1,91,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+412,Khaled Al Rammah,sa KSA,DF,Al-Fayha,20.0,2005.0,9,2,278,3.1,0,0,0,0,0,0,4,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+413,Jefferson Ramos,,FW,Al-Fateh,20.0,2005.0,6,1,127,1.4,1,0,1,1,0,0,1,0,0.71,0.0,0.71,0.71,0.71,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+414,Saud Al Rashed,sa KSA,DF,Al-Hazem,27.0,1998.0,23,19,1644,18.3,0,4,4,0,0,0,11,1,0.0,0.22,0.22,0.0,0.22,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+415,Fahad Al Rashidi,sa KSA,"FW,MF",Al-Ahli,28.0,1997.0,3,0,12,0.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+416,Fahad Al Rashidi,sa KSA,"FW,MF",Al-Taawoun,28.0,1997.0,11,0,102,1.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+417,Noor Al Rashidi,sa KSA,DF,Damac,30.0,1995.0,2,0,26,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+418,Pedro Rebocho,pt POR,DF,Al-Khaleej,30.0,1995.0,33,33,2862,31.8,0,7,7,0,0,0,4,0,0.0,0.22,0.22,0.0,0.22,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+419,Mohamed Refaat,,FW,Al-Fateh,,,4,1,54,0.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+420,Mateo Retegui,it ITA,FW,Al-Qadsiah,26.0,1999.0,28,27,2337,26.0,16,1,17,12,4,4,6,0,0.62,0.04,0.65,0.46,0.50,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+421,Renne Rivas,ve VEN,DF,Al-Taawoun,22.0,2003.0,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+422,Marek Rodák,sk SVK,GK,Al-Ettifaq,28.0,1996.0,34,34,3060,34.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+423,Gonçalo Rodrigues,pt POR,MF,Al-Najma,28.0,1997.0,14,10,991,11.0,0,0,0,0,0,0,1,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+424,Luciano Rodríguez,uy URU,"FW,MF",Neom,22.0,2003.0,30,28,2324,25.8,6,1,7,6,0,0,0,1,0.23,0.04,0.27,0.23,0.27,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+425,Cristiano Ronaldo,pt POR,FW,Al-Nassr,40.0,1985.0,30,30,2601,28.9,28,2,30,22,6,8,2,0,0.97,0.07,1.04,0.76,0.83,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+426,Loreintz Rosier,fr FRA,MF,Al-Hazem,26.0,1998.0,31,30,2673,29.7,1,1,2,1,0,0,4,0,0.03,0.03,0.07,0.03,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+427,Saeed Al Rubaie,sa KSA,DF,Al Okhdood SC,31.0,1994.0,19,19,1570,17.4,4,1,5,4,0,0,8,0,0.23,0.06,0.29,0.23,0.29,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+428,Sattam Al Ruqi,sa KSA,MF,Al-Fayha,23.0,2002.0,1,0,10,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+429,Muhanad Al Saad,sa KSA,MF,Neom,22.0,2003.0,8,2,281,3.1,1,0,1,1,0,0,0,0,0.32,0.0,0.32,0.32,0.32,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+430,Marwane Saâdane,ma MAR,"DF,MF",Al-Fateh,33.0,1992.0,29,28,2494,27.7,0,1,1,0,0,0,8,0,0.0,0.04,0.04,0.0,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+431,Nawaf Al Saadi,sa KSA,MF,Al-Shabab,23.0,2001.0,8,1,187,2.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+432,Nawaf Al Saadi,sa KSA,MF,Damac,23.0,2001.0,10,0,155,1.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+433,Mohamed Al Saedi,,MF,Al-Hazem,,,1,0,45,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+434,Mohammed Al-Saeed,sa KSA,DF,Al-Riyadh SC,28.0,1996.0,2,2,123,1.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+435,Abdulrahman Al Safari,sa KSA,"DF,MF",Al Kholood Saudi Club,32.0,1993.0,18,9,888,9.9,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+436,Ziyad Al-Sahafi,sa KSA,DF,Al-Fayha,30.0,1994.0,9,3,261,2.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+437,Mohammed Al Sahihi,,MF,Al-Fateh,,,10,1,131,1.5,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+438,Fashion Sakala,zm ZAM,"MF,FW",Al-Fayha,28.0,1997.0,29,29,2539,28.2,13,5,18,12,1,1,2,0,0.46,0.18,0.64,0.43,0.60,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+439,Makhir Saleh,sa KSA,DF,Al-Fayha,26.0,1999.0,13,7,620,6.9,1,0,1,1,0,0,3,0,0.15,0.0,0.15,0.15,0.15,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+440,Mohammed Saleh,sa KSA,MF,Al-Taawoun,25.0,2000.0,7,1,114,1.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+441,Mohammed Saleh,sa KSA,FW,Al-Najma,25.0,2000.0,5,2,162,1.8,1,0,1,1,0,0,0,1,0.56,0.0,0.56,0.56,0.56,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+442,Abdulla Al Salem,sa KSA,FW,Al-Qadsiah,32.0,1992.0,22,6,625,6.9,4,0,4,4,0,0,0,0,0.58,0.0,0.58,0.58,0.58,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+443,Ali Ayesh Al-Salem,sa KSA,DF,Al-Khaleej,26.0,1998.0,5,0,130,1.4,0,1,1,0,0,0,0,0,0.0,0.69,0.69,0.0,0.69,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+444,Ali Ayesh Al-Salem,sa KSA,DF,Al Okhdood SC,26.0,1998.0,18,16,1401,15.6,0,1,1,0,0,0,3,0,0.0,0.06,0.06,0.0,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+445,Jalal Al Salem,,FW,Al-Ettifaq,,,11,0,148,1.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+446,Saud Salem,sa KSA,MF,Al Okhdood SC,19.0,2005.0,5,1,127,1.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+447,Enes Sali,ro ROU,"MF,FW",Al-Riyadh SC,19.0,2006.0,13,8,582,6.5,0,1,1,0,0,0,2,0,0.0,0.15,0.15,0.0,0.15,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+448,Mohammad Al Salkhadi,sy SYR,MF,Damac,24.0,2001.0,8,3,289,3.2,0,1,1,0,0,0,1,0,0.0,0.31,0.31,0.0,0.31,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+449,Awn Al Saluli,sa KSA,DF,Neom,26.0,1998.0,10,2,254,2.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+450,Abdulrahman Al Sanbi,sa KSA,GK,Al-Ahli,24.0,2001.0,8,8,720,8.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+451,Samir Santos,br BRA,DF,Al-Najma,30.0,1994.0,30,30,2624,29.2,3,1,4,3,0,0,3,1,0.1,0.03,0.14,0.1,0.14,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+452,Mohammed Al Sarnoukh,,DF,Al-Fateh,,,10,1,246,2.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+453,Ramzi Sawlan,sa KSA,DF,Al Kholood Saudi Club,27.0,1998.0,19,16,1228,13.6,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+454,Amir Sayoud,dz ALG,"MF,FW",Al-Hazem,34.0,1990.0,19,10,1080,12.0,3,3,6,2,1,2,3,0,0.25,0.25,0.5,0.17,0.42,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+455,Basil Al Sayyali,sa KSA,MF,Al-Shabab,24.0,2001.0,13,5,460,5.1,0,1,1,0,0,0,0,0,0.0,0.2,0.2,0.0,0.20,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+456,Basil Al Sayyali,sa KSA,MF,Al-Hazem,24.0,2001.0,14,13,1072,11.9,0,1,1,0,0,0,1,0,0.0,0.08,0.08,0.0,0.08,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+457,Amine Sbai,ma MAR,MF,Al-Fateh,24.0,2000.0,1,1,20,0.2,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+458,Bart Schenkeveld,nl NED,DF,Al-Khaleej,33.0,1991.0,20,18,1471,16.3,0,2,2,0,0,0,5,0,0.0,0.12,0.12,0.0,0.12,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+459,Saikou Secka,,FW,Al-Fayha,,,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+460,Moustapha Sembene,,DF,Al-Taawoun,,,4,2,181,2.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+461,Alfa Semedo,gw GNB,MF,Al-Fayha,27.0,1997.0,31,30,2623,29.1,4,2,6,4,0,0,6,1,0.14,0.07,0.21,0.14,0.21,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+462,Sergi,es ESP,"DF,MF",Al-Riyadh SC,33.0,1992.0,19,16,1499,16.7,1,0,1,1,0,0,1,0,0.06,0.0,0.06,0.06,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+463,Ali Al Shaafi,,DF,Al-Khaleej,,,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+464,Yasser Al-Shahrani,sa KSA,DF,Al-Qadsiah,33.0,1992.0,26,14,1129,12.5,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+465,Abdulelah Al Shamary,sa KSA,MF,Al-Najma,33.0,1992.0,21,12,1108,12.3,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+466,Mohammed Al Shammari,sa KSA,GK,Al Kholood Saudi Club,33.0,1991.0,2,2,180,2.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+467,Yasser Al Shammari,,MF,Al-Ettifaq,,,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+468,Yousef Al Shammari,sa KSA,FW,Al-Hazem,27.0,1997.0,22,11,1047,11.6,5,0,5,3,2,2,4,0,0.43,0.0,0.43,0.26,0.26,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+469,Ahmed Al Shamrani,sa KSA,"DF,MF",Al-Hazem,23.0,2002.0,23,12,1135,12.6,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+470,Abdullah Al Shanqiti,sa KSA,DF,Al-Hazem,26.0,1998.0,22,11,1230,13.7,1,0,1,1,0,0,3,0,0.07,0.0,0.07,0.07,0.07,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+471,Hamed Al Shanqiti,sa KSA,GK,Al-Ittihad,20.0,2005.0,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+472,Ahmed Sharahili,sa KSA,DF,Al-Ittihad,31.0,1994.0,17,13,995,11.1,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+473,Riyadh Sharahili,sa KSA,MF,Damac,32.0,1993.0,22,19,1460,16.2,0,2,2,0,0,0,1,0,0.0,0.12,0.12,0.0,0.12,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+474,Nader Al-Sharari,sa KSA,DF,Al-Nassr,29.0,1996.0,9,0,45,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+475,Majed Sharrahi,,MF,Al-Najma,,,1,0,4,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+476,Saleh Al-Shehri,sa KSA,FW,Al-Ittihad,31.0,1993.0,18,4,430,4.8,3,2,5,2,1,1,1,0,0.63,0.42,1.05,0.42,0.84,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+477,Sultan Al Shehri,sa KSA,DF,Al Kholood Saudi Club,30.0,1995.0,29,21,1750,19.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+478,Yahya Al-Shehri,sa KSA,MF,Al-Riyadh SC,35.0,1990.0,15,4,501,5.6,0,2,2,0,0,0,0,0,0.0,0.36,0.36,0.0,0.36,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+479,Muhannad Shenqeeti,sa KSA,"DF,MF",Al-Ittihad,26.0,1999.0,30,27,2258,25.1,3,7,10,3,0,0,2,0,0.12,0.28,0.4,0.12,0.40,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+480,Ibrahim Al-Shoeil,sa KSA,DF,Al-Taawoun,30.0,1994.0,1,0,11,0.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+481,Talal Al Shubili,,MF,Al-Riyadh SC,,,5,0,60,0.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+482,Saad Al Shurafa,sa KSA,FW,Al-Fateh,20.0,2004.0,14,0,133,1.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+483,Mohammed Al Shwirekh,sa KSA,DF,Al-Shabab,26.0,1998.0,21,18,1453,16.1,0,1,1,0,0,0,6,2,0.0,0.06,0.06,0.0,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+484,Hussain Al Sibyani,sa KSA,"DF,MF",Al-Shabab,24.0,2001.0,13,6,492,5.5,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+485,Meshal Sibyani,sa KSA,DF,Al-Ettifaq,24.0,2001.0,7,0,109,1.2,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+486,Eyad Sidi Mohamed,sa KSA,MF,Al-Qadsiah,18.0,2006.0,3,0,23,0.3,1,0,1,1,0,0,0,0,3.91,0.0,3.91,3.91,3.91,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+487,Vincent Sierro,ch SUI,MF,Al-Shabab,29.0,1995.0,26,24,2052,22.8,0,0,0,0,0,0,5,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+488,Mohamed Simakan,fr FRA,DF,Al-Nassr,25.0,2000.0,28,28,2493,27.7,3,0,3,3,0,0,3,0,0.11,0.0,0.11,0.11,0.11,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+489,Jan-Carlo Simic,rs SRB,DF,Al-Ittihad,20.0,2005.0,8,7,669,7.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+490,Ahmed Al Siyahi,,"MF,DF",Al-Riyadh SC,,,19,18,1459,16.2,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+491,Chris Smalling,eng ENG,DF,Al-Fayha,35.0,1989.0,34,33,2992,33.2,3,1,4,3,0,0,1,0,0.09,0.03,0.12,0.09,0.12,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+492,Omar Al Somah,sy SYR,FW,Al-Hazem,36.0,1989.0,24,18,1651,18.3,7,0,7,5,2,4,1,0,0.38,0.0,0.38,0.27,0.27,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+493,Mohammed Somaili,sa KSA,"MF,FW",Al Kholood Saudi Club,24.0,2000.0,33,19,1894,21.0,2,2,4,2,0,0,4,0,0.1,0.1,0.19,0.1,0.19,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+494,Ismaila Soro,ci CIV,MF,Al-Riyadh SC,27.0,1998.0,17,16,1209,13.4,0,2,2,0,0,0,2,0,0.0,0.15,0.15,0.0,0.15,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+495,Fawaz Al-Sqoor,sa KSA,DF,Al-Ittihad,29.0,1996.0,1,0,14,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+496,Fawaz Al-Sqoor,sa KSA,DF,Al-Shabab,29.0,1996.0,5,2,226,2.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+497,Khalid Al Subaie,sa KSA,"DF,MF",Al-Najma,25.0,1999.0,13,7,694,7.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+498,Khalid Al Subaie,sa KSA,MF,Al-Hazem,25.0,1999.0,2,0,38,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+499,Faisal Al Subhi,,MF,Al-Riyadh SC,,,3,0,124,1.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+500,Faisal Al Subiani,sa KSA,MF,Al-Shabab,22.0,2003.0,15,5,486,5.4,0,0,0,0,0,0,4,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+501,Mohammed Suhluli,sa KSA,"MF,FW",Al-Riyadh SC,20.0,2004.0,10,6,488,5.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+502,Mohammed Sulaiman,sa KSA,DF,Al-Ahli,21.0,2004.0,20,8,859,9.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+503,Hussain Al Sultan,,MF,Al-Khaleej,,,7,2,157,1.7,1,0,1,1,0,0,0,0,0.57,0.0,0.57,0.57,0.57,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+504,Khaled Al-Sumairi,sa KSA,MF,Damac,28.0,1997.0,22,3,371,4.1,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+505,Abdulaziz Al Suwailm,,DF,Al-Fateh,,,17,14,1180,13.1,0,0,0,0,0,0,6,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+506,Mamadou Sylla,sn SEN,FW,Al-Riyadh SC,31.0,1994.0,30,21,2056,22.8,10,1,11,10,0,1,3,0,0.44,0.04,0.48,0.44,0.48,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+507,Morlaye Sylla,gn GUI,MF,Damac,27.0,1998.0,32,32,2853,31.7,2,1,3,1,1,1,6,0,0.06,0.03,0.09,0.03,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+508,Hassan Al Tambakti,sa KSA,DF,Al-Hilal,26.0,1999.0,29,28,2338,26.0,1,0,1,1,0,0,5,0,0.04,0.0,0.04,0.04,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+509,Marzouq Tambakti,sa KSA,DF,Al-Riyadh SC,22.0,2003.0,14,13,1127,12.5,0,0,0,0,0,0,4,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+510,Sultan Tanker,sa KSA,DF,Al-Hazem,26.0,1998.0,28,27,2396,26.6,0,0,0,0,0,0,6,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+511,Mohammed Al-Thain,sa KSA,DF,Al-Shabab,28.0,1997.0,19,19,1597,17.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+512,Mohammed Al-Thain,sa KSA,"DF,MF",Al-Qadsiah,28.0,1997.0,7,0,75,0.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+513,Jehad Thakri,sa KSA,DF,Al-Qadsiah,24.0,2001.0,24,16,1516,16.8,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+514,David Tijanić,si SVN,MF,Al-Najma,28.0,1997.0,24,20,1828,20.3,2,3,5,2,0,0,0,0,0.1,0.15,0.25,0.1,0.25,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+515,Karl Toko Ekambi,cm CMR,"FW,MF",Al-Fateh,32.0,1992.0,7,5,451,5.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+516,Ivan Toney,eng ENG,FW,Al-Ahli,29.0,1996.0,32,31,2745,30.5,32,7,39,22,10,11,4,0,1.05,0.23,1.28,0.72,0.95,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+517,Tozé,pt POR,MF,Al-Riyadh SC,32.0,1993.0,33,33,2924,32.5,9,5,14,6,3,4,2,1,0.28,0.15,0.43,0.18,0.34,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+518,William Troost-Ekong,ng NGA,DF,Al Kholood Saudi Club,31.0,1993.0,13,13,1087,12.1,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+519,Hamad Al Tuhayfan,sa KSA,"DF,MF",Al-Hilal,26.0,1999.0,22,15,1104,12.3,0,1,1,0,0,0,2,0,0.0,0.08,0.08,0.0,0.08,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+520,Rakan Al Tulayhi,sa KSA,MF,Al-Najma,22.0,2002.0,32,17,1518,16.9,4,4,8,4,0,0,6,0,0.24,0.24,0.47,0.24,0.47,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+521,Sattam Al Tumbukti,sa KSA,"MF,DF",Al-Fateh,23.0,2001.0,12,2,277,3.1,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+522,Saud Al Tumbukti,sa KSA,MF,Al-Riyadh SC,20.0,2005.0,3,1,98,1.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+523,Abdullah Turki,,MF,Al-Khaleej,,,2,0,16,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+524,Edgaras Utkus,lt LTU,DF,Al Kholood Saudi Club,25.0,2000.0,16,16,1417,15.7,1,0,1,1,0,0,1,0,0.06,0.0,0.06,0.06,0.06,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+525,Valentín Vada,ar ARG,"MF,FW",Damac,29.0,1996.0,33,33,2917,32.4,11,6,17,9,2,2,4,0,0.34,0.19,0.52,0.28,0.46,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+526,Bruno Varela,cv CPV,GK,Al-Hazem,30.0,1994.0,20,20,1742,19.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+527,Matías Vargas,ar ARG,"FW,MF",Al-Fateh,28.0,1997.0,29,27,2400,26.7,8,4,12,8,0,0,4,0,0.3,0.15,0.45,0.3,0.45,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+528,Vitor Vargas,br BRA,"DF,MF",Al-Najma,21.0,2004.0,21,20,1680,18.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+529,Miguel Vianna,es ESP,DF,Al-Qadsiah,20.0,2005.0,1,0,14,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+530,Miguel Vianna,es ESP,MF,Al-Hazem,20.0,2005.0,17,5,515,5.7,0,1,1,0,0,0,0,0,0.0,0.17,0.17,0.0,0.17,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+531,Mikel Villanueva,ve VEN,DF,Al-Fayha,32.0,1993.0,30,28,2516,28.0,1,0,1,1,0,0,3,0,0.04,0.0,0.04,0.04,0.04,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+532,Stylianos Vrontis,cy CYP,MF,Al-Fayha,20.0,2004.0,8,3,352,3.9,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+533,Mohammed Waheeb,sa KSA,"MF,DF",Al-Qadsiah,22.0,2002.0,31,29,2485,27.6,3,8,11,3,0,0,3,1,0.11,0.29,0.4,0.11,0.40,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+534,Saleh Waheeb,sa KSA,"MF,FW",Al-Ahli,22.0,2002.0,28,7,775,8.6,1,3,4,1,0,0,5,0,0.12,0.35,0.46,0.12,0.46,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+535,Mohammed Waleed,sa KSA,DF,Al-Taawoun,24.0,2001.0,24,18,1709,19.0,2,0,2,2,0,0,3,0,0.11,0.0,0.11,0.11,0.11,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+536,Mohammed Waleed,sa KSA,DF,Neom,24.0,2001.0,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+537,Julian Weigl,de GER,MF,Al-Qadsiah,29.0,1995.0,25,25,2241,24.9,1,3,4,1,0,0,6,0,0.04,0.12,0.16,0.04,0.16,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+538,Wesley,br BRA,MF,Al-Nassr,20.0,2005.0,9,5,383,4.3,1,2,3,1,0,0,1,0,0.23,0.47,0.7,0.23,0.70,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+539,Georginio Wijnaldum,nl NED,"MF,FW",Al-Ettifaq,34.0,1990.0,33,32,2899,32.2,16,6,22,13,3,3,1,0,0.5,0.19,0.68,0.4,0.59,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+540,Ayman Yahya,sa KSA,"DF,MF",Al-Nassr,24.0,2001.0,27,14,1247,13.9,2,2,4,2,0,0,7,0,0.14,0.14,0.29,0.14,0.29,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+541,Mohammed Al Yami,sa KSA,GK,Al-Hilal,27.0,1997.0,8,8,720,8.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+542,Jawad El Yamiq,ma MAR,DF,Al-Najma,33.0,1992.0,6,6,525,5.8,0,0,0,0,0,0,1,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+543,Saad Yaslam,sa KSA,DF,Al-Shabab,25.0,2000.0,32,30,2701,30.0,1,4,5,1,0,0,4,0,0.03,0.13,0.17,0.03,0.17,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+544,Saad Yaslam,sa KSA,DF,Al-Ahli,25.0,2000.0,1,1,83,0.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+545,Ali Al Youssef,,DF,Al-Fateh,,,1,0,4,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+546,Zaydou Youssouf,km COM,MF,Al-Fateh,26.0,1999.0,32,30,2733,30.4,2,2,4,2,0,0,3,0,0.07,0.07,0.13,0.07,0.13,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+547,Amar Al Yuhaybi,sa KSA,FW,Al-Qadsiah,19.0,2006.0,1,0,2,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+548,Hussian Al Zabdani,sa KSA,DF,Al Okhdood SC,30.0,1995.0,12,9,711,7.9,0,0,0,0,0,0,1,1,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+549,Mohammed Zaid,sa KSA,MF,Al-Hilal,21.0,2004.0,1,0,3,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+550,Suhayb Al Zaid,sa KSA,MF,Al-Hilal,20.0,2004.0,1,0,9,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+551,Ibrahim Zaied,sa KSA,GK,Al-Hazem,35.0,1990.0,12,11,1003,11.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+552,Cristhoper Zambrano,ec ECU,"FW,MF",Al-Taawoun,21.0,2004.0,13,7,604,6.7,2,1,3,2,0,0,0,0,0.3,0.15,0.45,0.3,0.45,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+553,Nathan Zeze,fr FRA,DF,Neom,20.0,2005.0,31,31,2790,31.0,2,1,3,2,0,0,9,0,0.06,0.03,0.1,0.06,0.10,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+554,Yaseen Al Zubaidi,sa KSA,FW,Al-Ahli,22.0,2003.0,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.00,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv
+555,Fahad Al Zubidi,sa KSA,"FW,MF",Al-Fateh,23.0,2002.0,31,14,1568,17.4,3,3,6,3,0,0,6,0,0.17,0.17,0.34,0.17,0.34,Matches,0.0,0.0,0.0,0.0,saudi_standard_clean.csv

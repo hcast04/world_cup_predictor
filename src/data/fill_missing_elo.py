@@ -28,7 +28,7 @@ def load_seed_elo(path: Path | None = None) -> pd.DataFrame:
     - elo
     - date
     """
-    path = path or DATA_RAW / "elo_ratings_seed.csv"
+    path = path or DATA_RAW / "elo_ratings_current.csv"
     df = pd.read_csv(path)
 
     required_columns = {"rank", "team", "elo", "date"}

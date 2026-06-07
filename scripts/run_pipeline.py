@@ -94,6 +94,14 @@ def main() -> None:
             "Predicting 2026 fixtures with recent-form model",
         )
         run_command(
+            [python, "-m", "src.data.normalize_club_player_sources"],
+            "Normalizing club player stat sources",
+        )
+        run_command(
+            [python, "-m", "src.data.apply_squad_player_mapping"],
+            "Applying World Cup squad player mapping",
+        )
+        run_command(
             [python, "-m", "src.data.build_player_scoring_features"],
             "Building player scoring features",
         )

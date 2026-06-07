@@ -1,0 +1,612 @@
+Rk,Player,Nation,Pos,Squad,Age,Born,90s,Gls,Sh,SoT,SoT%,Sh/90,SoT/90,G/Sh,G/SoT,PK,PKatt,Matches,xG,npxG,xAG,source_file
+1,Lucas Abascia,ar ARG,DF,Querétaro,29.0,1995.0,16.0,0,5,1,20.0,0.31,0.06,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+2,José Abella,mx MEX,DF,Santos Laguna,31.0,1994.0,20.0,0,10,3,30.0,0.5,0.15,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+3,Diego Abreu,uy URU,FW,Tijuana,21.0,2003.0,4.7,3,13,5,38.5,2.75,1.06,0.15,0.4,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+4,Carlos Acevedo,mx MEX,GK,Santos Laguna,29.0,1996.0,31.8,0,1,0,0.0,0.03,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+5,Alonso Aceves,mx MEX,DF,Pachuca,24.0,2001.0,14.3,1,20,5,25.0,1.4,0.35,0.05,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+6,Alonso Aceves,mx MEX,DF,Monterrey,24.0,2001.0,8.9,0,3,0,0.0,0.34,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+7,Sebastián Aceves,mx MEX,DF,Toluca,19.0,2005.0,2.4,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+8,Gilberto Adame,mx MEX,MF,Mazatlán,20.0,2004.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+9,Sergio Aguayo,us USA,FW,Guadalajara,22.0,2002.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+10,Eduardo Águila,mx MEX,DF,Atlético San Luis,23.0,2002.0,27.3,2,22,5,22.7,0.8,0.18,0.09,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+11,Daniel Aguirre,us USA,DF,Guadalajara,26.0,1999.0,21.0,4,22,9,40.9,1.05,0.43,0.18,0.44,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+12,Eduardo Aguirre,mx MEX,"FW,MF",Atlas,26.0,1998.0,15.5,2,24,6,25.0,1.55,0.39,0.04,0.17,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+13,Érick Aguirre,mx MEX,"DF,MF",Monterrey,28.0,1997.0,7.5,0,5,2,40.0,0.67,0.27,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+14,Gaddi Aguirre,mx MEX,DF,Atlas,29.0,1996.0,29.9,1,15,1,6.7,0.5,0.03,0.07,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+15,Rodrigo Aguirre,uy URU,FW,UANL,30.0,1994.0,8.4,1,13,5,38.5,1.55,0.6,0.08,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+16,Rodrigo Aguirre,uy URU,FW,América,30.0,1994.0,11.1,4,37,13,35.1,3.34,1.17,0.11,0.31,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+17,Jorge Agustín Rodríguez,ar ARG,MF,Monterrey,29.0,1995.0,19.1,1,15,4,26.7,0.79,0.21,0.07,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+18,Jesús Alberto Angulo,mx MEX,DF,UANL,27.0,1998.0,15.3,1,4,1,25.0,0.26,0.07,0.25,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+19,Jesús Alcantar,mx MEX,DF,Necaxa,22.0,2003.0,1.7,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+20,Alexandre Alemão,br BRA,FW,Pachuca,27.0,1998.0,1.2,0,5,2,40.0,4.17,1.67,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+21,Daniel Alexis Parra,mx MEX,DF,Querétaro,26.0,1999.0,9.1,1,12,2,16.7,1.32,0.22,0.08,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+22,Cristóbal Alfaro,mx MEX,DF,Pachuca,18.0,2007.0,1.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+23,Luis Alfonso Rodríguez,mx MEX,DF,Pachuca,34.0,1991.0,3.5,0,1,0,0.0,0.29,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+24,Guillermo Allison,mx MEX,GK,Querétaro,34.0,1990.0,21.6,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+25,Facundo Almada,ar ARG,DF,Mazatlán,27.0,1998.0,34.0,6,23,12,52.2,0.68,0.35,0.26,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+26,Agustín Almendra,ar ARG,"MF,FW",Necaxa,25.0,2000.0,4.9,0,5,0,0.0,1.02,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+27,Ricardo Alonso,mx MEX,DF,Necaxa,18.0,2007.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+28,Alfonso Alvarado,mx MEX,FW,Monterrey,25.0,2000.0,0.5,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+29,Alfonso Alvarado,mx MEX,"FW,MF",León,25.0,2000.0,12.3,2,37,14,37.8,3.0,1.14,0.05,0.14,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+30,Roberto Alvarado,mx MEX,MF,Guadalajara,26.0,1998.0,24.4,4,51,20,39.2,2.09,0.82,0.08,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+31,Alek Álvarez,mx MEX,DF,Toluca,22.0,2003.0,0.8,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+32,Efrain Alvarez,mx MEX,MF,Guadalajara,23.0,2002.0,23.6,3,67,21,31.3,2.83,0.89,0.04,0.14,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+33,Gael Álvarez,mx MEX,MF,Pachuca,19.0,2006.0,0.6,0,2,1,50.0,3.27,1.64,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+34,Kevin Álvarez,mx MEX,"DF,MF",América,26.0,1999.0,21.8,1,26,9,34.6,1.19,0.41,0.04,0.11,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+35,Fidel Ambríz,mx MEX,MF,Monterrey,22.0,2003.0,20.1,1,28,7,25.0,1.4,0.35,0.04,0.14,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+36,Bruno Amione,ar ARG,DF,Santos Laguna,23.0,2002.0,28.1,3,13,4,30.8,0.46,0.14,0.23,0.75,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+37,Alejandro Andrade,mx MEX,MF,Necaxa,23.0,2001.0,1.1,0,3,2,66.7,2.78,1.86,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+38,Luis Ángel Malagón,mx MEX,GK,América,28.0,1997.0,24.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+39,Álvaro Angulo,co COL,"DF,MF",UNAM,28.0,1997.0,28.4,6,40,9,22.5,1.41,0.32,0.13,0.56,1,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+40,Jesús Angulo,mx MEX,MF,Toluca,28.0,1997.0,22.3,7,46,13,28.3,2.07,0.58,0.15,0.54,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+41,José Antonio Rodríguez,mx MEX,GK,Tijuana,33.0,1992.0,33.9,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+42,Uriel Antuna,mx MEX,"MF,FW",UNAM,27.0,1997.0,6.6,2,10,6,60.0,1.51,0.91,0.2,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+43,Uriel Antuna,mx MEX,MF,UANL,27.0,1997.0,2.5,0,4,2,50.0,1.57,0.79,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+44,Javier Aquino,mx MEX,"DF,MF",UANL,35.0,1990.0,14.9,0,3,0,0.0,0.2,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+45,Javier Aquino,mx MEX,DF,FC Juárez,35.0,1990.0,7.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+46,Ángelo Araos,cl CHI,"MF,FW",Puebla,28.0,1997.0,2.8,1,8,2,25.0,2.87,0.72,0.13,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+47,César Araujo,uy URU,MF,UANL,24.0,2001.0,9.5,0,3,0,0.0,0.31,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+48,Billy Arce,ec ECU,MF,Mazatlán,27.0,1998.0,1.5,0,2,1,50.0,1.36,0.68,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+49,Fernando Arce Jr.,us USA,MF,Toluca,28.0,1996.0,7.2,1,8,4,50.0,1.11,0.56,0.13,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+50,Ramiro Árciga,mx MEX,MF,Tijuana,20.0,2004.0,23.7,3,27,8,29.6,1.14,0.34,0.11,0.38,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+51,Daniel Arcila,co COL,"MF,FW",León,23.0,2002.0,8.5,4,35,9,25.7,4.11,1.06,0.11,0.44,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+52,Jesús Arellano,mx MEX,MF,Querétaro,20.0,2004.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+53,Eduardo Armenta,mx MEX,MF,Querétaro,23.0,2001.0,9.3,0,6,1,16.7,0.65,0.11,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+54,José Arroyo,mx MEX,FW,Toluca,19.0,2006.0,0.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+55,Gerardo Arteaga,mx MEX,"DF,MF",Monterrey,26.0,1998.0,24.9,1,13,4,30.8,0.52,0.16,0.08,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+56,Víctor Arteaga,mx MEX,"MF,FW",Toluca,21.0,2004.0,1.7,0,1,0,0.0,0.58,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+57,Ali Ávila,mx MEX,FW,Querétaro,21.0,2003.0,20.0,11,42,19,45.2,2.1,0.95,0.21,0.47,2,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+58,Ettson Ayon,mx MEX,FW,FC Juárez,24.0,2001.0,3.7,2,13,5,38.5,3.49,1.34,0.08,0.2,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+59,Ettson Ayon,mx MEX,FW,León,24.0,2001.0,4.0,0,7,3,42.9,1.75,0.75,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+60,Angel Azuaje,ve VEN,DF,UNAM,20.0,2004.0,15.2,0,5,1,20.0,0.33,0.07,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+61,Tomás Badaloni,ar ARG,FW,Necaxa,25.0,2000.0,23.4,8,68,25,36.8,2.9,1.07,0.12,0.32,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+62,Kevin Balanta,co COL,DF,Santos Laguna,28.0,1997.0,27.1,1,6,1,16.7,0.22,0.04,0.17,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+63,Carlos Baltazar,mx MEX,MF,Puebla,28.0,1997.0,9.4,4,22,12,54.5,2.35,1.28,0.18,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+64,Robson Bambu,br BRA,DF,Atlético San Luis,27.0,1997.0,15.6,0,5,1,20.0,0.32,0.06,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+65,Fidel Barajas,mx MEX,MF,Atlético San Luis,19.0,2006.0,2.0,1,5,2,40.0,2.53,1.01,0.2,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+66,Diego Barbosa,mx MEX,DF,Toluca,28.0,1996.0,19.6,1,16,5,31.3,0.82,0.25,0.06,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+67,Jaine Barreiro,co COL,DF,León,31.0,1994.0,29.9,0,16,4,25.0,0.53,0.13,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+68,Pablo Barrera,mx MEX,"MF,FW",Querétaro,38.0,1987.0,5.9,1,9,4,44.4,1.51,0.67,0.0,0.0,1,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+69,Sergio Barreto,ar ARG,DF,Pachuca,26.0,1999.0,30.9,1,19,3,15.8,0.62,0.1,0.05,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+70,Bruno Barticciotto,cl CHI,FW,Santos Laguna,24.0,2001.0,6.8,2,18,7,38.9,2.64,1.03,0.06,0.14,1,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+71,Alán Bautista,mx MEX,MF,Pachuca,23.0,2002.0,21.5,3,34,10,29.4,1.58,0.47,0.09,0.3,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+72,Paul Bellón,mx MEX,DF,León,28.0,1997.0,8.2,0,3,1,33.3,0.37,0.12,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+73,Fernando Beltrán,mx MEX,MF,León,27.0,1998.0,22.4,3,19,6,31.6,0.85,0.27,0.16,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+74,Anwar Ben Rhouma,us USA,FW,Mazatlán,20.0,2005.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+75,Nicolás Benedetti,co COL,"MF,FW",Mazatlán,28.0,1997.0,11.6,3,16,7,43.8,1.38,0.6,0.13,0.29,1,3,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+76,Pablo Bennevendo Peña,mx MEX,DF,UNAM,25.0,2000.0,21.9,0,6,1,16.7,0.27,0.05,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+77,Jorge Berlanga,mx MEX,DF,Pachuca,22.0,2003.0,6.1,0,1,1,100.0,0.16,0.16,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+78,Germán Berterame,mx MEX,FW,Monterrey,26.0,1998.0,19.1,11,59,32,54.2,3.09,1.68,0.19,0.34,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+79,Unai Bilbao,es ESP,DF,Tijuana,31.0,1994.0,20.1,2,14,5,35.7,0.69,0.25,0.14,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+80,Domingo Blanco,ar ARG,MF,Tijuana,30.0,1995.0,12.1,1,18,4,22.2,1.49,0.33,0.06,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+81,Luis Blanco,mx MEX,MF,Atlas,19.0,2006.0,0.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+82,Rodrigo Bogarín,py PAR,MF,Querétaro,28.0,1997.0,13.6,1,14,5,35.7,1.03,0.37,0.07,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+83,Mateusz Bogusz,pl POL,"MF,FW",Cruz Azul,23.0,2001.0,6.0,1,21,6,28.6,3.53,1.01,0.05,0.17,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+84,Cristian Borja,co COL,DF,América,32.0,1993.0,29.4,0,21,4,19.0,0.71,0.14,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+85,Frank Boya,cm CMR,MF,Tijuana,29.0,1996.0,14.3,6,28,10,35.7,1.96,0.7,0.21,0.6,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+86,Antonio Briseño,mx MEX,DF,Toluca,31.0,1994.0,9.8,2,9,5,55.6,0.92,0.51,0.22,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+87,Isaác Brizuela,mx MEX,"DF,FW",Guadalajara,34.0,1990.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+88,Juan Brunetta,ar ARG,MF,UANL,28.0,1997.0,27.8,15,91,36,39.6,3.28,1.3,0.14,0.36,2,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+89,Ezequiel Bullaude,ar ARG,"MF,FW",Santos Laguna,24.0,2000.0,13.0,5,21,8,38.1,1.62,0.62,0.24,0.63,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+90,Ezequiel Bullaude,ar ARG,"FW,MF",Tijuana,24.0,2000.0,1.0,1,2,1,50.0,1.91,0.96,0.5,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+91,Alvaro Burgos,,DF,Puebla,,,5.0,1,3,3,100.0,0.6,0.6,0.33,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+92,César Bustos,mx MEX,DF,Monterrey,19.0,2005.0,0.7,0,1,0,0.0,1.5,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+93,Sebastián Cáceres,uy URU,DF,América,25.0,1999.0,23.7,0,3,0,0.0,0.13,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+94,Jhonder Cádiz,ve VEN,FW,Pachuca,30.0,1995.0,8.2,2,36,8,22.2,4.39,0.98,0.06,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+95,José Caicedo,co COL,MF,UNAM,23.0,2002.0,13.2,0,6,1,16.7,0.45,0.08,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+96,Cristian Calderón,mx MEX,"DF,MF",Necaxa,28.0,1997.0,21.1,1,23,6,26.1,1.09,0.28,0.04,0.17,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+97,Hugo Camberos,mx MEX,FW,Guadalajara,19.0,2006.0,3.5,2,13,3,23.1,3.67,0.85,0.15,0.67,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+98,Diber Cambindo,co COL,FW,Necaxa,29.0,1996.0,11.9,6,52,16,30.8,4.37,1.35,0.12,0.38,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+99,Diber Cambindo,co COL,FW,León,29.0,1996.0,13.8,8,39,21,53.8,2.82,1.52,0.15,0.29,2,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+100,Diego Campillo,mx MEX,"DF,MF",Guadalajara,23.0,2001.0,25.0,1,9,3,33.3,0.36,0.12,0.11,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+101,Omar Campos,mx MEX,"MF,DF",Cruz Azul,23.0,2002.0,16.1,2,14,6,42.9,0.87,0.37,0.14,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+102,Sergio Canales,es ESP,"MF,FW",Monterrey,34.0,1991.0,23.8,12,76,29,38.2,3.2,1.22,0.13,0.34,2,4,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+103,Alexis Canelo,ar ARG,FW,Puebla,33.0,1992.0,3.1,0,4,1,25.0,1.31,0.33,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+104,Manuel Capasso,ar ARG,DF,Atlas,29.0,1996.0,17.0,2,16,4,25.0,0.94,0.24,0.13,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+105,Michael Carcelen,ec ECU,MF,Querétaro,28.0,1997.0,5.9,0,11,0,0.0,1.86,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+106,Luis Cárdenas,mx MEX,GK,Monterrey,31.0,1993.0,17.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+107,Carlo,es ESP,MF,Querétaro,24.0,2001.0,14.0,0,14,2,14.3,1.0,0.14,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+108,Jan Carmona,mx MEX,MF,FC Juárez,21.0,2004.0,0.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+109,Luis Carmona,mx MEX,DF,FC Juárez,18.0,2007.0,0.4,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+110,Julián Carranza,ar ARG,FW,Necaxa,25.0,2000.0,3.4,3,9,4,44.4,2.66,1.18,0.22,0.5,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+111,Adalberto Carrasquilla,pa PAN,MF,UNAM,26.0,1998.0,26.9,2,27,9,33.3,1.0,0.33,0.07,0.22,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+112,Jordan Carrillo,mx MEX,MF,UNAM,23.0,2001.0,10.8,3,25,8,32.0,2.32,0.74,0.12,0.38,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+113,Jordan Carrillo,mx MEX,"MF,FW",Santos Laguna,23.0,2001.0,4.0,0,5,3,60.0,1.25,0.75,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+114,Luis Carrillo,mx MEX,DF,Mazatlán,20.0,2005.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+115,Guilherme Carvalho,br BRA,MF,FC Juárez,25.0,1999.0,17.3,7,36,14,38.9,2.08,0.81,0.17,0.43,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+116,William Carvalho,pt POR,MF,Pachuca,33.0,1992.0,2.7,0,3,0,0.0,1.1,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+117,Kevin Castañeda,mx MEX,"MF,FW",Tijuana,25.0,1999.0,30.0,12,88,34,38.6,2.94,1.13,0.08,0.21,5,6,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+118,Christian Castillo,mx MEX,FW,Tijuana,22.0,2003.0,0.7,0,1,0,0.0,1.36,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+119,José Castillo Pérez,mx MEX,DF,Guadalajara,23.0,2001.0,25.5,1,11,2,18.2,0.43,0.08,0.09,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+120,Raúl Castillo,mx MEX,FW,Puebla,24.0,2001.0,4.3,0,12,4,33.3,2.82,0.94,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+121,Ariel Castro,mx MEX,MF,Cruz Azul,20.0,2005.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+122,Christopher Castro,mx MEX,DF,Mazatlán,20.0,2005.0,0.3,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+123,Nicolás Castro,ar ARG,MF,Toluca,24.0,2000.0,20.3,5,65,22,33.8,3.19,1.08,0.08,0.23,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+124,Lucas Cavallini,ca CAN,FW,Puebla,32.0,1992.0,0.3,0,1,0,0.0,3.21,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+125,Juan Cázares,mx MEX,"MF,FW",Querétaro,20.0,2005.0,4.2,0,6,0,0.0,1.41,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+126,Nelson Cedillo,mx MEX,MF,Santos Laguna,18.0,2007.0,1.5,0,1,0,0.0,0.65,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+127,Alan Cervantes,mx MEX,MF,América,27.0,1998.0,7.2,1,4,2,50.0,0.56,0.28,0.25,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+128,Ángel Chávez,mx MEX,DF,Guadalajara,20.0,2005.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+129,Ricardo Chávez Soto,mx MEX,"DF,MF",Monterrey,30.0,1994.0,22.4,2,21,6,28.6,0.94,0.27,0.1,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+130,Ronaldo Cisneros,mx MEX,FW,Querétaro,28.0,1997.0,1.5,0,1,0,0.0,0.67,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+131,Matías Cóccaro,uy URU,FW,Atlas,27.0,1997.0,2.5,1,6,2,33.3,2.38,0.79,0.17,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+132,Bryan Colula,mx MEX,"DF,MF",Mazatlán,29.0,1996.0,13.9,2,9,4,44.4,0.65,0.29,0.22,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+133,Bryan Colula,mx MEX,DF,León,29.0,1996.0,7.9,1,6,3,50.0,0.76,0.38,0.17,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+134,Ari Contreras,mx MEX,DF,Pachuca,19.0,2005.0,0.7,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+135,Jesús Corona,mx MEX,"MF,FW",Monterrey,32.0,1993.0,16.6,4,23,9,39.1,1.39,0.54,0.17,0.44,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+136,Joe Corona,us USA,MF,Tijuana,35.0,1990.0,0.8,0,1,0,0.0,1.2,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+137,José Corona,mx MEX,GK,Tijuana,44.0,1981.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+138,Mateo Coronel,ar ARG,"FW,MF",Querétaro,26.0,1998.0,18.1,5,45,21,46.7,2.49,1.16,0.11,0.24,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+139,Ángel Correa,ar ARG,"MF,FW",UANL,30.0,1995.0,30.4,14,105,53,50.5,3.45,1.74,0.12,0.25,1,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+140,Jafet Cortés,mx MEX,DF,Puebla,20.0,2005.0,0.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+141,Rogelio Cortéz Pineda,mx MEX,"MF,FW",Necaxa,21.0,2004.0,3.8,0,7,1,14.3,1.83,0.26,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+142,Jordi Cortizo,mx MEX,MF,Monterrey,29.0,1996.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+143,Jordi Cortizo,mx MEX,MF,León,29.0,1996.0,9.9,0,22,1,4.5,2.23,0.1,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+144,Rodolfo Cota,mx MEX,GK,América,38.0,1987.0,10.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+145,Cade Cowell,us USA,FW,Guadalajara,21.0,2003.0,5.5,1,11,3,27.3,2.01,0.55,0.09,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+146,Aldo Cruz,mx MEX,DF,Atlético San Luis,27.0,1997.0,9.4,0,5,0,0.0,0.53,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+147,Cristián Dajome,co COL,"MF,FW",Santos Laguna,31.0,1994.0,15.8,5,26,10,38.5,1.64,0.63,0.19,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+148,Jesús David Murillo,co COL,DF,FC Juárez,31.0,1994.0,21.2,1,9,4,44.4,0.42,0.19,0.11,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+149,José David Ramírez,mx MEX,"DF,MF",León,29.0,1995.0,8.3,0,3,2,66.7,0.36,0.24,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+150,Víctor Dávila,cl CHI,"FW,MF",América,27.0,1997.0,7.3,3,22,9,40.9,3.0,1.23,0.14,0.33,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+151,Diego De Buen,mx MEX,"MF,DF",Necaxa,34.0,1991.0,11.0,1,16,8,50.0,1.46,0.73,0.06,0.13,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+152,Gustavo Del Prete,ar ARG,"MF,FW",Atlas,29.0,1996.0,4.6,2,5,3,60.0,1.09,0.66,0.4,0.67,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+153,Everardo Del Villar,mx MEX,DF,Toluca,20.0,2005.0,18.0,1,6,3,50.0,0.33,0.17,0.17,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+154,Lucas Di Yorio,ar ARG,FW,Santos Laguna,28.0,1996.0,13.4,6,47,22,46.8,3.52,1.65,0.09,0.18,2,3,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+155,Nicolás Díaz Huincales,cl CHI,"DF,MF",Puebla,26.0,1999.0,28.0,0,13,3,23.1,0.47,0.11,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+156,Ismael Díaz,pa PAN,"MF,FW",León,28.0,1997.0,21.4,10,57,23,40.4,2.66,1.07,0.16,0.39,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+157,Jair Díaz,mx MEX,DF,Mazatlán,26.0,1998.0,18.3,0,12,2,16.7,0.66,0.11,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+158,Josué Díaz,mx MEX,DF,Cruz Azul,20.0,2004.0,0.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+159,Willer Ditta,co COL,DF,Cruz Azul,27.0,1998.0,32.2,0,19,5,26.3,0.59,0.16,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+160,Alexei Dominguez,mx MEX,"MF,FW",Pachuca,20.0,2005.0,15.9,2,25,8,32.0,1.57,0.5,0.08,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+161,Juan Domínguez,mx MEX,"FW,MF",León,26.0,1998.0,9.0,1,16,5,31.3,1.77,0.55,0.06,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+162,Juan Domínguez,mx MEX,"MF,FW",Toluca,26.0,1998.0,5.0,1,16,5,31.3,3.18,0.99,0.06,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+163,Julio Domínguez,mx MEX,DF,Atlético San Luis,37.0,1987.0,3.0,0,1,0,0.0,0.34,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+164,Dória,br BRA,DF,Atlas,30.0,1994.0,12.4,1,4,1,25.0,0.32,0.08,0.25,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+165,Jonathan dos Santos,mx MEX,MF,América,35.0,1990.0,11.4,0,7,2,28.6,0.61,0.18,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+166,Rodrigo Dourado,br BRA,MF,América,31.0,1994.0,12.2,0,6,2,33.3,0.49,0.16,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+167,Rodrigo Dourado,br BRA,MF,Atlético San Luis,31.0,1994.0,11.9,0,12,4,33.3,1.01,0.34,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+168,Anderson Duarte,uy URU,"MF,FW",Atlético San Luis,21.0,2004.0,3.9,0,3,0,0.0,0.77,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+169,Anderson Duarte,uy URU,"FW,MF",Mazatlán,21.0,2004.0,7.6,2,22,5,22.7,2.91,0.66,0.09,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+170,Bayron Duarte,co COL,DF,Querétaro,22.0,2003.0,8.0,0,7,1,14.3,0.87,0.12,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+171,Rubén Duarte,es ESP,DF,UNAM,29.0,1995.0,22.8,2,18,3,16.7,0.79,0.13,0.11,0.67,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+172,Dudu,br BRA,"MF,FW",Mazatlán,25.0,1999.0,18.8,1,22,6,27.3,1.17,0.32,0.05,0.17,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+173,Emmanuel Echeverría,mx MEX,DF,Santos Laguna,21.0,2003.0,16.7,1,6,3,50.0,0.36,0.18,0.17,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+174,Rodrigo Echeverría,cl CHI,"MF,DF",León,30.0,1995.0,32.0,0,37,6,16.2,1.15,0.19,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+175,Juan Echilvestre,mx MEX,DF,Santos Laguna,18.0,2007.0,0.6,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+176,Javier Eduardo López,mx MEX,MF,Pachuca,30.0,1994.0,0.9,0,2,0,0.0,2.12,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+177,Francisco Eduardo Venegas,mx MEX,"DF,MF",Querétaro,27.0,1998.0,20.9,0,16,5,31.3,0.77,0.24,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+178,Luis Enrique Quiñones,co COL,MF,Pachuca,34.0,1991.0,17.6,2,40,10,25.0,2.27,0.57,0.05,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+179,Carlos Ernesto Cisneros,mx MEX,MF,León,31.0,1993.0,0.9,0,2,1,50.0,2.14,1.07,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+180,Kevin Escamilla,mx MEX,MF,Tijuana,31.0,1994.0,2.0,0,2,0,0.0,0.98,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+181,Kevin Escamilla,mx MEX,"MF,DF",Querétaro,31.0,1994.0,4.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+182,Thiago Espinosa,uy URU,DF,América,20.0,2004.0,1.0,0,1,0,0.0,1.05,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+183,Dagoberto Espinoza,mx MEX,"DF,MF",América,21.0,2004.0,5.6,1,1,1,100.0,0.18,0.18,1.0,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+184,Lucas Esteves,br BRA,"DF,MF",Atlético San Luis,25.0,2000.0,7.3,0,6,1,16.7,0.83,0.14,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+185,Ángel Estrada,mx MEX,MF,León,22.0,2003.0,3.7,0,5,0,0.0,1.36,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+186,Jaime Estrada,mx MEX,FW,Mazatlán,18.0,2007.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+187,Jose Estrada,mx MEX,FW,Toluca,18.0,2007.0,0.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+188,Oscar Estupiñan,co COL,FW,FC Juárez,28.0,1996.0,22.8,14,51,22,43.1,2.24,0.97,0.12,0.27,8,8,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+189,José Eulogio,mx MEX,GK,Pachuca,21.0,2004.0,1.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+190,Fábio,br BRA,FW,Mazatlán,28.0,1997.0,17.3,4,30,10,33.3,1.73,0.58,0.1,0.3,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+191,Kevin Facundo Gutiérrez,ar ARG,MF,Necaxa,28.0,1997.0,9.5,0,10,1,10.0,1.06,0.11,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+192,Franco Fagúndez,uy URU,MF,Santos Laguna,25.0,2000.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+193,Lorenzo Faravelli,ar ARG,MF,Cruz Azul,32.0,1993.0,7.2,0,7,2,28.6,0.97,0.28,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+194,Lorenzo Faravelli,ar ARG,MF,Necaxa,32.0,1993.0,15.0,0,15,4,26.7,1.0,0.27,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+195,Marco Farfan,us USA,DF,UANL,26.0,1998.0,10.0,1,5,1,20.0,0.5,0.1,0.2,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+196,Juan Fedorco,ar ARG,DF,Puebla,24.0,2000.0,10.2,0,6,1,16.7,0.59,0.1,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+197,Gabriel Fernández,uy URU,FW,Cruz Azul,31.0,1994.0,20.1,12,66,27,40.9,3.28,1.34,0.15,0.37,2,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+198,Rafael Fernández,mx MEX,DF,Tijuana,24.0,2000.0,29.2,1,10,2,20.0,0.34,0.07,0.1,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+199,Gustavo Ferrareis,br BRA,"DF,MF",Atlas,29.0,1996.0,29.1,0,23,9,39.1,0.79,0.31,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+200,Álvaro Fidalgo,mx MEX,MF,América,28.0,1997.0,15.1,1,12,3,25.0,0.8,0.2,0.08,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+201,Sebastián Fierro,mx MEX,MF,Mazatlán,23.0,2001.0,3.9,0,2,0,0.0,0.51,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+202,Iker Fimbres,mx MEX,MF,Monterrey,20.0,2005.0,10.0,2,18,7,38.9,1.8,0.7,0.11,0.29,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+203,Leonardo Flores,mx MEX,"MF,FW",Atlético San Luis,22.0,2003.0,5.5,1,18,7,38.9,3.29,1.28,0.06,0.14,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+204,Marcelo Flores,ca CAN,MF,UANL,21.0,2003.0,10.5,4,20,10,50.0,1.91,0.95,0.2,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+205,Nicolas Fonseca,uy URU,MF,León,26.0,1998.0,12.6,0,10,1,10.0,0.79,0.08,0.0,0.0,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+206,Alexis Francisco Peña,mx MEX,DF,Necaxa,29.0,1996.0,25.5,2,7,2,28.6,0.27,0.08,0.29,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+207,Adonis Frías,ar ARG,DF,León,27.0,1998.0,4.1,0,6,1,16.7,1.46,0.24,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+208,Raymundo Fulgencio,mx MEX,"MF,FW",FC Juárez,25.0,2000.0,8.1,1,6,1,16.7,0.74,0.12,0.17,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+209,Rogelio Funes Mori,mx MEX,FW,León,34.0,1991.0,7.9,1,18,8,44.4,2.28,1.02,0.06,0.13,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+210,Eduardo Gabriel,br BRA,DF,Pachuca,29.0,1996.0,32.0,0,9,2,22.2,0.28,0.06,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+211,Benjamín Galdames,mx MEX,MF,Atlético San Luis,24.0,2001.0,16.7,3,18,4,22.2,1.07,0.24,0.17,0.75,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+212,Benjamín Galindo Jr.,mx MEX,DF,Atlético San Luis,26.0,1999.0,11.9,0,2,0,0.0,0.17,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+213,Jesús Gallardo,mx MEX,"DF,MF",Toluca,30.0,1994.0,24.0,5,37,12,32.4,1.54,0.5,0.11,0.33,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+214,Omar Gálvez,mx MEX,MF,Monterrey,19.0,2006.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+215,Ariel Gamarra,py PAR,MF,Puebla,22.0,2003.0,12.5,0,9,2,22.2,0.72,0.16,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+216,Luis Gamboa,mx MEX,FW,Atlas,16.0,2008.0,1.8,0,4,1,25.0,2.28,0.57,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+217,Amaury García,mx MEX,"DF,MF",Cruz Azul,23.0,2001.0,6.6,0,7,2,28.6,1.06,0.3,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+218,Brian García,mx MEX,DF,Pachuca,27.0,1997.0,26.5,1,13,2,15.4,0.49,0.08,0.08,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+219,Denzell García,mx MEX,"MF,DF",FC Juárez,21.0,2003.0,31.7,3,34,10,29.4,1.07,0.32,0.09,0.3,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+220,Gael García,mx MEX,MF,León,21.0,2004.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+221,Jordan García,co COL,GK,León,20.0,2005.0,3.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+222,Jorge García,mx MEX,MF,Mazatlán,23.0,2002.0,1.9,0,1,0,0.0,0.52,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+223,José García,mx MEX,DF,FC Juárez,29.0,1996.0,18.6,0,15,0,0.0,0.81,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+224,Luan Garcia,br BRA,DF,Toluca,32.0,1993.0,4.3,0,4,1,25.0,0.92,0.23,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+225,Mateo García,ar ARG,MF,Atlas,28.0,1996.0,11.6,3,13,7,53.8,1.13,0.61,0.23,0.43,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+226,Miguel Garcia,mx MEX,MF,Atlético San Luis,23.0,2001.0,18.3,1,21,7,33.3,1.15,0.38,0.05,0.14,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+227,Oscar Garcia,mx MEX,GK,León,22.0,2003.0,28.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+228,Stanley García,mx MEX,MF,UNAM,18.0,2006.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+229,Bryan Garnica,mx MEX,"MF,DF",Puebla,29.0,1996.0,4.8,1,5,2,40.0,1.05,0.42,0.2,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+230,César Garza,mx MEX,MF,UNAM,20.0,2005.0,5.8,0,2,0,0.0,0.34,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+231,Jesús Garza,mx MEX,DF,UANL,25.0,2000.0,24.3,0,8,0,0.0,0.33,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+232,Valentín Gauthier,uy URU,DF,León,21.0,2003.0,12.4,0,5,0,0.0,0.4,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+233,Mourad El Ghezouani,ma MAR,FW,Tijuana,27.0,1998.0,17.2,3,22,5,22.7,1.28,0.29,0.14,0.6,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+234,André-Pierre Gignac,fr FRA,FW,UANL,39.0,1985.0,10.0,3,48,11,22.9,4.79,1.1,0.04,0.18,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+235,Said Godínez,mx MEX,MF,Mazatlán,20.0,2004.0,10.9,0,6,0,0.0,0.55,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+236,Alejandro Gómez,mx MEX,"DF,MF",Tijuana,23.0,2002.0,24.3,2,13,6,46.2,0.53,0.25,0.15,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+237,Diego Gómez,mx MEX,MF,Necaxa,21.0,2003.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+238,Emiliano Gómez,uy URU,"MF,FW",Puebla,23.0,2001.0,27.6,8,61,22,36.1,2.21,0.8,0.13,0.36,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+239,Luis Gómez,mx MEX,MF,Santos Laguna,18.0,2007.0,3.5,0,6,2,33.3,1.7,0.57,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+240,Miguel Gómez,mx MEX,"DF,MF",Guadalajara,22.0,2002.0,6.2,0,4,0,0.0,0.65,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+241,Jaime Gómez Valencia,mx MEX,"DF,MF",Querétaro,32.0,1993.0,17.7,0,4,0,0.0,0.23,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+242,Alfonso González,mx MEX,"MF,FW",Atlas,30.0,1994.0,14.7,6,29,10,34.5,1.97,0.68,0.14,0.4,2,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+243,Alfonso González,mx MEX,MF,Monterrey,30.0,1994.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+244,Armando González,mx MEX,FW,Guadalajara,22.0,2003.0,26.5,24,101,48,47.5,3.82,1.81,0.2,0.42,4,5,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+245,Bryan González,mx MEX,"MF,DF",Guadalajara,22.0,2003.0,32.3,5,50,14,28.0,1.55,0.43,0.1,0.36,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+246,Diego González,py PAR,"MF,FW",Atlas,22.0,2003.0,27.9,6,70,23,32.9,2.5,0.82,0.06,0.17,2,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+247,Hugo González Durán,mx MEX,GK,Toluca,34.0,1990.0,18.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+248,Fernando González,mx MEX,MF,Querétaro,24.0,2001.0,5.2,0,12,2,16.7,2.3,0.38,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+249,Iván González,mx MEX,"DF,MF",Mazatlán,18.0,2006.0,4.9,0,2,1,50.0,0.41,0.21,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+250,Joban González,mx MEX,MF,Tijuana,20.0,2005.0,0.5,0,1,0,0.0,1.96,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+251,Jonathan González,mx MEX,MF,FC Juárez,26.0,1999.0,0.9,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+252,José González,mx MEX,FW,Atlético San Luis,26.0,1998.0,0.1,0,1,0,0.0,10.0,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+253,Owen González,mx MEX,"MF,FW",Puebla,22.0,2003.0,8.8,1,19,11,57.9,2.17,1.25,0.05,0.09,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+254,Rogelio González,mx MEX,MF,Cruz Azul,20.0,2005.0,0.1,0,1,0,0.0,12.86,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+255,Fernando Gorriarán,uy URU,MF,UANL,30.0,1994.0,23.7,0,29,6,20.7,1.22,0.25,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+256,Omar Govea,mx MEX,MF,Guadalajara,29.0,1996.0,19.6,1,12,3,25.0,0.61,0.15,0.08,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+257,Carlos Gruezo,ec ECU,MF,Santos Laguna,30.0,1995.0,9.0,1,5,1,20.0,0.56,0.11,0.2,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+258,Andrés Gudiño,mx MEX,GK,Cruz Azul,28.0,1997.0,14.5,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+259,Javier Güemez,mx MEX,MF,Santos Laguna,33.0,1991.0,26.4,0,21,6,28.6,0.8,0.23,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+260,Edgar Guerra,co COL,"MF,FW",Puebla,24.0,2001.0,18.1,4,49,20,40.8,2.71,1.11,0.08,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+261,Rafael Guerrero,mx MEX,DF,UANL,22.0,2003.0,2.4,0,1,0,0.0,0.42,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+262,Daniel Guillén,mx MEX,FW,Atlético San Luis,23.0,2001.0,0.7,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+263,Alexis Gutiérrez,mx MEX,MF,América,25.0,2000.0,11.7,1,13,3,23.1,1.11,0.26,0.08,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+264,Brian Gutiérrez,mx MEX,MF,Guadalajara,22.0,2003.0,10.2,2,29,9,31.0,2.85,0.89,0.07,0.22,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+265,Edson Gutiérrez,mx MEX,DF,Santos Laguna,29.0,1996.0,3.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+266,Erick Gutiérrez,mx MEX,MF,Guadalajara,30.0,1995.0,7.3,0,9,0,0.0,1.23,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+267,Ricardo Gutiérrez,mx MEX,GK,Puebla,28.0,1997.0,17.0,0,1,0,0.0,0.06,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+268,Ricardo Gutiérrez,mx MEX,GK,Mazatlán,28.0,1997.0,17.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+269,Nahuel Guzmán,ar ARG,GK,UANL,39.0,1986.0,34.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+270,Víctor Guzmán,mx MEX,DF,Monterrey,23.0,2002.0,20.5,1,8,3,37.5,0.39,0.15,0.13,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+271,Víctor Guzmán,mx MEX,MF,Pachuca,30.0,1995.0,16.5,5,40,15,37.5,2.43,0.91,0.13,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+272,Helinho,br BRA,"MF,FW",Toluca,25.0,2000.0,9.7,7,46,15,32.6,4.75,1.55,0.09,0.27,3,3,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+273,Cristóbal Hernández,mx MEX,FW,Pachuca,17.0,2007.0,0.4,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+274,Fernando Hernández,mx MEX,MF,León,18.0,2006.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+275,Illian Hernandez,mx MEX,FW,Pachuca,25.0,2000.0,2.5,0,9,7,77.8,3.54,2.75,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+276,Javier Hernández,mx MEX,FW,Guadalajara,37.0,1988.0,1.3,1,7,1,14.3,5.38,0.77,0.14,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+277,Jesús Hernández,mx MEX,FW,Querétaro,21.0,2004.0,1.7,0,1,0,0.0,0.6,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+278,Jesús Hernández,mx MEX,"MF,FW",Mazatlán,23.0,2001.0,10.3,1,11,1,9.1,1.07,0.1,0.09,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+279,Sebastián Hernández,mx MEX,DF,Querétaro,21.0,2004.0,0.5,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+280,Sergio Hernandez,mx MEX,"MF,DF",Atlas,21.0,2004.0,18.9,0,17,4,23.5,0.9,0.21,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+281,Alberto Herrera,mx MEX,"MF,DF",Mazatlán,24.0,2001.0,3.1,1,1,1,100.0,0.32,0.32,1.0,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+282,Héctor Herrera,mx MEX,MF,Toluca,35.0,1990.0,3.7,1,10,3,30.0,2.69,0.81,0.1,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+283,Ozziel Herrera,mx MEX,MF,UANL,24.0,2001.0,17.3,6,51,19,37.3,2.95,1.1,0.12,0.32,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+284,Héctor Holguín,mx MEX,GK,Santos Laguna,24.0,2001.0,2.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+285,Santiago Homenchenko,uy URU,"MF,DF",Querétaro,21.0,2003.0,27.1,6,59,22,37.3,2.18,0.81,0.05,0.14,3,3,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+286,Nicolás Ibáñez,ar ARG,FW,UANL,30.0,1994.0,6.5,3,19,7,36.8,2.93,1.08,0.16,0.43,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+287,Nicolás Ibáñez,ar ARG,FW,Cruz Azul,30.0,1994.0,5.5,2,22,8,36.4,4.03,1.47,0.09,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+288,Oussama Idrissi,ma MAR,"MF,FW",Pachuca,29.0,1996.0,17.8,5,23,10,43.5,1.29,0.56,0.17,0.4,1,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+289,Cristian Inda,mx MEX,MF,Guadalajara,17.0,2007.0,0.1,1,1,1,100.0,12.86,12.86,1.0,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+290,Jefferson Intriago,ec ECU,MF,Mazatlán,29.0,1996.0,0.7,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+291,Mauricio Isais,mx MEX,"DF,MF",Toluca,24.0,2001.0,7.4,0,6,2,33.3,0.81,0.27,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+292,Omar Israel Mendoza,mx MEX,DF,Querétaro,36.0,1988.0,10.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+293,José Iván Rodríguez,mx MEX,MF,Necaxa,29.0,1996.0,14.3,0,3,2,66.7,0.21,0.14,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+294,José Iván Rodríguez,mx MEX,MF,León,29.0,1996.0,12.9,0,2,0,0.0,0.16,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+295,Tomás Jacob,ar ARG,"DF,MF",Necaxa,21.0,2004.0,11.9,1,4,1,25.0,0.34,0.08,0.25,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+296,Oscar Jiménez,mx MEX,GK,León,36.0,1988.0,3.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+297,Tahiel Jiménez,mx MEX,FW,Santos Laguna,19.0,2006.0,1.7,0,4,2,50.0,2.32,1.16,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+298,Joaquim,br BRA,DF,UANL,26.0,1998.0,22.1,2,23,7,30.4,1.04,0.32,0.09,0.29,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+299,José Joaquín Esquivel,mx MEX,"MF,DF",Mazatlán,27.0,1998.0,14.6,1,11,4,36.4,0.75,0.27,0.09,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+300,Julio José González,mx MEX,GK,Puebla,34.0,1991.0,10.5,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+301,Juan José Sánchez,mx MEX,DF,UANL,27.0,1998.0,12.1,0,8,2,25.0,0.66,0.16,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+302,José Juan Macías,mx MEX,FW,UNAM,25.0,1999.0,3.7,4,12,7,58.3,3.27,1.91,0.17,0.29,2,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+303,Juanpe,es ESP,DF,Atlético San Luis,34.0,1991.0,21.5,0,5,0,0.0,0.23,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+304,Ramón Juárez,mx MEX,DF,América,24.0,2001.0,17.4,2,20,7,35.0,1.15,0.4,0.1,0.29,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+305,Jhojan Julio,ec ECU,MF,Querétaro,27.0,1998.0,17.0,4,19,8,42.1,1.12,0.47,0.21,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+306,Juninho,br BRA,FW,UNAM,28.0,1996.0,10.9,7,28,11,39.3,2.57,1.01,0.14,0.36,3,3,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+307,Sebastián Jurado,mx MEX,GK,FC Juárez,27.0,1997.0,34.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+308,Kenedy,br BRA,MF,Pachuca,29.0,1996.0,17.8,6,58,18,31.0,3.26,1.01,0.1,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+309,Mateo Klimowicz,de GER,"MF,FW",Atlético San Luis,25.0,2000.0,4.3,0,9,4,44.4,2.07,0.92,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+310,Roberto de la Rosa,mx MEX,"FW,MF",Monterrey,25.0,2000.0,6.8,1,25,8,32.0,3.68,1.18,0.04,0.13,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+311,Diego Lainez,mx MEX,MF,UANL,25.0,2000.0,25.1,7,44,19,43.2,1.75,0.76,0.16,0.37,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+312,Mauro Laínez,mx MEX,"DF,MF",Mazatlán,29.0,1996.0,11.4,0,3,1,33.3,0.26,0.09,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+313,Gibran Lajud,mx MEX,GK,Atlético San Luis,31.0,1993.0,1.7,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+314,Emilio Lara,mx MEX,DF,Necaxa,23.0,2002.0,11.8,0,5,3,60.0,0.42,0.25,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+315,Pablo Lara,mx MEX,GK,UNAM,20.0,2005.0,1.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+316,Richy Ledezma,mx MEX,"MF,DF",Guadalajara,24.0,2000.0,20.3,1,28,9,32.1,1.38,0.44,0.04,0.11,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+317,Antonio Leone,mx MEX,DF,UNAM,21.0,2004.0,1.6,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+318,Antonio Leone,mx MEX,DF,Monterrey,21.0,2004.0,0.3,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+319,Mateo Levy,mx MEX,FW,Cruz Azul,18.0,2006.0,2.3,0,9,2,22.2,3.97,0.88,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+320,Ángel Leyva,mx MEX,DF,Mazatlán,18.0,2006.0,10.5,0,8,1,12.5,0.76,0.1,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+321,Danny Leyva,us USA,MF,Necaxa,22.0,2003.0,15.0,0,8,4,50.0,0.53,0.27,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+322,Igor Lichnovsky,cl CHI,DF,América,31.0,1994.0,5.3,1,4,1,25.0,0.76,0.19,0.25,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+323,Lima,br BRA,MF,América,29.0,1996.0,3.6,1,12,3,25.0,3.32,0.83,0.08,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+324,Erik Lira,mx MEX,"DF,MF",Cruz Azul,25.0,2000.0,29.3,0,13,4,30.8,0.44,0.14,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+325,Aldo López,mx MEX,MF,Santos Laguna,25.0,2000.0,22.4,4,33,15,45.5,1.47,0.67,0.12,0.27,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+326,Eder López,mx MEX,DF,FC Juárez,19.0,2006.0,3.7,0,2,0,0.0,0.54,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+327,Edgar López,mx MEX,"FW,MF",UANL,26.0,1999.0,4.8,1,6,5,83.3,1.26,1.05,0.17,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+328,Gabriel López,mx MEX,FW,Mazatlán,22.0,2003.0,2.2,2,9,5,55.6,4.13,2.3,0.22,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+329,René López,mx MEX,DF,Pachuca,23.0,2002.0,2.2,0,1,0,0.0,0.46,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+330,Rodrigo López,mx MEX,"DF,MF",UNAM,23.0,2001.0,20.0,1,21,4,19.0,1.05,0.2,0.05,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+331,Santiago López,ca CAN,FW,UNAM,20.0,2005.0,2.6,0,2,0,0.0,0.77,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+332,Vladimir Loroña,mx MEX,DF,UANL,26.0,1998.0,8.5,0,5,0,0.0,0.59,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+333,João Lourenço,br BRA,MF,Atlético San Luis,20.0,2005.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+334,Anthony Lozano,hn HON,FW,Santos Laguna,32.0,1993.0,2.6,0,4,1,25.0,1.57,0.39,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+335,Esteban Lozano,mx MEX,FW,Puebla,22.0,2003.0,16.9,3,44,10,22.7,2.6,0.59,0.07,0.3,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+336,José Lozano,mx MEX,"DF,MF",Atlas,26.0,1998.0,7.7,1,6,1,16.7,0.78,0.13,0.17,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+337,José Luis Rodríguez,pa PAN,MF,FC Juárez,27.0,1998.0,29.1,3,48,17,35.4,1.65,0.58,0.06,0.18,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+338,Israel Luna,mx MEX,MF,Pachuca,23.0,2002.0,2.0,0,1,0,0.0,0.49,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+339,Oscar Macías,mx MEX,MF,Atlético San Luis,27.0,1998.0,20.6,1,19,3,15.8,0.92,0.15,0.05,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+340,Waldo Madrid,mx MEX,MF,Querétaro,21.0,2003.0,2.1,0,5,1,20.0,2.33,0.47,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+341,Madson,br BRA,MF,FC Juárez,25.0,1999.0,14.8,3,34,13,38.2,2.29,0.88,0.09,0.23,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+342,Ignacio Maestro Puch,ar ARG,FW,Puebla,21.0,2003.0,0.7,0,3,0,0.0,4.35,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+343,Luis Manuel García,mx MEX,GK,Toluca,32.0,1992.0,16.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+344,Juan Manuel Sanabria,uy URU,"DF,MF",Atlético San Luis,25.0,2000.0,19.0,2,12,6,50.0,0.63,0.32,0.17,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+345,Óscar Manzanarez,mx MEX,DF,Querétaro,30.0,1995.0,5.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+346,Jahaziel Marchand,mx MEX,MF,Atlético San Luis,23.0,2001.0,0.6,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+347,Ricardo Marín,mx MEX,"FW,MF",Puebla,27.0,1998.0,9.6,4,15,8,53.3,1.57,0.84,0.27,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+348,Ricardo Marín,mx MEX,FW,Guadalajara,27.0,1998.0,4.1,2,13,6,46.2,3.15,1.46,0.15,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+349,Salvador Mariscal,mx MEX,MF,Santos Laguna,22.0,2003.0,11.8,0,7,0,0.0,0.59,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+350,Jeremy Márquez,mx MEX,"MF,DF",Cruz Azul,25.0,2000.0,18.1,4,32,13,40.6,1.77,0.72,0.13,0.31,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+351,Anthony Martial,fr FRA,"MF,FW",Monterrey,29.0,1995.0,6.0,1,9,2,22.2,1.49,0.33,0.11,0.5,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+352,Henry Martín,mx MEX,FW,América,32.0,1992.0,4.2,0,11,3,27.3,2.63,0.72,0.0,0.0,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+353,Guillermo Martínez Ayala,mx MEX,FW,UNAM,30.0,1995.0,15.0,9,44,17,38.6,2.94,1.14,0.16,0.41,2,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+354,Diego Martínez,mx MEX,FW,FC Juárez,21.0,2004.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+355,Emilio Martínez González,mx MEX,DF,Necaxa,22.0,2003.0,1.9,0,1,0,0.0,0.52,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+356,Homer Martínez,co COL,MF,FC Juárez,27.0,1997.0,19.5,0,17,5,29.4,0.87,0.26,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+357,Josef Martínez,ve VEN,FW,Tijuana,32.0,1993.0,2.8,1,3,1,33.3,1.08,0.36,0.0,0.0,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+358,Luca Martínez,mx MEX,FW,FC Juárez,24.0,2001.0,5.4,0,28,8,28.6,5.16,1.48,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+359,Raúl Martínez,mx MEX,DF,Necaxa,22.0,2003.0,12.7,0,6,1,16.7,0.47,0.08,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+360,Alejandro Mayorga,mx MEX,DF,FC Juárez,28.0,1997.0,29.3,0,13,3,23.1,0.44,0.1,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+361,Alan Medina,mx MEX,MF,Querétaro,27.0,1997.0,0.8,0,1,1,100.0,1.18,1.18,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+362,Alan Medina,mx MEX,MF,UNAM,27.0,1997.0,20.0,4,23,9,39.1,1.15,0.45,0.17,0.44,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+363,Diego Medina,mx MEX,MF,Santos Laguna,24.0,2001.0,2.6,0,2,1,50.0,0.76,0.38,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+364,Jesús Medina,py PAR,"MF,FW",Atlético San Luis,28.0,1997.0,8.0,1,17,4,23.5,2.12,0.5,0.06,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+365,Stefan Medina,co COL,DF,Monterrey,33.0,1992.0,19.0,0,4,2,50.0,0.21,0.11,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+366,Aaron Mejía Montoya,mx MEX,DF,Tijuana,24.0,2001.0,2.4,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+367,Aaron Mejía Montoya,mx MEX,DF,América,24.0,2001.0,3.6,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+368,Santiago Mele,uy URU,GK,Monterrey,27.0,1997.0,17.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+369,Bruno Méndez,uy URU,DF,Toluca,25.0,1999.0,20.2,1,10,2,20.0,0.5,0.1,0.1,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+370,Daniel Mendez,gt GUA,FW,Pachuca,19.0,2005.0,0.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+371,Francisco Méndez,mx MEX,DF,Necaxa,20.0,2005.0,2.3,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+372,Jaziel Mendoza,mx MEX,DF,Cruz Azul,20.0,2005.0,0.7,0,1,0,0.0,1.53,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+373,Roberto Meraz,mx MEX,MF,Atlético San Luis,25.0,1999.0,7.2,0,3,0,0.0,0.42,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+374,Roberto Meraz,mx MEX,MF,Mazatlán,25.0,1999.0,6.0,1,4,2,50.0,0.67,0.34,0.25,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+375,Lucas Merolla,ar ARG,DF,Mazatlán,30.0,1995.0,20.6,0,14,1,7.1,0.68,0.05,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+376,Bruce El-Mesmari,mx MEX,MF,Querétaro,23.0,2002.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+377,Kevin Mier,co COL,GK,Cruz Azul,25.0,2000.0,19.5,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+378,Fernando Monárrez,mx MEX,"DF,MF",Puebla,26.0,1999.0,18.9,1,15,5,33.3,0.8,0.27,0.0,0.0,1,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+379,Monchu,es ESP,MF,FC Juárez,25.0,1999.0,9.6,1,10,3,30.0,1.04,0.31,0.1,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+380,Ricardo Monreal,mx MEX,"MF,FW",Necaxa,24.0,2001.0,19.6,4,43,12,27.9,2.2,0.61,0.07,0.25,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+381,Pablo Monroy,mx MEX,"MF,FW",UNAM,23.0,2002.0,2.4,0,2,1,50.0,0.83,0.41,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+382,Andres Montaño,mx MEX,MF,Cruz Azul,23.0,2002.0,2.1,2,9,5,55.6,4.33,2.41,0.22,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+383,Elias Montiel,mx MEX,MF,Pachuca,19.0,2005.0,13.5,2,24,11,45.8,1.77,0.81,0.08,0.18,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+384,Adrián Mora,mx MEX,DF,Atlas,27.0,1997.0,13.9,2,8,4,50.0,0.58,0.29,0.25,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+385,Christopher Mora,mx MEX,DF,León,20.0,2005.0,0.7,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+386,Gilberto Mora,mx MEX,"MF,FW",Tijuana,16.0,2008.0,12.6,4,26,13,50.0,2.07,1.03,0.15,0.31,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+387,Amaury Morales,mx MEX,"MF,DF",Cruz Azul,19.0,2005.0,4.6,1,5,2,40.0,1.09,0.44,0.2,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+388,Robert Morales,py PAR,"FW,MF",Toluca,26.0,1999.0,7.1,3,24,8,33.3,3.38,1.13,0.13,0.38,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+389,Robert Morales,py PAR,FW,UNAM,26.0,1999.0,15.5,8,42,22,52.4,2.7,1.42,0.1,0.18,4,4,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+390,Carlos Moreno,mx MEX,GK,Pachuca,27.0,1998.0,33.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+391,Héctor Moreno,mx MEX,"DF,MF",Monterrey,37.0,1988.0,2.9,0,1,0,0.0,0.35,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+392,Iker Moreno,mx MEX,"DF,MF",Puebla,21.0,2003.0,16.6,1,5,2,40.0,0.3,0.12,0.2,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+393,Iván Moreno,mx MEX,"MF,DF",León,27.0,1998.0,22.1,1,24,9,37.5,1.09,0.41,0.04,0.11,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+394,Omar Moreno,mx MEX,MF,Mazatlán,20.0,2005.0,8.7,1,24,11,45.8,2.75,1.26,0.04,0.09,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+395,Moises Mosquera,co COL,DF,FC Juárez,24.0,2001.0,25.7,0,10,3,30.0,0.39,0.12,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+396,Joaquín Moxica,mx MEX,FW,Monterrey,19.0,2006.0,2.0,1,8,5,62.5,4.04,2.53,0.13,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+397,Franco Moyano,ar ARG,MF,Puebla,27.0,1997.0,5.1,0,7,0,0.0,1.38,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+398,Alan Mozo,mx MEX,MF,Guadalajara,28.0,1997.0,1.5,0,1,0,0.0,0.65,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+399,Alan Mozo,mx MEX,DF,Pachuca,28.0,1997.0,2.5,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+400,Santiago Muñóz,mx MEX,"MF,FW",Atlético San Luis,22.0,2002.0,3.9,0,4,0,0.0,1.03,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+401,Eduardo Mustre,mx MEX,FW,Puebla,22.0,2003.0,0.2,0,1,1,100.0,4.74,4.74,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+402,Ronaldo Nájera,mx MEX,MF,Atlético San Luis,22.0,2003.0,1.2,1,1,1,100.0,0.82,0.82,1.0,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+403,Eduardo Navarro,mx MEX,DF,Puebla,21.0,2004.0,19.7,0,6,2,33.3,0.3,0.1,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+404,Keylor Navas,cr CRC,GK,UNAM,38.0,1986.0,31.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+405,Francisco Nevarez,mx MEX,DF,FC Juárez,24.0,2000.0,13.6,2,9,2,22.2,0.66,0.15,0.22,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+406,Shamar Nicholson,jm JAM,FW,Tijuana,28.0,1997.0,4.3,1,15,7,46.7,3.48,1.62,0.07,0.14,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+407,Lucas Ocampos,ar ARG,MF,Monterrey,31.0,1994.0,17.4,7,65,21,32.3,3.74,1.21,0.06,0.19,3,3,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+408,Alberto Ocejo,mx MEX,FW,Santos Laguna,27.0,1998.0,9.8,4,24,13,54.2,2.45,1.33,0.17,0.31,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+409,Diego Ochoa,mx MEX,DF,FC Juárez,20.0,2005.0,3.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+410,Agustín Oliveros,uy URU,DF,Necaxa,26.0,1998.0,22.3,2,17,4,23.5,0.76,0.18,0.12,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+411,Luca Orellano,ar ARG,"MF,FW",Monterrey,25.0,2000.0,11.5,3,35,14,40.0,3.03,1.21,0.09,0.21,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+412,Alejandro Organista,mx MEX,MF,Puebla,25.0,2000.0,25.2,1,20,8,40.0,0.79,0.32,0.05,0.13,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+413,Efraín Orona,mx MEX,DF,Puebla,26.0,1999.0,8.1,0,7,1,14.3,0.86,0.12,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+414,Efraín Orona,mx MEX,DF,Santos Laguna,26.0,1999.0,7.7,0,7,1,14.3,0.91,0.13,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+415,Jesús Orozco,mx MEX,DF,Cruz Azul,23.0,2002.0,8.8,1,7,1,14.3,0.8,0.11,0.14,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+416,Ralph Orquin,us USA,"MF,DF",América,22.0,2003.0,1.9,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+417,Carlos Orrantía,mx MEX,DF,Atlas,34.0,1991.0,1.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+418,Érick Orta,mx MEX,DF,Toluca,18.0,2007.0,0.7,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+419,Haret Ortega,mx MEX,DF,Santos Laguna,25.0,2000.0,19.5,1,14,7,50.0,0.72,0.36,0.07,0.14,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+420,Pablo Ortiz,mx MEX,DF,Tijuana,23.0,2002.0,10.9,0,3,2,66.7,0.28,0.18,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+421,Ebere Osinachi,ng NGA,"FW,MF",Cruz Azul,27.0,1998.0,3.2,1,7,2,28.6,2.16,0.62,0.14,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+422,Diogo Osmar Bagüí,ec ECU,DF,Tijuana,20.0,2005.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+423,Josué Ovalle,cl CHI,MF,Mazatlán,25.0,2000.0,9.1,5,15,7,46.7,1.64,0.77,0.33,0.71,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+424,Juan Pablo Vargas,cr CRC,DF,Puebla,30.0,1995.0,14.0,1,7,1,14.3,0.5,0.07,0.14,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+425,Juan Pablo Vigón,mx MEX,MF,UANL,34.0,1991.0,3.9,0,5,2,40.0,1.27,0.51,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+426,Rodrigo Pachuca,mx MEX,DF,Puebla,20.0,2005.0,11.0,1,6,3,50.0,0.54,0.27,0.17,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+427,Germán Padilla,mx MEX,MF,Tijuana,17.0,2007.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+428,Yael Padilla,mx MEX,MF,Guadalajara,19.0,2005.0,1.7,1,4,1,25.0,2.4,0.6,0.25,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+429,Joshua Palacios,mx MEX,MF,Necaxa,18.0,2007.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+430,Kevin Palacios,co COL,"MF,FW",Santos Laguna,25.0,2000.0,14.5,2,17,7,41.2,1.17,0.48,0.12,0.29,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+431,Agustín Palavecino,ar ARG,MF,Cruz Azul,28.0,1996.0,14.1,5,40,15,37.5,2.85,1.07,0.13,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+432,Agustín Palavecino,ar ARG,MF,Necaxa,28.0,1996.0,15.6,2,46,17,37.0,2.95,1.09,0.02,0.06,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+433,José Paradela,ar ARG,"MF,FW",Cruz Azul,26.0,1998.0,27.7,9,70,27,38.6,2.53,0.97,0.13,0.33,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+434,Bernardo Parra,mx MEX,MF,Querétaro,20.0,2005.0,4.8,0,2,0,0.0,0.42,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+435,Bernardo Parra,mx MEX,MF,UANL,20.0,2005.0,6.4,0,3,0,0.0,0.47,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+436,Rodrigo Parra,mx MEX,GK,UNAM,17.0,2007.0,2.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+437,Edson Partida,mx MEX,MF,Querétaro,27.0,1997.0,1.3,0,1,1,100.0,0.79,0.79,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+438,Raúl Patrón,mx MEX,DF,Atlético San Luis,21.0,2004.0,0.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+439,Paulinho,pt POR,FW,Toluca,32.0,1992.0,22.4,18,87,38,43.7,3.88,1.69,0.2,0.45,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+440,Pedro Pedraza,mx MEX,MF,Pachuca,25.0,2000.0,10.5,0,2,1,50.0,0.19,0.1,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+441,João Pedro,it ITA,FW,Atlético San Luis,33.0,1992.0,33.7,26,96,51,53.1,2.85,1.52,0.19,0.35,8,8,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+442,Federico Pereira,uy URU,DF,Toluca,25.0,2000.0,24.8,2,33,5,15.2,1.33,0.2,0.06,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+443,Aldahir Perez,mx MEX,"MF,FW",Tijuana,20.0,2004.0,1.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+444,Aldahir Perez,mx MEX,FW,Querétaro,20.0,2004.0,2.0,1,6,2,33.3,3.05,1.02,0.17,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+445,Sebastián Pérez Bouquet,mx MEX,MF,Atlético San Luis,22.0,2003.0,12.0,2,18,5,27.8,1.5,0.42,0.11,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+446,Geovanni Pérez,mx MEX,DF,Santos Laguna,19.0,2005.0,4.4,1,2,1,50.0,0.46,0.23,0.5,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+447,Jonathan Perez,mx MEX,MF,Guadalajara,22.0,2003.0,0.1,0,1,0,0.0,6.92,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+448,Pavel Pérez,mx MEX,MF,Toluca,27.0,1998.0,8.8,0,16,4,25.0,1.82,0.46,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+449,Pavel Pérez,mx MEX,"MF,FW",Necaxa,27.0,1998.0,7.9,2,14,4,28.6,1.77,0.51,0.14,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+450,Eduardo Pérez Reyes,mx MEX,FW,Querétaro,32.0,1993.0,2.0,0,5,0,0.0,2.5,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+451,Jonathan Perlaza,ec ECU,"DF,MF",Querétaro,27.0,1997.0,8.0,1,6,5,83.3,0.75,0.62,0.17,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+452,Yan Phillipe,br BRA,"MF,FW",Atlético San Luis,21.0,2004.0,5.8,0,12,3,25.0,2.08,0.52,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+453,Kevin Picón,mx MEX,DF,Santos Laguna,21.0,2004.0,9.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+454,Jesús Piñuelas,mx MEX,DF,Querétaro,27.0,1998.0,2.3,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+455,Gonzalo Piovi,ar ARG,DF,Cruz Azul,30.0,1994.0,27.8,0,41,7,17.1,1.47,0.25,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+456,Rodolfo Pizarro,mx MEX,MF,FC Juárez,31.0,1994.0,20.8,4,28,9,32.1,1.35,0.43,0.14,0.44,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+457,Jackson Porozo,ec ECU,DF,Tijuana,24.0,2000.0,32.6,2,15,3,20.0,0.46,0.09,0.13,0.67,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+458,Osvaldo Rodríguez del Portal,mx MEX,DF,UANL,28.0,1996.0,3.6,0,1,0,0.0,0.28,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+459,Walter Portales,us USA,DF,Puebla,21.0,2004.0,2.7,0,1,0,0.0,0.37,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+460,Adonis Preciado,ec ECU,"MF,FW",Tijuana,28.0,1997.0,21.3,3,37,10,27.0,1.73,0.47,0.05,0.2,1,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+461,Ronaldo Prieto,mx MEX,"DF,MF",Santos Laguna,28.0,1997.0,0.1,0,1,0,0.0,10.0,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+462,Alan Pulido,mx MEX,MF,Guadalajara,34.0,1991.0,2.8,0,7,1,14.3,2.54,0.36,0.0,0.0,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+463,Francisco Pumpido,mx MEX,DF,Toluca,20.0,2004.0,0.5,0,1,1,100.0,2.0,2.0,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+464,Piero Quispe,pe PER,MF,UNAM,23.0,2001.0,2.3,0,2,0,0.0,0.89,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+465,Alonso Ramírez,mx MEX,MF,Puebla,23.0,2001.0,10.8,0,8,1,12.5,0.74,0.09,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+466,Alonso Ramírez,mx MEX,MF,Atlas,23.0,2001.0,2.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+467,Dennis Ramirez,mx MEX,MF,UNAM,18.0,2007.0,0.3,0,1,0,0.0,3.0,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+468,Jonatan Ramirez,mx MEX,FW,Pachuca,18.0,2007.0,0.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+469,Miguel Ramírez,us USA,"MF,DF",Puebla,23.0,2002.0,7.2,0,8,2,25.0,1.11,0.28,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+470,Paulo Ramírez,mx MEX,MF,Atlas,22.0,2002.0,19.7,2,19,6,31.6,0.96,0.3,0.11,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+471,Cesar Ramos,mx MEX,GK,Atlas,25.0,2000.0,1.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+472,Sergio Ramos,es ESP,DF,Monterrey,39.0,1986.0,14.8,2,18,8,44.4,1.21,0.54,0.0,0.0,2,3,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+473,Aaron Ramsey,wls WAL,MF,UNAM,34.0,1990.0,2.6,1,6,1,16.7,2.3,0.38,0.17,1.0,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+474,José Rangel Aguilar,mx MEX,GK,Guadalajara,25.0,2000.0,32.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+475,Luis Rey,mx MEX,"MF,DF",Puebla,22.0,2002.0,18.3,2,31,6,19.4,1.69,0.33,0.06,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+476,Cristian Reyes,mx MEX,MF,Monterrey,19.0,2006.0,2.6,0,5,1,20.0,1.91,0.38,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+477,Diego Reyes,mx MEX,DF,Querétaro,32.0,1992.0,23.6,0,11,0,0.0,0.47,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+478,Francisco Reyes,mx MEX,DF,UANL,26.0,1998.0,2.0,0,2,1,50.0,1.02,0.51,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+479,Israel Reyes,mx MEX,"DF,MF",América,25.0,2000.0,29.5,0,21,5,23.8,0.71,0.17,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+480,Josué Reyes,mx MEX,DF,Tijuana,27.0,1997.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+481,Salvador Reyes,mx MEX,DF,León,27.0,1998.0,29.8,0,25,12,48.0,0.84,0.4,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+482,Ricardinho,pt POR,"MF,FW",FC Juárez,26.0,1998.0,9.3,1,18,5,27.8,1.94,0.54,0.06,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+483,Luis Ricardo Reyes,mx MEX,"DF,MF",Monterrey,34.0,1991.0,12.6,0,8,2,25.0,0.63,0.16,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+484,Ángel Rico,mx MEX,MF,UNAM,20.0,2005.0,1.4,0,5,2,40.0,3.46,1.38,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+485,Emiliano Rigoni,ar ARG,"FW,MF",León,32.0,1993.0,0.1,0,1,0,0.0,15.0,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+486,Víctor Ríos,mx MEX,"MF,DF",Atlas,21.0,2004.0,21.6,1,13,5,38.5,0.6,0.23,0.08,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+487,Jesús Rivas,mx MEX,"DF,MF",Puebla,22.0,2002.0,6.4,0,1,0,0.0,0.16,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+488,Jesús Rivas,mx MEX,DF,UNAM,22.0,2002.0,4.2,0,1,0,0.0,0.24,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+489,Ulises Rivas,mx MEX,MF,UNAM,29.0,1996.0,1.2,0,1,0,0.0,0.8,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+490,Christian Rivera,co COL,MF,Pachuca,29.0,1996.0,14.7,1,5,1,20.0,0.34,0.07,0.2,1.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+491,Ignacio Rivero,uy URU,MF,Cruz Azul,33.0,1992.0,9.3,2,24,11,45.8,2.58,1.18,0.08,0.18,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+492,Ignacio Rivero,uy URU,MF,Tijuana,33.0,1992.0,14.3,0,28,11,39.3,1.96,0.77,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+493,Rober,es ESP,DF,Atlas,30.0,1995.0,3.9,0,2,1,50.0,0.51,0.25,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+494,Jorge Roberto Díaz,mx MEX,"FW,MF",Toluca,27.0,1998.0,5.6,2,16,10,62.5,2.88,1.8,0.13,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+495,Ángel Robles,mx MEX,FW,Puebla,23.0,2001.0,0.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+496,Juan Robles,mx MEX,"MF,DF",Querétaro,21.0,2003.0,4.6,1,4,2,50.0,0.88,0.44,0.25,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+497,Aldo Rocha,mx MEX,MF,Atlas,32.0,1992.0,26.2,0,8,1,12.5,0.31,0.04,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+498,Jorge Rodarte,mx MEX,"DF,MF",Cruz Azul,21.0,2004.0,6.1,0,2,0,0.0,0.33,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+499,Agustín Rodríguez,uy URU,FW,Atlas,27.0,1998.0,3.3,1,9,2,22.2,2.7,0.6,0.11,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+500,Brian Rodríguez,uy URU,"MF,FW",América,25.0,2000.0,24.8,13,75,34,45.3,3.03,1.37,0.13,0.29,3,4,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+501,Charly Rodríguez,mx MEX,"MF,FW",Cruz Azul,28.0,1997.0,28.4,6,39,15,38.5,1.38,0.53,0.15,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+502,David Rodriguez,us USA,MF,Atlético San Luis,23.0,2002.0,2.9,1,9,4,44.4,3.14,1.4,0.11,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+503,James Rodríguez,co COL,"MF,FW",León,34.0,1991.0,10.9,3,25,11,44.0,2.29,1.01,0.0,0.0,3,3,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+504,Jesús Rodríguez,mx MEX,GK,Puebla,32.0,1993.0,6.5,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+505,Jorge Rodríguez,mx MEX,"DF,MF",Atlas,23.0,2001.0,9.7,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+506,Lucas Rodríguez,ar ARG,"MF,FW",Querétaro,28.0,1997.0,17.9,2,24,10,41.7,1.34,0.56,0.08,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+507,Michell Rodríguez,mx MEX,MF,Monterrey,24.0,2000.0,1.1,0,2,1,50.0,1.75,0.87,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+508,Miguel Rodríguez,mx MEX,MF,León,22.0,2003.0,7.6,1,13,2,15.4,1.72,0.26,0.08,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+509,Ricardo Rodríguez,mx MEX,GK,Mazatlán,24.0,2001.0,17.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+510,Salvador Rodríguez,mx MEX,DF,Mazatlán,23.0,2001.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+511,Sebastián Rodríguez,us USA,MF,Monterrey,17.0,2007.0,0.7,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+512,Sergio Rodríguez,mx MEX,MF,Pachuca,21.0,2004.0,7.7,0,4,2,50.0,0.52,0.26,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+513,Allen Rojas,mx MEX,MF,Monterrey,19.0,2006.0,1.2,0,3,1,33.3,2.43,0.81,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+514,Johan Rojas,co COL,MF,Necaxa,22.0,2002.0,6.7,1,31,6,19.4,4.62,0.89,0.03,0.17,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+515,Franco Romero,ar ARG,MF,Toluca,25.0,2000.0,26.4,1,6,2,33.3,0.23,0.08,0.17,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+516,Luka Romero,ar ARG,MF,Cruz Azul,20.0,2004.0,13.1,3,42,12,28.6,3.21,0.92,0.07,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+517,Luis Romo,mx MEX,"DF,MF",Guadalajara,30.0,1995.0,25.2,1,31,7,22.6,1.23,0.28,0.03,0.14,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+518,Romulo,br BRA,"DF,MF",UANL,25.0,2000.0,27.1,0,18,1,5.6,0.67,0.04,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+519,Salomón Rondón,ve VEN,FW,Pachuca,35.0,1989.0,13.6,5,44,12,27.3,3.23,0.88,0.11,0.42,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+520,Bryan Roque,mx MEX,FW,Necaxa,20.0,2004.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+521,Kevin Rosero,co COL,"MF,DF",Necaxa,26.0,1998.0,26.3,2,31,8,25.8,1.18,0.3,0.06,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+522,Franco Rossano,mx MEX,"MF,DF",Necaxa,20.0,2005.0,18.0,0,16,5,31.3,0.89,0.28,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+523,Franco Rossi,uy URU,FW,Toluca,23.0,2002.0,4.0,1,15,4,26.7,3.74,1.0,0.07,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+524,Carlos Rotondi,ar ARG,"MF,DF",Cruz Azul,28.0,1997.0,26.4,4,57,16,28.1,2.16,0.61,0.07,0.25,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+525,Fernando Rubén González,mx MEX,MF,Guadalajara,31.0,1994.0,19.6,0,5,1,20.0,0.25,0.05,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+526,Brian Rubio,mx MEX,FW,Mazatlán,28.0,1996.0,12.0,4,20,8,40.0,1.67,0.67,0.15,0.38,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+527,Javier Ruiz,ar ARG,"MF,FW",Necaxa,20.0,2004.0,8.0,5,20,8,40.0,2.5,1.0,0.25,0.63,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+528,Marcel Ruiz,mx MEX,MF,Toluca,24.0,2000.0,21.6,3,35,7,20.0,1.62,0.32,0.09,0.43,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+529,Jorge Ruvalcaba,mx MEX,"MF,FW",UNAM,24.0,2001.0,16.2,5,47,14,29.8,2.9,0.86,0.11,0.36,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+530,Ángel Saavedra,mx MEX,MF,Mazatlán,22.0,2003.0,4.7,0,3,0,0.0,0.63,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+531,Allan Saint-Maximin,fr FRA,"MF,FW",América,28.0,1997.0,8.9,3,28,10,35.7,3.15,1.13,0.11,0.3,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+532,Patricio Salas,mx MEX,"FW,MF",América,21.0,2004.0,8.2,2,18,5,27.8,2.2,0.61,0.11,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+533,Carlos Salcedo,mx MEX,DF,Monterrey,31.0,1993.0,10.6,0,4,2,50.0,0.38,0.19,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+534,Sebastien Salles-Lamonge,fr FRA,MF,Atlético San Luis,29.0,1996.0,32.8,5,42,15,35.7,1.28,0.46,0.12,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+535,Jorge San Martín,mx MEX,DF,Atlas,20.0,2004.0,1.3,0,1,0,0.0,0.74,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+536,Andrés Sánchez,mx MEX,GK,Atlético San Luis,27.0,1997.0,32.3,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+537,Antonio Sánchez,mx MEX,GK,Atlas,25.0,2000.0,2.0,0,1,0,0.0,0.5,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+538,Carlos Sánchez,mx MEX,DF,Pachuca,23.0,2002.0,15.0,1,8,2,25.0,0.53,0.13,0.13,0.5,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+539,Diego Sánchez,mx MEX,"MF,FW",UANL,20.0,2005.0,5.8,3,10,5,50.0,1.71,0.86,0.3,0.6,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+540,Emmanuel Sanchez,mx MEX,MF,Cruz Azul,19.0,2006.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+541,Erick Sánchez,mx MEX,MF,América,25.0,1999.0,19.7,3,43,15,34.9,2.18,0.76,0.07,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+542,Jorge Sánchez,mx MEX,"MF,DF",Cruz Azul,27.0,1997.0,13.6,0,15,2,13.3,1.1,0.15,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+543,Raúl Sánchez,es ESP,"FW,MF",Necaxa,48.0,1976.0,4.3,0,6,0,0.0,1.38,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+544,Santiago Sandoval,mx MEX,"MF,FW",Guadalajara,17.0,2007.0,13.5,3,39,12,30.8,2.89,0.89,0.08,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+545,José Santiago Hernández,mx MEX,GK,Querétaro,28.0,1997.0,12.4,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+546,Samir Santos,br BRA,DF,Mazatlán,30.0,1994.0,3.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+547,Sebastian Santos,mx MEX,"DF,MF",Mazatlán,22.0,2003.0,12.8,0,14,4,28.6,1.09,0.31,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+548,Sebastian Santos,mx MEX,DF,León,22.0,2003.0,8.3,0,4,1,25.0,0.48,0.12,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+549,Rodrigo Schlegel,ar ARG,DF,Atlas,28.0,1997.0,16.0,0,5,1,20.0,0.31,0.06,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+550,Francisco Sebastián Córdova,mx MEX,MF,Toluca,28.0,1997.0,4.9,1,11,5,45.5,2.24,1.02,0.09,0.2,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+551,Francisco Sebastián Córdova,mx MEX,MF,UANL,28.0,1997.0,1.6,0,5,1,20.0,3.04,0.61,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+552,Ángel Sepúlveda,mx MEX,"FW,MF",Guadalajara,34.0,1991.0,5.2,3,13,9,69.2,2.51,1.73,0.15,0.22,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+553,Ángel Sepúlveda,mx MEX,"FW,MF",Cruz Azul,34.0,1991.0,8.3,7,29,14,48.3,3.51,1.69,0.14,0.29,3,3,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+554,Gilberto Sepúlveda,mx MEX,"DF,MF",Guadalajara,26.0,1999.0,5.2,0,4,0,0.0,0.77,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+555,Jesús Serrato,mx MEX,MF,Atlas,19.0,2005.0,0.3,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+556,Jordan Sierra,ec ECU,MF,Mazatlán,28.0,1997.0,17.4,3,12,5,41.7,0.69,0.29,0.25,0.6,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+557,Juan Sigala,mx MEX,MF,Pachuca,18.0,2007.0,0.5,0,1,0,0.0,2.0,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+558,Leonardo Silva,mx MEX,MF,FC Juárez,21.0,2004.0,0.5,0,2,0,0.0,4.09,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+559,Nathan Silva,br BRA,DF,UNAM,28.0,1997.0,32.2,0,17,2,11.8,0.53,0.06,0.0,0.0,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+560,Henrique Simeone Koifman,mx MEX,MF,UANL,18.0,2007.0,0.8,0,1,1,100.0,1.22,1.22,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+561,Santiago Simón,ar ARG,"DF,MF",Toluca,23.0,2002.0,15.8,0,7,1,14.3,0.44,0.06,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+562,Ramiro Sordo,ar ARG,"MF,FW",Santos Laguna,25.0,2000.0,15.7,2,32,7,21.9,2.04,0.45,0.06,0.29,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+563,José Suárez,ve VEN,DF,Atlético San Luis,19.0,2006.0,4.2,0,1,0,0.0,0.24,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+564,Miguel Tapias,mx MEX,DF,Guadalajara,28.0,1997.0,6.7,0,2,0,0.0,0.3,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+565,Israel Tello,mx MEX,"MF,FW",Necaxa,19.0,2006.0,5.7,0,5,2,40.0,0.88,0.35,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+566,Gastón Togni,ar ARG,MF,Pachuca,27.0,1997.0,5.2,2,11,5,45.5,2.1,0.96,0.18,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+567,Iván Tona,mx MEX,MF,Tijuana,25.0,2000.0,30.2,0,14,3,21.4,0.46,0.1,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+568,Alan Torres,mx MEX,MF,Mazatlán,25.0,2000.0,1.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+569,Jairo Torres,mx MEX,"MF,FW",FC Juárez,25.0,2000.0,10.8,4,28,9,32.1,2.58,0.83,0.14,0.44,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+570,Misael Torres,mx MEX,FW,UNAM,19.0,2006.0,0.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+571,Óliver Torres,es ESP,MF,Monterrey,30.0,1994.0,24.6,2,23,5,21.7,0.93,0.2,0.09,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+572,Román Torres,mx MEX,DF,Atlético San Luis,20.0,2004.0,27.0,1,16,5,31.3,0.59,0.18,0.06,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+573,Ulises Torres,mx MEX,DF,Puebla,27.0,1998.0,1.3,0,1,0,0.0,0.75,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+574,Santiago Trigos,mx MEX,MF,UNAM,23.0,2002.0,9.1,0,1,0,0.0,0.11,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+575,Jean Unjanque,sn SEN,MF,Querétaro,20.0,2005.0,9.0,0,15,2,13.3,1.67,0.22,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+576,Ezequiel Unsain,ar ARG,GK,Necaxa,30.0,1995.0,34.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+577,Enner Valencia,ec ECU,FW,Pachuca,35.0,1989.0,11.0,5,43,17,39.5,3.92,1.55,0.07,0.18,2,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+578,Carlos Valenzuela,ar ARG,MF,Querétaro,28.0,1997.0,0.7,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+579,Nicolás Vallejo,ar ARG,"FW,MF",León,21.0,2004.0,5.2,0,13,2,15.4,2.48,0.38,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+580,Diego Valoyes,co COL,MF,FC Juárez,28.0,1996.0,1.8,1,8,4,50.0,4.36,2.18,0.13,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+581,Camilo Vargas,co COL,GK,Atlas,36.0,1989.0,31.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+582,Leonardo Vargas,mx MEX,FW,Tijuana,24.0,2001.0,0.1,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+583,Miguel Vázquez,mx MEX,DF,América,21.0,2004.0,7.3,0,3,1,33.3,0.41,0.14,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+584,Alexis Vega,mx MEX,"MF,FW",Toluca,27.0,1997.0,16.5,4,46,16,34.8,2.8,0.97,0.07,0.19,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+585,Jesús Vega,mx MEX,DF,Tijuana,25.0,2000.0,21.5,0,14,3,21.4,0.65,0.14,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+586,Sebastián Vegas,cl CHI,DF,León,28.0,1996.0,9.9,0,5,2,40.0,0.5,0.2,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+587,Raphael Veiga,br BRA,"MF,FW",América,30.0,1995.0,8.9,2,25,12,48.0,2.81,1.35,0.08,0.17,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+588,Kevin Velasco,co COL,MF,Puebla,28.0,1997.0,10.0,0,18,6,33.3,1.8,0.6,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+589,Oscar Villa,mx MEX,DF,León,24.0,2001.0,0.8,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+590,Fran Villalba,es ESP,"MF,FW",Santos Laguna,27.0,1998.0,25.9,3,31,8,25.8,1.2,0.31,0.06,0.25,1,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+591,Dieter Villalpando,mx MEX,MF,FC Juárez,33.0,1991.0,3.2,0,8,3,37.5,2.49,0.93,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+592,Carlos Villanueva López,mx MEX,DF,Querétaro,31.0,1994.0,9.8,0,3,1,33.3,0.31,0.1,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+593,Emiliano Villaseñor,mx MEX,DF,UNAM,17.0,2007.0,0.4,0,1,0,0.0,2.73,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+594,Abraham Villegas,,DF,León,22.0,2002.0,1.2,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+595,Isaías Violante,mx MEX,"MF,DF",América,21.0,2003.0,7.5,1,20,5,25.0,2.68,0.67,0.05,0.2,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+596,Oswaldo Virgen,mx MEX,"MF,FW",Toluca,20.0,2005.0,3.0,1,10,3,30.0,3.38,1.02,0.1,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+597,Pedro Vite,ec ECU,MF,UNAM,23.0,2002.0,25.7,2,21,5,23.8,0.82,0.19,0.1,0.4,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+598,Vitinho,br BRA,MF,Tijuana,24.0,2001.0,2.4,0,4,0,0.0,1.64,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+599,Lucca Vuoso,mx MEX,FW,Santos Laguna,16.0,2008.0,0.5,0,2,0,0.0,4.0,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+600,Óscar Whalley,es ESP,GK,Guadalajara,31.0,1994.0,2.0,0,0,0,,0.0,0.0,,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+601,Teun Wilke,mx MEX,FW,Guadalajara,23.0,2002.0,1.0,0,4,1,25.0,3.83,0.96,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+602,Édgar Yoel Bárcenas,pa PAN,MF,Mazatlán,31.0,1993.0,25.0,3,30,14,46.7,1.2,0.56,0.07,0.14,1,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+603,Ángel Zaldívar,mx MEX,FW,FC Juárez,31.0,1994.0,6.3,2,15,6,40.0,2.38,0.95,0.13,0.33,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+604,Edgar Zaldívar,mx MEX,MF,Atlas,28.0,1996.0,5.8,0,4,0,0.0,0.69,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+605,Mauro Zaleta,mx MEX,"MF,DF",Mazatlán,23.0,2002.0,19.5,2,18,8,44.4,0.92,0.41,0.11,0.25,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+606,Ángel Zapata,mx MEX,MF,Tijuana,24.0,2001.0,1.3,0,1,0,0.0,0.78,0.0,0.0,,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+607,Ángel Zapata,mx MEX,MF,Querétaro,24.0,2001.0,13.9,0,12,5,41.7,0.86,0.36,0.0,0.0,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+608,Alejandro Zendejas,us USA,"MF,FW",América,27.0,1998.0,19.3,8,50,20,40.0,2.6,1.04,0.12,0.3,2,2,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+609,José Zúñiga,co COL,"FW,MF",América,31.0,1994.0,11.4,3,13,7,53.8,1.14,0.61,0.23,0.43,0,0,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+610,Uroš Đurđević,me MNE,FW,Atlas,31.0,1994.0,19.1,9,39,14,35.9,2.04,0.73,0.1,0.29,5,5,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
+611,Uroš Đurđević,me MNE,FW,Monterrey,31.0,1994.0,9.1,3,22,10,45.5,2.41,1.1,0.14,0.3,0,1,Matches,0.0,0.0,0.0,liga_mx_shooting_clean.csv
